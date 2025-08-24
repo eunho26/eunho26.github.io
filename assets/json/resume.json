@@ -41,6 +41,14 @@
       "studyType": "PhD",
       "startDate": "2019-09-01",
       "endDate": "9999-12-31"
+    },
+    {
+      "institution": "Korea University, Seoul, Korea",
+      "location": "Seoul, Korea",
+      "url": "https://www.korea.ac.kr/en/index.do",
+      "studyType": "BS",
+      "startDate": "2013-03-01",
+      "endDate": "2019-08-31"
     }
   ],
   "awards": [
