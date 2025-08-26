@@ -475,6 +475,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-snu-avatar-haptic-glove",
+          title: 'SNU-Avatar Haptic Glove',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/snu_glove/";
             },},{id: "projects-snu-avatar-robot-hand",
           title: 'SNU-Avatar Robot Hand',
           description: "with background image",
