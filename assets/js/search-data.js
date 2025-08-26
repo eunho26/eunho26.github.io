@@ -480,6 +480,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/snu_hand/";
+            },},{id: "projects-ana-avatar-xprize",
+          title: 'ANA Avatar Xprize',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/xprize/";
             },},{
         id: 'social-email',
         title: 'email',
