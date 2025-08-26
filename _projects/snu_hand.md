@@ -3,7 +3,7 @@ layout: page
 title: SNU-Avatar Robot Hand
 description: with background image
 img: assets/img/12.jpg
-importance: 1
+importance: 2
 category: paper
 related_publications: true
 ---
