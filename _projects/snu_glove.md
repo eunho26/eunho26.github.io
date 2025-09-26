@@ -21,9 +21,9 @@ math: true
 **BibTeX**
 ```bibtex
 @inproceedings{Sung2025SNUAvatarGlove,
-  title={SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators},
   author={Sung, Eunho and You, Seungbin and Moon, Seongkyeong and Kim, Juhyun and Park, Jaeheung},
-  booktitle={IEEE Conference (update venue)},
-  year={2025},
-  note={Add DOI/URL when available}
-}
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators}, 
+  year={2024},
+  pages={3573-3580},
+  doi={10.1109/IROS58592.2024.10802590}}
