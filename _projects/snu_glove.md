@@ -26,4 +26,5 @@ math: true
   title={SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators}, 
   year={2024},
   pages={3573-3580},
-  doi={10.1109/IROS58592.2024.10802590}}
+  doi={10.1109/IROS58592.2024.10802590}
+}
