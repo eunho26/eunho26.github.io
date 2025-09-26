@@ -477,7 +477,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-snu-avatar-haptic-glove",
           title: 'SNU-Avatar Haptic Glove',
-          description: "with background image",
+          description: "Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators",
           section: "Projects",handler: () => {
               window.location.href = "/projects/snu_glove/";
             },},{id: "projects-snu-avatar-robot-hand",
