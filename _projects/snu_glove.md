@@ -37,6 +37,32 @@ Reliable finger posture capture and safe, informative force feedback are critica
 - Size/weight (approx.): unfolded 250×175×130 mm; worn length up to 340 mm; ~500 g including electronics.
 - Wearing & I/O: Boa tensioning; soft synthetic leather pads; Arduino Mega and serial PC link; extra pins for add-ons.
 
+# Working Mechanism
+
+Trigonometric SEA (Force Feedback)
+- Tendon length ( s ) for joint angle ( \phi ):
+[
+s=\sqrt{d^2+l^2-2dl\cos\phi}
+]
+- Required motor compensation for a joint change ( \phi_1 \to \phi_2 ) (pulley radius ( r )):
+[
+\Delta q=\frac{\sqrt{d^2+l^2-2dl\cos\phi_2}-\sqrt{d^2+l^2-2dl\cos\phi_1}}{r}
+]
+- Motor angle for desired force ( F ) (spring ( k ), geometry ( l,l_2,\alpha,\theta_3 )):
+[
+q=\frac{\left(\sqrt{d^2+l^2-2dl\cos\phi_2}-s_0-\frac{F,l_2\sin\theta_3}{k,l\sin\alpha}\right)}{r}+q_0
+]
+Takeaway: Output-side potentiometer + geometry ⇒ force without extra encoders on the tendon side.
+
+Fingertip Position Estimation (Middle-Phalanx Mount)
+
+Assumptions often used in hand models:
+- ( \theta_{\mathrm{DIP}}=\tfrac{2}{3},\theta_{\mathrm{PIP}} )
+- Length ratio ( L_p:L_m:L_d \approx 0.50:0.30:0.20 )
+
+With MCP (AA/FE), PIP, and the above coupling, compute fingertip ((x_e,y_e,z_e)).
+A 3-pose calibration (open hand; all fingers flexed; thumb flexed) estimates personal hand length and thickness, then the glove infers fingertip position in real time.
+
 
 **BibTeX**
 
