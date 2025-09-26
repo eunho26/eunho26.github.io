@@ -20,6 +20,7 @@ math: true
 - **Conference:** 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 
 
 **BibTeX**
+
 ```bibtex
 @inproceedings{Sung2025SNUAvatarGlove,
   author={Sung, Eunho and You, Seungbin and Moon, Seongkyeong and Kim, Juhyun and Park, Jaeheung},
