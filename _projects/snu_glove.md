@@ -13,6 +13,18 @@ math: true
 
 ---
 
+<!-- Responsive 16:9 wrapper -->
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/tGXdiD0JgZ8?autoplay=1&mute=1&playsinline=1&loop=1&playlist=tGXdiD0JgZ8&rel=0&modestbranding=1"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
 ## Paper Info
 - **Title:** SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators  
 - **Authors:** Eunho Sung, Seungbin You, Seongkyeong Moon, Juhyun Kim, Jaeheung Park  
