@@ -2,7 +2,7 @@
 layout: page
 title: SNU-Avatar Haptic Glove
 description: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators
-img: assets/img/12.jpg
+img: assets/img/Hapticglove.jpg
 importance: 1
 category: paper
 related_publications: false
