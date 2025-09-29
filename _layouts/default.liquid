@@ -13,6 +13,9 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    {% if page.math or layout.math or site.math %}
+      {% include mathjax.html %}
+    {% endif %}
   </head>
 
   <!-- Body -->
