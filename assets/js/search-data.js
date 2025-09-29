@@ -485,6 +485,11 @@ ninja.data = [{
           description: "Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications",
           section: "Projects",handler: () => {
               window.location.href = "/projects/snu_hand/";
+            },},{id: "projects-snu-avatar-haptic-arm",
+          title: 'SNU-Avatar Haptic Arm',
+          description: "Haptic Arm",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/snu_haptic/";
             },},{id: "projects-ana-avatar-xprize",
           title: 'ANA Avatar Xprize',
           description: "with background image",
