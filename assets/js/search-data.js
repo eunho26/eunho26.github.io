@@ -480,6 +480,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Steam/";
+            },},{id: "projects-development-of-humanoid-p73",
+          title: 'Development of Humanoid P73',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/p73/";
             },},{id: "projects-snu-avatar-haptic-glove",
           title: 'SNU-Avatar Haptic Glove',
           description: "Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators",
