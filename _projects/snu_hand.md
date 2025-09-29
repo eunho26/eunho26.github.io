@@ -2,7 +2,7 @@
 layout: page
 title: SNU-Avatar Robot Hand
 description: Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications
-img: assets/img/12.jpg
+img: assets/img/hand.jpg
 importance: 2
 category: paper
 related_publications: true
