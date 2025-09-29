@@ -21,3 +21,17 @@ This paper presents an innovative approach to designing a robot hand specificall
     allowfullscreen
   ></iframe>
 </div>
+
+**BibTeX**
+
+```bibtex
+@inproceedings{Sung2025SNUAvatarGlove,
+  author={Sung, Eunho and You, Seungbin and Kim, Seungyeon and Park, Jaeheung},
+  booktitle={2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids)}, 
+  title={SNU-Avatar Robot Hand: Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications}, 
+  year={2023},
+  pages={1-8},
+  keywords={Couplings;Avatars;Taxonomy;Humanoid robots;Finite element analysis;Timing;Task analysis},
+  doi={10.1109/Humanoids57100.2023.10375222}
+}
+``` 
