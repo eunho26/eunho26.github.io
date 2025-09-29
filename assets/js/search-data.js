@@ -475,6 +475,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-precise-remote-humanoid-avatar",
+          title: 'Precise Remote Humanoid Avatar',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Steam/";
             },},{id: "projects-snu-avatar-haptic-glove",
           title: 'SNU-Avatar Haptic Glove',
           description: "Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators",
