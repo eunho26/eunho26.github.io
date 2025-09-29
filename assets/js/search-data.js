@@ -482,7 +482,7 @@ ninja.data = [{
               window.location.href = "/projects/snu_glove/";
             },},{id: "projects-snu-avatar-robot-hand",
           title: 'SNU-Avatar Robot Hand',
-          description: "with background image",
+          description: "Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications",
           section: "Projects",handler: () => {
               window.location.href = "/projects/snu_hand/";
             },},{id: "projects-ana-avatar-xprize",
