@@ -485,6 +485,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p73/";
+            },},{id: "projects-plate-harmonic-reducer",
+          title: 'Plate Harmonic Reducer',
+          description: "Profiled Groove Wave Generator",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/phd/";
             },},{id: "projects-snu-avatar-haptic-glove",
           title: 'SNU-Avatar Haptic Glove',
           description: "Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators",
