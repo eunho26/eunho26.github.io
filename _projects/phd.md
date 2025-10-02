@@ -21,19 +21,35 @@ This project, led by Seungbin You, focuses on the design and development of a Pl
 - **Conference:** 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 
 
+# Motivation  
+Conventional harmonic reducers (HRs) are widely adopted in robotic actuators for their compact size, zero backlash, and high precision.  
+However, they face inherent limitations such as **minimum axial thickness**, **relatively low torsional stiffness**, and **high deformation force requirements**.  
+To overcome these drawbacks, this work introduces a **Plate Harmonic Reducer (PHR)**, which reconfigures the cup-type flexspline into a thin plate form.  
 
-# Key Points
-- **New Form Factor**  
-  Reconfigures the conventional cup/hat-type harmonic drive into a **plate (flat) geometry**.  
+# Key Contributions  
+- Proposes a **plate-type flexspline (FS)** that enables slimmer axial packaging compared to conventional cup-type HRs.  
+- Introduces a **profiled-groove wave generator (WG)** with steel balls and cage, achieving **low-friction rolling contact** and **adjustable tooth engagement ratio**.  
+- Develops a **split FS design** to alleviate stress concentration and reduce deformation force.  
+- Validates performance improvements via FEM and experiments: **~8× lower deformation force** and **>4× higher torsional stiffness**, while demonstrating operational feasibility with a 3D-printed prototype.  
 
-- **Wave Generator (WG)**  
-  Applies a **profiled groove** with **steel balls + cage** to deform the FS **axially only at the contact points**, achieving **low-friction rolling contact** and **tunable tooth engagement ratio**.  
+# Hardware at a Glance  
+- **Outer diameter:** 90 mm  
+- **Reduction ratio:** 50:1 (100/102 teeth)  
+- **Weight:** 175 g (3D-printed prototype, Tough PLA)  
+- **Wave generator:** Steel balls + cage with profiled groove  
+- **Actuation:** Maxon BLDC motor (180 W) with dual encoders (131,072 CPR and 983,040 CPR)  
+- **Housing:** High-stiffness structure assembled with M3 bolts  
 
-- **Flexspline (FS) Design**  
-  A **split FS** that is structurally separated from the output shaft to **mitigate stress concentration** and **reduce deformation force**.  
+# Working Mechanism  
+- The **profiled groove wave generator** displaces steel balls along its contour, deforming the plate-type flexspline (FS) **axially at specific contact points**.  
+- The deformed FS engages with the circular spline (CS), producing **reverse-direction, high-ratio reduction** of the input motion.  
+- The rolling-contact mechanism minimizes friction, while the groove profile allows tuning of the tooth engagement ratio to increase torque capacity.  
 
-- **Theoretical Advantages**  
-  - **Significant reduction in deformation force**: Approximately **1/8** of the cup-type requirement (e.g., **400 N → 50 N**, FEM comparison).  
-  - **Higher torsional stiffness**: Plate geometry scales with **D⁴**, yielding **>4× smaller peak displacement** at the same mesh ratio (**0.1407 mm → 0.03264 mm** under **25 Nm**, FEM).  
-  - **Packaging constraint shift**: Converts the cup-type’s **axial thickness lower bound** into a **radial constraint**, enabling **thinner axial packaging**.  
-  - **Manufacturing / Tolerance Benefits**: Plate-type FS is compatible with **cold forging / stamping** (press-based) processes; **shim rings** can be used to **easily compensate tolerances**.  
+# **Takeaway:**  
+The Plate Harmonic Reducer (PHR) represents a **new structural paradigm** in strain-gear technology:  
+- **Thinner axial geometry**  
+- **Higher torsional stiffness**  
+- **Lower deformation force**  
+
+while retaining the hallmark benefits of harmonic drives.  
+This makes the PHR a strong candidate for **compact, high-performance robotic actuators** in next-generation systems.  
