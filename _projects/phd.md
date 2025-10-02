@@ -8,7 +8,8 @@ category: project
 related_publications: true
 ---
 
-This project, led by Seungbin You, focuses on the design and development of a Plate Harmonic Reducer. 
+This project, led by **Seungbin You**, focuses on the design and development of a Plate Harmonic Reducer.  
+In addition, we have completed a follow-up study that further advances this concept by emphasizing the unique advantages demonstrated in the original results, and we are currently preparing for its presentation.  
 
 ---
 > This study introduces a plate-type harmonic reducer as a novel alternative to conventional cup-type designs, achieving reduced axial thickness, increased torsional stiffness, and significantly lower deformation force. By implementing a **profiled-groove wave generator** and a split flexspline design, the work verifies both theoretical feasibility and practical realizability, demonstrated through a 3D-printed prototype experiment.
@@ -19,7 +20,6 @@ This project, led by Seungbin You, focuses on the design and development of a Pl
 - **Authors:** Seungbin You, Jaesug Jung, Eunho Sung, Jaeheung Park
 - **Keywords:** Harmonic Reducer, Plate Harmonic Reducer (PHR), Wave Generator, Flexspline, Robotics Actuator
 - **Conference:** 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-
 
 # Motivation  
 Conventional harmonic reducers (HRs) are widely adopted in robotic actuators for their compact size, zero backlash, and high precision.  
