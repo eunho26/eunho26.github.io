@@ -2,7 +2,7 @@
 layout: page
 title: Plate Harmonic Reducer
 description: Profiled Groove Wave Generator
-img: assets/img/12.jpg
+img: assets/img/PHDth.jpg
 importance: 3
 category: project
 related_publications: true
