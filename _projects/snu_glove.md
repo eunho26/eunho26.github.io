@@ -25,8 +25,9 @@ math: true
   ></iframe>
 </div>
 
+---
 
-## Paper Info
+# Paper Info
 - **Title:** SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators  
 - **Authors:** Eunho Sung, Seungbin You, Seongkyeong Moon, Juhyun Kim, Jaeheung Park  
 - **Keywords:** Teleoperation, Haptic Glove, Series Elastic Actuator, Fingertip Estimation, Modular Design
