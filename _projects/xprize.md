@@ -38,6 +38,13 @@ The team successfully completed 8 out of 10 missions and placed 8th among the 17
 ## Significance
 The project demonstrated the feasibility of an avatar system that can be intuitively operated in complex remote environments. This achievement highlights the potential for real-world applications in areas such as disaster response, healthcare and caregiving support, and remote industrial operations.
 
+{% include figure.liquid 
+   loading="eager" 
+   path="assets/img/snu002.jpg" 
+   title="example image" 
+   class="img-fluid rounded z-depth-1" 
+%}
+
 ---
 
 # Remote-Side Robot System  
@@ -77,6 +84,14 @@ Together, they provide whole-body mobility and dexterous manipulation for immers
 
 ### Reference  
 - Lim, Daegyu, et al. *“Foot-Operated Telelocomotion Interface for Avatar Robots Utilizing Mecanum Wheel-based Mobile Platforms.”* ICCAS, 2023.  
+
+
+{% include figure.liquid 
+   loading="eager" 
+   path="assets/img/snu001.jpg" 
+   title="example image" 
+   class="img-fluid rounded z-depth-1" 
+%}
 
 ---
 
@@ -121,4 +136,11 @@ The avatar robot reproduces the operator’s body movements, adapting them to it
 - **Optimization-based IK:** Inverse kinematics controller maintains robot balance and executes manipulation tasks simultaneously  
 
 ### Reference
-- Lim, Daegyu, et al. *“Online telemanipulation framework on humanoid for both manipulation and imitation.”* UR, IEEE, 2022.  
+- Lim, Daegyu, et al. *“Online telemanipulation framework on humanoid for both manipulation and imitation.”* UR, IEEE, 2022.
+
+{% include figure.liquid 
+   loading="eager" 
+   path="assets/img/snu003.jpg" 
+   title="example image" 
+   class="img-fluid rounded z-depth-1" 
+%}
