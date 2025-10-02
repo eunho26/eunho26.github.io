@@ -31,7 +31,7 @@ By combining lightweight actuators with a high-stiffness linkage, the hand achie
 - **Title:** SNU-Avatar Robot Hand: Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications
 - **Authors:** Eunho Sung, Seungbin You, Seungyeon Kim, Jaeheung Park
 - **Keywords:** Robotic Hand, Four-Bar Linkage, Prismatic Joint, Teleoperation, Adaptive Grasping, Modular Design
-- **Conference:** IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2023 
+- **Conference:** IEEE-RAS International Conference on Humanoid Robots (Humanoids)
 
 # Motivation  
 - Robotic hands must balance **structural rigidity, sufficient grip force, and adaptability to object shapes** for real-world tasks and teleoperation.  
