@@ -57,7 +57,7 @@ Together, they provide whole-body mobility and dexterous manipulation for immers
 - Degrees of Freedom: **33 DoF (2 + 16 + 3 + 12)**  
 - Reduction Ratio: **100:1**  
 
-### References  
+### Related Publications
 - Park, Beomyeong, et al. *“Intuitive and Interactive Robotic Avatar System for Tele-Existence: TEAM SNU in the ANA Avatar XPRIZE Finals.”* International Journal of Social Robotics, 2024.  
 - Park, Beomyeong, et al. *“Team SNU’s avatar system for teleoperation using humanoid robot: ANA Avatar XPRIZE competition.”* RSS Workshop on “Towards Robot Avatars,” 2022.  
 - Schwartz, Mathew, et al. *“Design of the humanoid robot TOCABI.”* Humanoids, IEEE, 2022.  
@@ -82,7 +82,7 @@ Together, they provide whole-body mobility and dexterous manipulation for immers
 - **Advantage:** Overcomes limitations of humanoid walking by combining a humanoid robot with a wheeled base  
 - **Application:** Enhances mobility in telepresence scenarios, allowing navigation across diverse environments and improving task efficiency  
 
-### Reference  
+### Related Publications
 - Lim, Daegyu, et al. *“Foot-Operated Telelocomotion Interface for Avatar Robots Utilizing Mecanum Wheel-based Mobile Platforms.”* ICCAS, 2023.  
 
 
@@ -113,7 +113,7 @@ Vision is the most critical feedback channel in the avatar system. A smooth and 
 - **Feedback Cues:** Weight estimation and grasping feedback delivered visually  
 - **Intuitive UI Design:** Tailored to support operator awareness and precision  
 
-### References
+### Related Publications
 - Shin, Jaeyong, et al. *“Virtual Reality Based Intuitive Spatial Visual Interface for Avatar Robot System.”* ICCAS, IEEE, 2023.  
 - Shin, Jaeyong, et al. *“Stereoscopic low-latency vision system via ethernet network for humanoid teleoperation.”* UR, IEEE, 2022.  
 
@@ -125,7 +125,7 @@ Conveying the operator’s intention and emotion is essential for natural commun
 - **5-inch LCD display** mounted on the robot mouth to visualize emotional expressions  
 - Animations generated using **Google NLP API**, which recognizes emotion in operator’s voice  
 
-**Reference**  
+### Related Publications
 - Schwartz, Mathew, et al. *“Design and Control of a Humanoid Avatar Head with Realtime Face Animation.”* ICCAS, IEEE, 2022.  
 
 ## Motion Retargeting  
@@ -135,7 +135,7 @@ The avatar robot reproduces the operator’s body movements, adapting them to it
 - **Task Prioritization:** Dynamic behaviors generated depending on situational priorities  
 - **Optimization-based IK:** Inverse kinematics controller maintains robot balance and executes manipulation tasks simultaneously  
 
-### Reference
+### Related Publications
 - Lim, Daegyu, et al. *“Online telemanipulation framework on humanoid for both manipulation and imitation.”* UR, IEEE, 2022.
 
 {% include figure.liquid 
