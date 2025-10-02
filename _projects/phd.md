@@ -11,9 +11,16 @@ related_publications: true
 This project, led by Seungbin You, focuses on the design and development of a Plate Harmonic Reducer. 
 
 ---
-> A new strain-gear reducer that uses a thin **plate-type flexspline (FS)** and a **profiled-groove + steel-ball** wave generator (WG) to preserve the advantages of cup-type harmonic drives while **reducing axial thickness** (greater packaging freedom ↑), **increasing torsional stiffness** (↑), and **lowering required deformation force** (↓).
+> This study introduces a plate-type harmonic reducer as a novel alternative to conventional cup-type designs, achieving reduced axial thickness, increased torsional stiffness, and significantly lower deformation force. By implementing a **profiled-groove wave generator** and a split flexspline design, the work verifies both theoretical feasibility and practical realizability, demonstrated through a 3D-printed prototype experiment.
 
 ---
+# Paper Info
+- **Title:** Plate Harmonic Reducer with a Profiled Groove Wave Generator
+- **Authors:** Seungbin You, Jaesug Jung, Eunho Sung, Jaeheung Park
+- **Keywords:** Harmonic Reducer, Plate Harmonic Reducer (PHR), Wave Generator, Flexspline, Robotics Actuator
+- **Conference:** 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+
+
 
 # Key Points
 - **New Form Factor**  
