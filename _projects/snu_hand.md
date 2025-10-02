@@ -27,8 +27,39 @@ By combining lightweight actuators with a high-stiffness linkage, the hand achie
 
 ---
 
-This paper presents an innovative approach to designing a robot hand specifically tailored for the final round of the ANA Avatar XPRIZE Challenge, a teleoperation robot competition. The primary objective of the newly developed hand was to accurately depict teleoperation by replicating a person’s remote actions, gestures, emotional expressions, and the ability to manipulate various objects commonly encountered in daily life, including tools. To accomplish the objective of enabling finger flexion-extension (FE) with a single linear actuating system, multiple 4-bar linkage mechanisms were employed to incorporate the FE joints. Additionally, to enable effortless grasping of objects with unknown shapes, compliance elements were implemented using adduction-abduction (AA) joints with timing belt pulley system and FE joint accompanying springs. As a result, a four-fingered hand boasting a total of eight degrees of freedom was developed, ensuring robust fingertip grip while minimizing the overall weight of the hand to preserve the payload capacity of the robot arm. This paper describes the hand’s design process based on finger kinematic analysis. Finite Element Method (FEM) analysis results to assess the hand’s ability to withstand disturbances and potential plastic deformation. Furthermore, taxonomy analysis derived from real gripping experiments.
+# Paper Info
+- **Title:** SNU-Avatar Robot Hand: Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications
+- **Authors:** Eunho Sung, Seungbin You, Seungyeon Kim, Jaeheung Park
+- **Keywords:** Robotic Hand, Four-Bar Linkage, Prismatic Joint, Teleoperation, Adaptive Grasping, Modular Design
+- **Conference:** IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2023 
 
+# Motivation  
+- Robotic hands must balance **structural rigidity, sufficient grip force, and adaptability to object shapes** for real-world tasks and teleoperation.  
+- Existing designs are often heavy, costly, or difficult to maintain, motivating the development of a **lightweight, modular, and affordable hand with robust performance**. 
+
+# Key Contributions  
+- Introduces a **prismatic four-bar linkage structure** that enables MCP–PIP–DIP flexion with a single linear actuator.  
+- Combines **adduction/abduction (AA) joints with springs** to achieve compliant and adaptive grasping.  
+- Proposes a **modular finger design** (4 fingers, 8 DoF) for easy maintenance and replacement.  
+- Validates design through **FEM analysis and experiments**, demonstrating robustness against external loads.  
+- Shows capability to perform a wide range of **grasp taxonomy motions and expressive gestures**.  
+
+# Hardware at a Glance  
+- **Size/Weight:** 211.5 mm height, 70 mm width, 832 g.  
+- **Degrees of Freedom:** 4 fingers × (FE + AA) = 8 DoF total.  
+- **Actuators:** ROBOTIS Dynamixel (XC330 series) smart actuators.  
+- **Materials:** Aluminum + S45C (reinforced at critical joints) + 3D-printed parts.  
+- **Special Features:** Silicone fingertip pads and a curved palm for increased friction and contact stability.  
+
+# Working Mechanism  
+- **Flexion/Extension (FE):** Driven by a lead screw integrated with a prismatic four-bar linkage, enabling high stiffness and efficient force transmission.  
+- **Adduction/Abduction (AA):** Independent motor actuation with preload springs, supporting adaptive grasping and gesture expression.  
+- **Kinematics:** Closed-form equations derived from link lengths, angles, and screw displacement allow precise calculation of fingertip trajectories and joint angles.  
+- **Structural Reliability:** FEM analysis confirmed improved safety factor (7.2) and reduced displacement when replacing aluminum with S45C at load-critical joints.  
+
+# **Takeaway:**  
+This work presents a **lightweight, modular, and cost-effective robotic hand** that combines high stiffness, grip strength, and compliance.  
+Validated through both simulation and experiments, the hand demonstrates reliable daily object manipulation and expressive gesture capabilities, offering strong potential for **teleoperation and service robotics applications**.  
 
 **BibTeX**
 
