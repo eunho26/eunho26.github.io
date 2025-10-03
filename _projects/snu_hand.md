@@ -5,7 +5,7 @@ description: Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile 
 img: assets/img/hand.jpg
 importance: 4
 category: paper
-related_publications: true
+related_publications: false
 ---
 
 > In this work, we introduce a modular robotic hand built on a prismatic four-bar linkage design.
