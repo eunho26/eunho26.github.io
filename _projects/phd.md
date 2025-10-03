@@ -53,3 +53,17 @@ The Plate Harmonic Reducer (PHR) represents a **new structural paradigm** in str
 
 while retaining the hallmark benefits of harmonic drives.  
 This makes the PHR a strong candidate for **compact, high-performance robotic actuators** in next-generation systems.  
+
+
+**BibTeX**
+
+```bibtex
+@inproceedings{You2025Plate,
+  author={You, Seungbin and Jung, Jaesug and Sung, Eunho and Park, Jaeheung},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Plate Harmonic Reducer with a Profiled Groove Wave Generator}, 
+  year={2022},
+  pages={1900-1907},
+  doi={10.1109/IROS47612.2022.9981317}}
+}
+```
