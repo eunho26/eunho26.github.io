@@ -57,7 +57,7 @@ By combining lightweight actuators with a high-stiffness linkage, the hand achie
 - **Kinematics:** Closed-form equations derived from link lengths, angles, and screw displacement allow precise calculation of fingertip trajectories and joint angles.  
 - **Structural Reliability:** FEM analysis confirmed improved safety factor (7.2) and reduced displacement when replacing aluminum with S45C at load-critical joints.  
 
-# **Takeaway:**  
+# Takeaway: 
 This work presents a **lightweight, modular, and cost-effective robotic hand** that combines high stiffness, grip strength, and compliance.  
 Validated through both simulation and experiments, the hand demonstrates reliable daily object manipulation and expressive gesture capabilities, offering strong potential for **teleoperation and service robotics applications**.  
 
