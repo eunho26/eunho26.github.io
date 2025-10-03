@@ -72,7 +72,7 @@ $$
 q = \frac{\left(\sqrt{d^2+l^2-2dl\cos\phi_2} - s_0 - \frac{F l_2 \sin \theta_3}{k l \sin \alpha}\right)}{r} + q_0
 $$
 
-**Takeaway:** 
+#Takeaway: 
 
 Output-side potentiometer + geometry ⇒ force without extra encoders on the tendon side.
 
