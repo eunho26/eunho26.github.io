@@ -45,7 +45,7 @@ To overcome these drawbacks, this work introduces a **Plate Harmonic Reducer (PH
 - The deformed FS engages with the circular spline (CS), producing **reverse-direction, high-ratio reduction** of the input motion.  
 - The rolling-contact mechanism minimizes friction, while the groove profile allows tuning of the tooth engagement ratio to increase torque capacity.  
 
-# **Takeaway:**  
+# Takeaway:
 The Plate Harmonic Reducer (PHR) represents a **new structural paradigm** in strain-gear technology:  
 - **Thinner axial geometry**  
 - **Higher torsional stiffness**  
