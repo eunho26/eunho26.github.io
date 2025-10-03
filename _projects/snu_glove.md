@@ -45,11 +45,15 @@ Reliable finger posture capture and safe, informative force feedback are critica
 - Operator-ready design: Boa system fitting, dovetail plate to haptic arm, Arduino-based I/O, easy add-ons (e.g., vibration).
 - Validation: Force accuracy tests, fingertip estimation study, and Grasp Taxonomy on the SNU-Avatar hand.
 
+{% include figure.liquid loading="eager" path="assets/img/gl01.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
 # Hardware at a Glance
 - Modules: thumb/index/middle/ring = 4 modules on the dorsal frame.
 - Per module: 5 links / 4 joints; measures MCP-AA (1) and FE (2); final joint is passive for comfort; Velcro middle-phalanx mount.
 - Size/weight (approx.): unfolded 250×175×130 mm; worn length up to 340 mm; ~500 g including electronics.
 - Wearing & I/O: Boa tensioning; soft synthetic leather pads; Arduino Mega and serial PC link; extra pins for add-ons.
+
+{% include figure.liquid loading="eager" path="assets/img/gl04.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 # Working Mechanism
 
@@ -72,6 +76,8 @@ $$
 q = \frac{\left(\sqrt{d^2+l^2-2dl\cos\phi_2} - s_0 - \frac{F l_2 \sin \theta_3}{k l \sin \alpha}\right)}{r} + q_0
 $$
 
+{% include figure.liquid loading="eager" path="assets/img/gl02.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
 #Takeaway: 
 
 Output-side potentiometer + geometry ⇒ force without extra encoders on the tendon side.
@@ -83,6 +89,7 @@ Assumptions often used in hand models:
 - Relation between joints: $\theta_{\mathrm{DIP}} = \tfrac{2}{3}\,\theta_{\mathrm{PIP}}$
 - Length ratio: $L_p : L_m : L_d \approx 0.50 : 0.30 : 0.20$
 
+{% include figure.liquid loading="eager" path="assets/img/gl03.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
 **BibTeX**
 
