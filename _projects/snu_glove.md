@@ -45,7 +45,13 @@ Reliable finger posture capture and safe, informative force feedback are critica
 - Operator-ready design: Boa system fitting, dovetail plate to haptic arm, Arduino-based I/O, easy add-ons (e.g., vibration).
 - Validation: Force accuracy tests, fingertip estimation study, and Grasp Taxonomy on the SNU-Avatar hand.
 
-{% include figure.liquid loading="eager" path="assets/img/gl01.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid 
+   loading="eager" 
+   path="assets/img/gl01.jpg" 
+   title="example image" 
+   class="img-fluid rounded z-depth-1" 
+   style="width:80%; margin:auto; display:block;" 
+%}
 
 # Hardware at a Glance
 - Modules: thumb/index/middle/ring = 4 modules on the dorsal frame.
