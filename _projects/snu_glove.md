@@ -50,7 +50,7 @@ Reliable finger posture capture and safe, informative force feedback are critica
    path="assets/img/gl01.jpg" 
    title="example image" 
    class="img-fluid rounded z-depth-1" 
-   style="width:80%; margin:auto; display:block;" 
+   style="width:50%; margin:auto; display:block;" 
 %}
 
 # Hardware at a Glance
