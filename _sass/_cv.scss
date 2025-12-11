@@ -218,3 +218,11 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/* venues.yml 기반 abbr 라벨 텍스트 흰색으로 강제 */
+.abbr abbr,
+.abbr abbr div,
+.abbr abbr a {
+  color: #ffffff !important;
+  fill: #ffffff !important; /* SVG 있을 경우 대비 */
+}
