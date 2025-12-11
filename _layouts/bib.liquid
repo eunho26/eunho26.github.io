@@ -4,13 +4,15 @@
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
+        {% assign abbr_class = entry.abbr | downcase | replace: ' ', '-' %}
+
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
           {% if site.data.venues[entry.abbr].color != blank %}
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
           <abbr
-            class="badge rounded w-100"
+            class="badge rounded w-100 abbr-{{ abbr_class }}"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
