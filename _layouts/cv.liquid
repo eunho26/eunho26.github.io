@@ -115,7 +115,7 @@ layout: default
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
-                {# removed: languages, interests, certificates #}
+                {% comment %} removed: languages, interests, certificates {% endcomment %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
                 {% else %}
