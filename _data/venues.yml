@@ -19,7 +19,3 @@ RobotHand:
 Avatar:
   color: "#2D57CC"
   url:
-
-"KROS Best Paper Award":
-  url: https://kros.org/intro/sub_intro05_1.asp
-  color: "#B77900"
