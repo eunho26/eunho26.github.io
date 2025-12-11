@@ -1,33 +1,102 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
-  <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-        {% endif %}
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
-      {% endif %}
-    </header>
 
-    <article>
-      <div class="cv">
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ page.title }}
+      {% if page.cv_pdf %}
+        <a
+          {% if page.cv_pdf contains '://' %}
+            href="{{ page.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+        </a>
+      {% endif %}
+    </h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+
+      {%- comment -%}
+        JSON Resume 기반 CV
+        _config.yml 에서
+
+        jekyll_get_json:
+          - data: resume
+            json: assets/json/resume.json
+
+        로 세팅되어 있으면 site.data.resume 에 로드됩니다.
+      {%- endcomment -%}
+
+      {% if site.data.resume %}
+        {% for data in site.data.resume %}
+          {% assign section_name  = data[0] %}
+          {% assign section_value = data[1] %}
+
+          {%- comment -%} meta 또는 비어 있는 섹션은 건너뜀 {%- endcomment -%}
+          {% if section_name == 'meta' or section_value == nil or section_value == empty %}
+            {% continue %}
+          {% endif %}
+
+          {%- comment -%} Languages / Interests / Certificates 섹션 숨김 {%- endcomment -%}
+          {% if section_name == 'languages' or section_name == 'interests' or section_name == 'certificates' %}
+            {% continue %}
+          {% endif %}
+
+          {%- comment -%}
+            _config.yml 의 jsonresume: [...] 에 포함되지 않은 섹션이면 건너뜀
+          {%- endcomment -%}
+          {% if site.jsonresume and site.jsonresume.size > 0 and site.jsonresume contains section_name == false %}
+            {% continue %}
+          {% endif %}
+
+          <a class="anchor" id="{{ section_name }}"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">{{ section_name | capitalize }}</h3>
+            <div>
+              {% case section_name %}
+                {% when 'basics' %}
+                  {% include resume/basics.liquid %}
+                {% when 'education' %}
+                  {% include resume/education.liquid %}
+                {% when 'work' %}
+                  {% include resume/work.liquid %}
+                {% when 'volunteer' %}
+                  {% include resume/volunteer.liquid %}
+                {% when 'projects' %}
+                  {% include resume/projects.liquid %}
+                {% when 'awards' %}
+                  {% include resume/awards.liquid %}
+                {% when 'skills' %}
+                  {% include resume/skills.liquid %}
+                {% when 'publications' %}
+                  {% include resume/publications.liquid %}
+                {% when 'references' %}
+                  {% include resume/references.liquid %}
+                {% else %}
+                  {# 정의 안 된 섹션은 무시 #}
+              {% endcase %}
+            </div>
+          </div>
+        {% endfor %}
+
+      {%- elsif site.data.cv -%}
+        {%- comment -%}
+          구형 YAML CV 모드(site.data.cv)를 쓰는 경우용 백업 경로.
+          지금은 JSON Resume 쓰고 계시니 이 분기는 거의 안 탈 가능성이 큽니다.
+        {%- endcomment -%}
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
@@ -49,81 +118,7 @@ layout: default
             </div>
           </div>
         {% endfor %}
-      </div>
-    </article>
-  </div>
-{% else %}
-  <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-        {% endif %}
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
       {% endif %}
-    </header>
-
-    <article>
-      <div class="cv">
-        {% for data in site.data.resume %}
-          {% if site.jsonresume and site.jsonresume.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
-              {% continue %}
-            {% endunless %}
-          {% endif %}
-          {% if data[0] == 'meta' or data[1].size == 0 %}
-            {% continue %}
-          {% endif %}
-
-          {%- comment -%} Languages / Interests / Certificates 섹션은 아예 숨김 {%- endcomment -%}
-          {% if data[0] == 'languages' or data[0] == 'interests' or data[0] == 'certificates' %}
-            {% continue %}
-          {% endif %}
-
-          <a class="anchor" id="{{ data[0] }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
-            <div>
-              {% case data[0] %}
-                {% when 'basics' %}
-                  {% include resume/basics.liquid %}
-                {% when 'education' %}
-                  {% include resume/education.liquid %}
-                {% when 'work' %}
-                  {% include resume/work.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include resume/projects.liquid %}
-                {% when 'awards' %}
-                  {% include resume/awards.liquid %}
-                {% when 'skills' %}
-                  {% include resume/skills.liquid %}
-                {% when 'publications' %}
-                  {% include resume/publications.liquid %}
-                {% when 'references' %}
-                  {% include resume/references.liquid %}
-                {% else %}
-
-              {% endcase %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </article>
-  </div>
-{% endunless %}
+    </div>
+  </article>
+</div>
