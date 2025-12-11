@@ -28,32 +28,34 @@ math: true
 ---
 
 # Paper Info
-- **Title:** SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators  
-- **Authors:** Eunho Sung, Seungbin You, Seongkyeong Moon, Juhyun Kim, Jaeheung Park  
-- **Keywords:** Teleoperation, Haptic Glove, Series Elastic Actuator, Fingertip Estimation, Modular Design
-- **Conference:** 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 
 
+- **Title:** SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators
+- **Authors:** Eunho Sung, Seungbin You, Seongkyeong Moon, Juhyun Kim, Jaeheung Park
+- **Keywords:** Teleoperation, Haptic Glove, Series Elastic Actuator, Fingertip Estimation, Modular Design
+- **Conference:** 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 
 # Motivation
 
 Reliable finger posture capture and safe, informative force feedback are critical for real-world teleoperation. IMU- or vision-based gloves suffer from drift, lighting, or tracking constraints; soft gloves can be comfortable but complicate precise force feedback and maintenance. For the Avatar XPRIZE scenario, we opted for a rigid exoskeletal architecture with active force feedback and robust position sensing.
 
 # Key Contributions
+
 - Modular finger unit: 3× potentiometers (AA + FE×2) + 1× servo + spring for pose + force in one module.
 - Trigonometric SEA: Uses joint geometry to infer tendon length change, enabling force control with fewer encoders.
 - Middle-phalanx mounting with fingertip estimation: No fingertip sensor—derive fingertip from DIP–PIP coupling and phalange length ratios.
 - Operator-ready design: Boa system fitting, dovetail plate to haptic arm, Arduino-based I/O, easy add-ons (e.g., vibration).
 - Validation: Force accuracy tests, fingertip estimation study, and Grasp Taxonomy on the SNU-Avatar hand.
 
-{% include figure.liquid 
-   loading="eager" 
-   path="assets/img/gl01.jpg" 
-   title="example image" 
-   class="img-fluid rounded z-depth-1" 
-   style="width:50%; margin:auto; display:block;" 
+{% include figure.liquid
+   loading="eager"
+   path="assets/img/gl01.jpg"
+   title="example image"
+   class="img-fluid rounded z-depth-1"
+   style="width:50%; margin:auto; display:block;"
 %}
 
 # Hardware at a Glance
+
 - Modules: thumb/index/middle/ring = 4 modules on the dorsal frame.
 - Per module: 5 links / 4 joints; measures MCP-AA (1) and FE (2); final joint is passive for comfort; Velcro middle-phalanx mount.
 - Size/weight (approx.): unfolded 250×175×130 mm; worn length up to 340 mm; ~500 g including electronics.
@@ -64,6 +66,7 @@ Reliable finger posture capture and safe, informative force feedback are critica
 # Working Mechanism
 
 Trigonometric SEA (Force Feedback)
+
 - Tendon length $s$ for joint angle $\phi$:
 
 $$
@@ -84,7 +87,7 @@ $$
 
 {% include figure.liquid loading="eager" path="assets/img/gl02.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-#Takeaway: 
+#Takeaway:
 
 Output-side potentiometer + geometry ⇒ force without extra encoders on the tendon side.
 
@@ -102,10 +105,10 @@ Assumptions often used in hand models:
 ```bibtex
 @inproceedings{Sung2025SNUAvatarGlove,
   author={Sung, Eunho and You, Seungbin and Moon, Seongkyeong and Kim, Juhyun and Park, Jaeheung},
-  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
-  title={SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators}, 
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  title={SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators},
   year={2024},
   pages={3573-3580},
   doi={10.1109/IROS58592.2024.10802590}
 }
-``` 
+```
