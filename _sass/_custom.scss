@@ -4,3 +4,11 @@
   text-decoration: underline !important; /* 기존 밑줄 유지 */
   color: #335566 !important;        /* 강조 색 (원하는 색으로 변경 가능) */
 }
+
+/* venues.yml 기반의 abbr 라벨 텍스트 색을 흰색으로 */
+abbr.badge,
+abbr.badge a,
+.abbr .badge,
+.abbr a {
+  color: #ffffff !important;
+}
