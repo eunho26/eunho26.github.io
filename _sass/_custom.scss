@@ -1,7 +1,7 @@
 /* 강조: 내 이름을 굵고 색상 강조 */
 .author em {
   font-weight: 700 !important;      /* 굵게 */
-  text-decoration: underline !important; /* 기존 밑줄 유지 */
+  /*text-decoration: underline !important;*/ /* 기존 밑줄 유지 */
   color: #335566 !important;        /* 강조 색 (원하는 색으로 변경 가능) */
 }
 
