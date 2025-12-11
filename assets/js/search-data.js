@@ -522,7 +522,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/은호-성-8835a4265", "_blank");
+          window.open("https://www.linkedin.com/in/eunho-sung-8835a4265", "_blank");
         },
       },{
         id: 'social-scholar',
