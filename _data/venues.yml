@@ -7,3 +7,15 @@
 
 "Vision":
   color: "#009f36"
+
+Haptic:
+  color: "#FF8800"
+  url:
+
+RobotHand:
+  color: "#1e90ff"
+  url:
+
+Avatar:
+  color: "#3366FF"
+  url:
