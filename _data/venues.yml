@@ -9,13 +9,13 @@
   color: "#009f36"
 
 Haptic:
-  color: "#00C2A8"
+  color: "#138F85"
   url:
 
 RobotHand:
-  color: "#FF8800"
+  color: "#D46A1A"
   url:
 
 Avatar:
-  color: "#3366FF"
+  color: "#2D57CC"
   url:
