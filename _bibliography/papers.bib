@@ -24,12 +24,15 @@
   abbr={RobotHand},
   bibtex_show={true},
   title={SNU-Avatar Robot Hand: Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications},
+  abstract = {This paper presents an innovative approach to designing a robot hand specifically tailored for the final round of the ANA Avatar XPRIZE Challenge, a teleoperation robot competition. The primary objective of the hand is to replicate a person's remote actions, gestures, emotional expressions, and everyday object manipulation, including tool use. To enable finger flexion--extension (FE) with a single linear actuator, multiple four-bar linkage mechanisms are employed for the FE joints. Additionally, compliant elements are integrated through adduction--abduction (AA) joints with a timing-belt pulley system and springs accompanying the FE joints, allowing effortless grasping of objects with unknown shapes. As a result, a four-fingered, eight-degree-of-freedom hand is developed, achieving robust fingertip grip while minimizing weight to preserve the robot arm's payload capacity. This paper describes the hand's kinematic design process, presents FEM analysis results evaluating structural robustness and potential plastic deformation, and reports taxonomy analysis derived from real grasping experiments.},
   author={Sung, Eunho and You, Seungbin and Kim, Seungyeon and Jaeheung Park},
   journal={2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids)},
   video={https://www.youtube.com/embed/qNxD-JU64iA?si=8ROPU-yIaH1_nz7n},
   year={2023},
   publisher={IEEE},
+  pages={1-8},
   selected={true},
+  doi={10.1109/Humanoids57100.2023.10375222},
   preview={finger.gif},
 }
 
@@ -65,6 +68,7 @@
   journal={IEEE/ASME Transactions on Mechatronics}, 
   year={2025},
   doi={10.1109/TMECH.2025.3628311},
+  selected={true},
   preview={Pub_Th_SemiD.png},
   publisher={IEEE}
 }
@@ -183,6 +187,7 @@
   abbr={State Estimation},
   bibtex_show={true},
   title={Walking State Estimation for Biped Robot Using Foot Contact Information},
+  abstract = {Contact information plays a crucial role in many robotic applications. In bipedal walking, the CoP--ZMP criterion, computed from the contact wrench between the foot and the ground, is an essential measure of stability. However, this criterion requires an accurate estimation of the contact point to define the support polygon, which becomes challenging on uneven terrain. To address this limitation, this paper proposes a support-polygon-independent estimation framework that recognizes the current walking state (WS) using contact information. The framework consists of two indicators and one discriminator: the indicators use Gaussian Mixture Models to represent sub-states for each input, while the discriminator determines the current WS based on rule-based decision making. The proposed framework is validated through simulations and experiments on a full-size humanoid robot, TOCABI.},
   author={Lee, Haeseong and Kim, Myeong-Ju and Sung, Eunho and Park, Jaeheung},
   journal={International Conference on Intelligent Autonomous Systems},
   pages={521--535},
@@ -197,12 +202,14 @@
   abbr={Biped Walking},
   bibtex_show={true},
   title={Disturbance adapting walking pattern generation using capture point feedback considering CoM control performance},
+  abstract = {To enable humanoid robots to walk in complex environments, a robust walking pattern capable of responding to disturbances is essential. ZMP-based walking pattern generation is widely used, as it produces a center of mass (CoM) trajectory that places the ZMP within the robot's support polygon. However, tracking a predefined reference ZMP often limits disturbance recovery. To address this issue, capture-point (CP)-based approaches were introduced for improved robustness, typically by controlling the robot to track a reference CP. In this study, we adopt a method that updates the reference ZMP using CP feedback, previously explored in a ZMP-based preview control framework considering CoM tracking performance. We derive the stability analysis of the proposed approach and provide its physical interpretation. The method is implemented on the humanoid robot DYROS-JET, demonstrating enhanced robustness against disturbances.},
   author={Kim, Myeong-Ju and Kim, Mingon and Lim, Daegyu and Sung, Eunho and Park, Jaeheung},
   journal={Journal of Intelligent \& Robotic Systems},
   volume={108},
   number={2},
   pages={22},
   year={2023},
+  doi={https://doi.org/10.1007/s10846-023-01870-x},
   publisher={Springer}
 }
 
@@ -210,6 +217,7 @@
   abbr={RobotHand},
   bibtex_show={true},
   title={ARC joint: Anthropomorphic rolling contact joint with kinematically variable torsional stiffness},
+  abstract = {Compliant joints are widely used in end-effectors because they compensate for the lack of actuated degrees of freedom in under-actuated systems, enhance grasp stability, and protect mechanisms from unexpected contacts. However, while compliance improves power grasping, it can reduce the success rate of pinch grasps when fingers wrap around large objects, limiting stability in fingertip-based manipulation of small items. To address this limitation, we propose an anthropomorphic rolling contact joint inspired by human finger structures, including the tongue-and-groove geometry and collateral ligaments. This joint passively adjusts its torsional stiffness according to the joint angle without requiring additional weight or space. As a result, flexing the fingers for pinch grasping increases torsional stiffness and improves grasp stability. In this study, the characteristics and performance of the anthropomorphic rolling contact joint are experimentally analyzed by varying the tongue-and-groove shape. Furthermore, we demonstrate that a three-finger gripper utilizing joints with higher torsional stiffness can reliably grasp small objects in pinch-grasp postures. Owing to its simple fabrication, the joint also offers advantages in maintainability.},
   author={Kim, Seungyeon and Sung, Eunho and Park, Jaeheung},
   journal={IEEE Robotics and Automation Letters},
   volume={8},
@@ -217,6 +225,7 @@
   pages={1810--1817},
   year={2023},
   preview={Pub_Th_ARC.gif},
+  doi={10.1109/LRA.2023.3243439},
   publisher={IEEE}
 }
 
@@ -224,10 +233,12 @@
   abbr={Reducer},
   bibtex_show={true},
   title={Plate Harmonic Reducer with a Profiled Groove Wave Generator},
+  abstract = {This study introduces a mechanism that realizes a novel structural form of the harmonic reducer. Conventional robots commonly employ mechanical reducers to compensate for the low-torque, high-speed characteristics of electric motors, with harmonic reducers widely favored for their compactness and backlash-free precision. The plate harmonic reducer, which preserves the topology and reduction principle of a conventional harmonic reducer, is a new type of strain gear that deforms axially into a plate-like structure. Due to its morphological characteristics, it exhibits unique properties in axial thickness, torsional stiffness, and efficiency. This paper presents the reduction principle of the plate harmonic reducer, details methodological solutions for its realization, and analyzes its theoretical performance improvements and operational feasibility through finite element analysis and a 3D-printed prototype.},
   author={You, Seungbin and Jung, Jaesug and Sung, Eunho and Park, Jaeheung},
   journal={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={1900--1907},
   year={2022},
+  doi={10.1109/IROS47612.2022.9981317},
   organization={IEEE}
 }
 
