@@ -62,25 +62,18 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
       "name": "SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators",
       "publisher": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "releaseDate": "2024-10-14",
       "url": "https://ieeexplore.ieee.org/document/10802590",
-      "summary": "This research develops a haptic glove for realistic avatar-robot teleoperation, integrating Trigonometric SEA–based finger force feedback and a stable middle-phalanx attachment design. A fingertip-position estimation algorithm enables accurate hand-posture sensing without fingertip sensors, improving usability and comfort. The system was validated in the ANA Avatar XPRIZE, successfully completing missions involving object manipulation and social interaction."
+      "summary": "This research develops a haptic glove for realistic avatar-robot teleoperation, integrating Trigonometric SEA–based finger force feedback and a stable middle-phalanx attachment design. A fingertip-position estimation algorithm enables accurate hand-posture sensing without fingertip sensors, improving usability and comfort."
     },
     {
       "name": "SNU-Avatar Robot Hand: Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications",
       "publisher": "2023 IEEE-RAS 22nd International Conference on Humanoid Robots ",
       "releaseDate": "2023-12-12",
       "url": "https://ieeexplore.ieee.org/document/10375222/",
-      "summary": "This research presents a robot hand designed for the ANA Avatar XPRIZE, enabling realistic teleoperation through the replication of human actions, gestures, and everyday object manipulation. Using multi–4-bar linkages for single-actuator flexion–extension and compliant AA joints for adaptive grasping, a lightweight four-finger, eight-DoF hand with strong fingertip grip was achieved. The paper outlines the kinematic design, FEM-based structural validation, and taxonomy analysis from real grasping experiments."
+      "summary": "This research presents a robot hand designed for the ANA Avatar XPRIZE, enabling realistic teleoperation through the replication of human actions, gestures, and everyday object manipulation. Using multi–4-bar linkages for single-actuator flexion–extension and compliant AA joints for adaptive grasping, a lightweight four-finger, eight-DoF hand with strong fingertip grip was achieved."
     }
   ],
   "skills": [
