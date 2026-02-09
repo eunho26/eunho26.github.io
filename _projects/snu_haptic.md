@@ -114,7 +114,7 @@ We integrated the haptic arm with the humanoid robot TOCABI to verify basic tele
 #### Remote Pick-and-Place Demonstration
 The practical utility of the system was verified through a remote pick-and-place sorting task. The operator successfully grasped and placed eight objects into two containers using the haptic feedback.
 
-### 3. Field Validation: ANA Avatar XPRIZE
+#### Field Validation: ANA Avatar XPRIZE
 Finally, to assess applicability in unpredictable real-world environments, we analyzed the performance during the **ANA Avatar XPRIZE Finals**. The system was tested under extreme conditions characterized by restricted fields of view and communication delays.
 
 The haptic feedback played a crucial role in completing complex missions, such as:
