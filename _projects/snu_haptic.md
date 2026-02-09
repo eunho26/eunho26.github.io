@@ -56,11 +56,11 @@ The device is engineered to encompass the biomechanical range of the human upper
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_01.png" title="Positional Workspace" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_01.png" title="Positional Workspace" class="img-fluid" %}
         <div class="text-center caption">(a) Positional Workspace</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_02.png" title="Orientation Workspace" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_02.png" title="Orientation Workspace" class="img-fluid" %}
         <div class="text-center caption">(b) Orientation Workspace</div>
     </div>
 </div>
@@ -73,11 +73,11 @@ We evaluated the isotropic force distribution and generation capacity, ensuring 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_03.png" title="Rated Torque Force" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_03.png" title="Rated Torque Force" class="img-fluid" %}
         <div class="text-center caption">(a) Under Rated Joint Torques</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_04.png" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_04.png" title="Rated Torque Force2" class="img-fluid" %}
         <div class="text-center caption">(b) Under Peak Joint Torques</div>
     </div>
 </div>
@@ -90,7 +90,7 @@ Using Finite Element Method (FEM) simulations, we optimized link lengths to bala
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_05.png" title="Structural Modal Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_05.png" title="Structural Modal Analysis" class="img-fluid" %}
     </div>
 </div>
 <div class="caption">
@@ -100,3 +100,24 @@ Using Finite Element Method (FEM) simulations, we optimized link lengths to bala
 
 ---
 
+# Experimental Validation & Field Testing
+
+To demonstrate the effectiveness of the proposed 6-DoF haptic interface, we conducted a phased verification process ranging from fundamental hardware benchmarking to field validation in the ANA Avatar XPRIZE Finals.
+
+### 1. Fundamental Hardware Performance
+First, we evaluated the open-loop force rendering capability to ensure the haptic device could generate precise and repeatable forces.
+
+
+### 2. Teleoperation System Integration
+We integrated the haptic arm with the humanoid robot TOCABI to verify basic teleoperation performance. The system was tested under a realistic network architecture to assess stability.
+
+#### Remote Pick-and-Place Demonstration
+The practical utility of the system was verified through a remote pick-and-place sorting task. The operator successfully grasped and placed eight objects into two containers using the haptic feedback.
+
+### 3. Field Validation: ANA Avatar XPRIZE
+Finally, to assess applicability in unpredictable real-world environments, we analyzed the performance during the **ANA Avatar XPRIZE Finals**. The system was tested under extreme conditions characterized by restricted fields of view and communication delays.
+
+The haptic feedback played a crucial role in completing complex missions, such as:
+* **Mission 4:** Activating a switch with precise force control.
+* **Mission 6 & 7:** Distinguishing and manipulating heavy canisters (weight perception).
+* **Mission 9:** Utilizing a power drill (vibration feedback).
