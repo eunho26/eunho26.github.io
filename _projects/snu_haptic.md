@@ -26,10 +26,10 @@ This configuration significantly reduces mechanical impedance, enabling precise 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_01.png" title="Overall Joint Configuration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_02.png" title="Overall Joint Configuration" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_02.png" title="Kinematic Geometry" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_01.png" title="Kinematic Geometry" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Haptic_01_03.png" title="Actuator Module Types" class="img-fluid rounded z-depth-1" %}
