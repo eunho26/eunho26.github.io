@@ -26,13 +26,13 @@ This configuration significantly reduces mechanical impedance, enabling precise 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_02.png" title="Overall Joint Configuration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_02.png" title="Overall Joint Configuration" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_01.png" title="Kinematic Geometry" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_01.png" title="Kinematic Geometry" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_03.png" title="Actuator Module Types" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_03.png" title="Actuator Module Types" class="img-fluid" %}
     </div>
 </div>
 <div class="caption">
@@ -55,17 +55,25 @@ To validate the feasibility of the SNU-Avatar Haptic Arm for practical teleopera
 The device is engineered to encompass the biomechanical range of the human upper limb. Our evaluation confirms that the operational range effectively covers the extensive reachable region of a human operator in both positional and orientation spaces, as illustrated below.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_01.png" title="Positional Workspace" class="img-fluid" %}
-        <div class="text-center caption">(a) Positional Workspace</div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_01.png" title="xy-position workspace" class="img-fluid" %}
+        <div class="text-center caption">(a) xy-position workspace</div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_02.png" title="Orientation Workspace" class="img-fluid" %}
-        <div class="text-center caption">(b) Orientation Workspace</div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_06.png" title="3D position workspace" class="img-fluid" %}
+        <div class="text-center caption">(b) 3D position workspace</div>
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_02.png" title="Direction vectors" class="img-fluid" %}
+        <div class="text-center caption">(c) Achievable direction vectors on the unit sphere</div>
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_07.png" title="Psi bounds" class="img-fluid" %}
+        <div class="text-center caption">(d) Corresponding $\psi$ bounds in the $(\theta,\phi)$ parameter space</div>
     </div>
 </div>
 <div class="caption">
-    <strong>Figure 1. Workspace validation:</strong> (left) Comparison of the robotic reach with the human workspace, demonstrating a high degree of overlap; (right) Orientation workspace analysis.
+    <strong>Figure 1. Comprehensive workspace validation:</strong> (a-b) Positional reach in 2D and 3D spaces, and (c-d) orientation analysis including feasible rotation ranges on a unit sphere and their corresponding parameter bounds.
 </div>
 
 ### 2. Force Output Performance
@@ -105,8 +113,23 @@ Using Finite Element Method (FEM) simulations, we optimized link lengths to bala
 To demonstrate the effectiveness of the proposed 6-DoF haptic interface, we conducted a phased verification process ranging from fundamental hardware benchmarking to field validation in the ANA Avatar XPRIZE Finals.
 
 ### 1. Fundamental Hardware Performance
-First, we evaluated the open-loop force rendering capability to ensure the haptic device could generate precise and repeatable forces.
+First, we evaluated the open-loop force rendering capability to ensure the haptic device could generate precise and repeatable forces. The evaluation across 40 trials at four force levels (2.5–10.0 N) demonstrated high repeatability with low standard deviations (0.093–0.367 N), confirming consistent force generation. While a slight steady-state bias was observed at higher magnitudes, the concentrated force distributions verify the system's reliability for stable haptic rendering in open-loop operations.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_03_02.png" title="Experimental Setup" class="img-fluid" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_03_01.png" title="Force Repeatability" class="img-fluid" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_03_03.png" title="Operator Configuration" class="img-fluid" %}
+    </div>
+</div>
+<div class="caption">
+    <strong>Experimental validation and system configuration.</strong> 
+    From left to right: the experimental setup for open-loop force evaluation using a 6-axis F/T sensor, the resulting force rendering repeatability across target levels, and the operator-side hardware layout including the bimanual haptic setup and tracking system.
+</div>
 
 ### 2. Teleoperation System Integration
 We integrated the haptic arm with the humanoid robot TOCABI to verify basic teleoperation performance. The system was tested under a realistic network architecture to assess stability.
