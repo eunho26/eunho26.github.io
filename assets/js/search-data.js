@@ -505,7 +505,7 @@ ninja.data = [{
               window.location.href = "/projects/snu_hand/";
             },},{id: "projects-snu-avatar-haptic-arm",
           title: 'SNU-Avatar Haptic Arm',
-          description: "Haptic Arm",
+          description: "A Highly Transparent Operator Interface with Hybrid QDD/DD Actuation for Teleoperation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/snu_haptic/";
             },},{id: "projects-ana-avatar-xprize",
