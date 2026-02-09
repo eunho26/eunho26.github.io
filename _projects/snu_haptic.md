@@ -18,3 +18,15 @@ Despite rapid advancements in robotics, teleoperation remains indispensable for 
 this paper presents the design, analysis, and experimental validation of the SNU-Avatar Haptic Arm, a high-performance haptic interface developed for immersive teleoperation. To address the trade-off between transparency and payload capacity, the system employs a hybrid actuation architecture combining quasi-direct drive and direct drive mechanisms. This configuration reduces mechanical impedance and friction while ensuring sufficient force output for high-fidelity interaction. The 6-DoF kinematic structure is designed to encompass the natural workspace of the human upper limb, and finite element analysis confirms that the structural natural frequency is sufficiently high to secure a stable control bandwidth. A comprehensive evaluation validates the system's performance, focusing on force rendering accuracy. The practical utility of the proposed interface was demonstrated in the ANA Avatar XPRIZE Finals through integration with a humanoid robot. The system successfully performed complex missions, such as heavy object manipulation, under constraints including communication latency. The results confirm that the proposed design methodology effectively bridges the gap between remote presence and physical reality, ensuring robust manipulation in extreme environments.
 
 ---
+
+#Mechanical Architecture
+
+The **SNU-Avatar Haptic Arm** is a high-performance 6-DoF interface designed to bridge the gap between human operators and remote environments. The system features a human-scale workspace that fully encompasses the natural range of motion of the human upper limb, ensuring unconstrained operation.
+This configuration significantly reduces mechanical impedance, enabling precise and immersive dynamic interaction during complex teleoperation tasks.
+
+### **Hybrid Actuation for High Transparency**
+To achieve high-fidelity force rendering, the arm employs a specialized hybrid actuation architecture:
+* **Shoulder & Elbow (Joints 2–3):** Utilize a 3:1 Quasi-Direct Drive (QDD) pulley transmission to balance torque and backdrivability.
+* **Wrist (Joints 4–6):** Implement Direct-Drive (DD) modules to minimize friction and maximize dynamic transparency.
+* **Safety & Precision:** Includes a linear prismatic joint with an integrated brake system for stable and secure control.
+
