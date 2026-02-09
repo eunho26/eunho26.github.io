@@ -117,10 +117,10 @@ First, we evaluated the open-loop force rendering capability to ensure the hapti
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_03_02.png" title="Experimental Setup" class="img-fluid" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_03_01.png" title="Experimental Setup" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Haptic_03_01.png" title="Force Repeatability" class="img-fluid" %}
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_03_02.png" title="Force Repeatability" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Haptic_03_03.png" title="Operator Configuration" class="img-fluid" %}
