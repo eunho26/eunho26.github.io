@@ -19,7 +19,7 @@ this paper presents the design, analysis, and experimental validation of the SNU
 
 ---
 
-#Mechanical Architecture
+# Mechanical Architecture
 
 The **SNU-Avatar Haptic Arm** is a high-performance 6-DoF interface designed to bridge the gap between human operators and remote environments. The system features a human-scale workspace that fully encompasses the natural range of motion of the human upper limb, ensuring unconstrained operation.
 This configuration significantly reduces mechanical impedance, enabling precise and immersive dynamic interaction during complex teleoperation tasks.
