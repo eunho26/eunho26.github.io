@@ -65,7 +65,7 @@ The device is engineered to encompass the biomechanical range of the human upper
     </div>
 </div>
 <div class="caption">
-    <strong>Figure 1. Workspace validation:</strong> (a) Comparison of the robotic reach with the human workspace, demonstrating a high degree of overlap; (b) Orientation workspace analysis.
+    <strong>Figure 1. Workspace validation:</strong> (left) Comparison of the robotic reach with the human workspace, demonstrating a high degree of overlap; (right) Orientation workspace analysis.
 </div>
 
 ### 2. Force Output Performance
@@ -82,11 +82,21 @@ We evaluated the isotropic force distribution and generation capacity, ensuring 
     </div>
 </div>
 <div class="caption">
-    <strong>Figure 2. Cartesian force capability in the $xy$-plane:</strong> (a) Minimum isotropic force distribution under rated joint torques; (b) Minimum isotropic force distribution under peak joint torques. The black contour indicates the 7 N threshold, with additional reference contours (12 N and 20 N) provided for performance comparison.
+    <strong>Figure 2. Cartesian force capability in the $xy$-plane:</strong> (left) Minimum isotropic force distribution under rated joint torques; (right) Minimum isotropic force distribution under peak joint torques. The black contour indicates the 7 N threshold, with additional reference contours (12 N and 20 N) provided for performance comparison.
 </div>
 
 ### 3. Structural Modal Analysis
 Using Finite Element Method (FEM) simulations, we optimized link lengths to balance workspace requirements with high structural stiffness. This design secures a **wide control bandwidth**, enabling high-fidelity interaction and stable performance without structural resonance.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_05.png" title="Structural Modal Analysis" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    <strong>Figure 3. Structural modal analysis results:</strong> Definition of optimized link-length variables ($L_2$, $L_3$) and their corresponding first mode shapes obtained from FEM analysis. The results visualize (a) Link 2 exhibiting a primary bending mode, and (b) Link 3 exhibiting a coupled bending-torsion mode. These modes inform the stiffening strategy to mitigate structural resonance.
+</div>
+
 
 ---
 
