@@ -55,10 +55,10 @@ Reliable finger posture capture and safe, informative force feedback are critica
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_01_01.png" title="Glove 01-01" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_01_01.png" title="Glove 01-01" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_01_02.png" title="Glove 01-02" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_01_02.png" title="Glove 01-02" class="img-fluid" %}
     </div>
 </div>
 
@@ -73,10 +73,10 @@ Reliable finger posture capture and safe, informative force feedback are critica
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_02_01.png" title="Glove 02-01" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_02_01.png" title="Glove 02-01" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_02_02.png" title="Glove 02-02" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_02_02.png" title="Glove 02-02" class="img-fluid" %}
     </div>
 </div>
 
@@ -115,24 +115,24 @@ Assumptions often used in hand models:
 
 <div class="row">
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_03_01.png" title="Glove_03_01" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_01.png" title="Glove_03_01" class="img-fluid" %}
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_03_02.png" title="Glove_03_02" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_02.png" title="Glove_03_02" class="img-fluid" %}
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_03_03.png" title="Glove_03_03" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_03.png" title="Glove_03_03" class="img-fluid" %}
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_03_04.png" title="Glove_03_04" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_04.png" title="Glove_03_04" class="img-fluid" %}
     </div>
 </div>
 
-###Grasping with the Tele-Operating Hand
+### Grasping with the Tele-Operating Hand
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_03_05.png" title="Glove_03_05" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_05.png" title="Glove_03_05" class="img-fluid" %}
     </div>
 </div>
 
