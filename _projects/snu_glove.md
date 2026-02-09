@@ -13,6 +13,11 @@ math: true
 
 ---
 
+# Abstract
+The avatar robot is a robot capable of realistic remote operation. In remote operation, the controllability of the glove is crucial. This glove can manipulate the hand interacting directly with the environment at the remote site. The glove must be able to accurately estimate the hand posture and provide haptic feedback to convey information about the remote environment and enhance operability. Throughout the process, user discomfort should be minimized. To achieve this goal, the research proposes providing force feedback to the fingers using Trigonometric Series Elastic Actuators. Haptic gloves are attached to the Middle Phalanx to facilitate the easy installation of additional add-ons, ensuring users feel securely fixed when attached. Additionally, by proposing an algorithm to estimate the fingertip position without directly attaching it to the fingertip, the haptic glove estimates hand posture and delivers appropriate force as needed. Finally, the system, including the haptic glove, participated in the ANA Avatar XPRIZE competition. The avatar system performed eight missions, which included not only remote manipulation of objects but also social interactions, demonstrating its effectiveness.
+
+---
+
 <!-- Responsive 16:9 wrapper -->
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
   <iframe
@@ -50,7 +55,7 @@ Reliable finger posture capture and safe, informative force feedback are critica
    loading="eager"
    path="assets/img/gl01.jpg"
    title="example image"
-   class="img-fluid rounded z-depth-1"
+   class="img-fluid"
    style="width:50%; margin:auto; display:block;"
 %}
 
@@ -61,7 +66,7 @@ Reliable finger posture capture and safe, informative force feedback are critica
 - Size/weight (approx.): unfolded 250×175×130 mm; worn length up to 340 mm; ~500 g including electronics.
 - Wearing & I/O: Boa tensioning; soft synthetic leather pads; Arduino Mega and serial PC link; extra pins for add-ons.
 
-{% include figure.liquid loading="eager" path="assets/img/gl04.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/gl04.jpg" title="example image" class="img-fluid" %}
 
 # Working Mechanism
 
@@ -85,7 +90,7 @@ $$
 q = \frac{\left(\sqrt{d^2+l^2-2dl\cos\phi_2} - s_0 - \frac{F l_2 \sin \theta_3}{k l \sin \alpha}\right)}{r} + q_0
 $$
 
-{% include figure.liquid loading="eager" path="assets/img/gl02.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/gl02.jpg" title="example image" class="img-fluid " %}
 
 #Takeaway:
 
@@ -98,7 +103,7 @@ Assumptions often used in hand models:
 - Relation between joints: $\theta_{\mathrm{DIP}} = \tfrac{2}{3}\,\theta_{\mathrm{PIP}}$
 - Length ratio: $L_p : L_m : L_d \approx 0.50 : 0.30 : 0.20$
 
-{% include figure.liquid loading="eager" path="assets/img/gl03.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/gl03.jpg" title="example image" class="img-fluid " %}
 
 **BibTeX**
 
