@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='[#](http://dyros.snu.ac.kr/)'>DYROS Lab</a>. 1, Gwanak-ro, Gwanak-gu, Seoul, Republic of Korea.
 
 # profile:
 #  align: right
@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a **Ph.D. Candidate** in the Department of Intelligence and Information at **Seoul National University**, working under the supervision of [Professor Jaeheung Park](https://scholar.google.co.kr/citations?user=XtKmE78AAAAJ&hl=ko) at the [Dynamic Robotic Systems (DYROS) Lab](http://dyros.snu.ac.kr/). I received my Bachelor's degree in Mechanical Engineering from Korea University (2013–2019) and am currently focusing on the development of advanced robotic mechanisms.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests lie in the design of high-performance robotic hands and haptic interfaces. As a member of **Team SNU**, I participated in the **ANA Avatar XPRIZE** competition, contributing to the development of telepresence systems through the semi-finals in Miami and finals in California. During my time as a Principal Researcher at **Blue Robin, Inc.**, I participated in the mechanical design of the **P-73 humanoid** and successfully conducted demonstrations at **CES 2026**. My current doctoral research involves improving the performance of robotic hands and haptic devices using novel mechanisms such as the GRC Joint and TAU-CVT.
