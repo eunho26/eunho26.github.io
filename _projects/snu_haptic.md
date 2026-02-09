@@ -71,6 +71,20 @@ The device is engineered to encompass the biomechanical range of the human upper
 ### 2. Force Output Performance
 We evaluated the isotropic force distribution and generation capacity, ensuring **sufficient and uniform force output** throughout the nominal workspace. By incorporating advanced gravitational compensation, the system delivers consistent, high-quality haptic feedback with minimal parasitic friction.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_03.png" title="Rated Torque Force" class="img-fluid rounded z-depth-1" %}
+        <div class="text-center caption">(a) Under Rated Joint Torques</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_02_04.png" %}
+        <div class="text-center caption">(b) Under Peak Joint Torques</div>
+    </div>
+</div>
+<div class="caption">
+    <strong>Figure 2. Cartesian force capability in the $xy$-plane:</strong> (a) Minimum isotropic force distribution under rated joint torques; (b) Minimum isotropic force distribution under peak joint torques. The black contour indicates the 7 N threshold, with additional reference contours (12 N and 20 N) provided for performance comparison.
+</div>
+
 ### 3. Structural Modal Analysis
 Using Finite Element Method (FEM) simulations, we optimized link lengths to balance workspace requirements with high structural stiffness. This design secures a **wide control bandwidth**, enabling high-fidelity interaction and stable performance without structural resonance.
 
