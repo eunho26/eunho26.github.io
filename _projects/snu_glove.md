@@ -114,11 +114,25 @@ Assumptions often used in hand models:
 - Length ratio: $L_p : L_m : L_d \approx 0.50 : 0.30 : 0.20$
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_03_01.png" title="Glove 02-01" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_01.png" title="Glove_03_01" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_02.png" title="Glove_03_02" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_03.png" title="Glove_03_03" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_04.png" title="Glove_03_04" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+###Grasping with the Tele-Operating Hand
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_03_03.png" title="Glove 03-03" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_05.png" title="Glove_03_05" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
