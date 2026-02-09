@@ -4,14 +4,14 @@ title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Dynamic Robotic Systems Lab</p>
-    <p>Seoul National University</p>
-    <p>Seoul, Korea 08826</p>
+# profile:
+#  align: right
+#  image: prof_pic.jpg
+#  image_circular: false # crops the image to make it circular
+#  more_info: >
+#    <p>Dynamic Robotic Systems Lab</p>
+#    <p>Seoul National University</p>
+#    <p>Seoul, Korea 08826</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
