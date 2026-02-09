@@ -128,7 +128,7 @@ Assumptions often used in hand models:
     </div>
 </div>
 
-### Grasping with the Tele-Operating Hand
+### Grasping with the Tele-Operating Robot Hand
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
