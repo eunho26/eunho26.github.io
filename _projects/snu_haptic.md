@@ -24,6 +24,21 @@ this paper presents the design, analysis, and experimental validation of the SNU
 The **SNU-Avatar Haptic Arm** is a high-performance 6-DoF interface designed to bridge the gap between human operators and remote environments. The system features a human-scale workspace that fully encompasses the natural range of motion of the human upper limb, ensuring unconstrained operation.
 This configuration significantly reduces mechanical impedance, enabling precise and immersive dynamic interaction during complex teleoperation tasks.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_01.png" title="Overall Joint Configuration" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_02.png" title="Kinematic Geometry" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Haptic_01_03.png" title="Actuator Module Types" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Overall joint configuration, kinematic reference points, and specific actuator module types (QDD/DD) of the proposed haptic arm.
+</div>
+
 ### **Hybrid Actuation for High Transparency**
 To achieve high-fidelity force rendering, the arm employs a specialized hybrid actuation architecture:
 * **Shoulder & Elbow (Joints 2–3):** Utilize a 3:1 Quasi-Direct Drive (QDD) pulley transmission to balance torque and backdrivability.
