@@ -18,6 +18,39 @@ This paper presents an innovative approach to designing a robot hand specificall
 
 ---
 
+# High-Rigidity Telepresence Robot Hand Optimized for the ANA Avatar XPRIZE
+
+Designed with the rigorous demands of the **ANA Avatar XPRIZE** in mind, this **8-DoF robot hand** is optimized for immersive telepresence and high-load task execution. The structure prioritizes **rigidity and grip strength**, enabling it to withstand **40N** of force during lever pulls and secure **2kg** payloads without deformation. By integrating a robust **4-finger configuration** with easy-to-maintain smart actuators, this platform delivers the mechanical resilience and precision necessary for reliable, real-time remote interaction in extreme competition scenarios.
+
+{% include figure.liquid loading="eager" path="assets/img/Hand_01_01.png" title="Hand_01_01" class="img-fluid" %}
+
+---
+# Modular & High-DoF Design for Versatile Grasping
+
+<table>
+  <tr>
+    <td style="width: 55%; vertical-align: top; padding-right: 20px;">
+      <p>
+        The robot hand features a <strong>four-finger modular configuration</strong> (thumb, index, middle, and ring), providing <strong>8 degrees of freedom (8 DoF)</strong> through independent actuation. Each finger is driven by separate Flexion/Extension (FE) and Adduction/Abduction (AA) actuators, allowing for precise and complex manipulation.
+      </p>
+      <ul>
+        <li><strong>Dimensions:</strong> 211.5 mm (H) x 70 mm (W)</li>
+        <li><strong>Weight:</strong> 832 g (Aluminum, Iron, 3D-printed parts)</li>
+        <li><strong>Grasping Range:</strong> Max. width of <strong>165 mm</strong> at full extension</li>
+        <li><strong>Stability:</strong> Silicon pads on fingertips and knuckles for secure object contact</li>
+      </ul>
+    </td>
+    <td style="width: 45%; vertical-align: middle; text-align: center;">
+      <img src="assets/img/Hand_01_02.png" alt="Robot Hand Design" style="max-width: 100%; height: auto; border-radius: 4px;">
+      <br>
+      <em style="font-size: 0.9em; color: #666;">Fig. 2: Overall shape and dimensions of the robot hand.</em>
+    </td>
+  </tr>
+</table>
+
+---
+
+
 <!-- Responsive 16:9 wrapper -->
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
   <iframe
@@ -40,7 +73,7 @@ This paper presents an innovative approach to designing a robot hand specificall
 - **Keywords:** Robotic Hand, Four-Bar Linkage, Prismatic Joint, Teleoperation, Adaptive Grasping, Modular Design
 - **Conference:** IEEE-RAS International Conference on Humanoid Robots (Humanoids)
 
-{% include figure.liquid loading="eager" path="assets/img/Hand_01_01.png" title="Hand_01_01" class="img-fluid" %}
+
 
 
 
@@ -103,7 +136,7 @@ This paper presents an innovative approach to designing a robot hand specificall
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Hand_02_05.png" class="img-fluid" title="Hand_02_05" %}
     </div>
-</div
+</div>
 
 
 
@@ -122,7 +155,7 @@ This paper presents an innovative approach to designing a robot hand specificall
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Hand_03_02.png" class="img-fluid" title="Hand 03-02" %}
     </div>
-</div
+</div>
 
 # Takeaway:
 
