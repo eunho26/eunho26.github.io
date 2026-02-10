@@ -45,11 +45,10 @@ In this study, a mechanism that realizes a novel structural form of the harmonic
 
 ---
 
-## Comprehensive Performance Validation: Precision & Efficiency
+## Plate Harmonic Reducer (PHR): Axial-Meshing, High-Ratio Single-Stage Reduction
 
-To validate positional fidelity, we measured transmission error across the full joint range, benchmarking the PHR against the industry-standard SHG-17-50-2SH. The results confirm the reliability of our experimental framework, with error profiles closely aligning with established precision metrics. This rigorous analysis demonstrates the PHR’s potential for high-accuracy applications where motion control is critical.
+Inspired by the conventional harmonic reducer, the Plate Harmonic Reducer (PHR) achieves high reduction by continuously shifting the meshing state between a flex spline (FS) and a circular spline (CS). Unlike radial meshing in standard designs, the PHR uses **axial meshing teeth** and a specially designed wave generator (WG) that **pushes the plate-shaped FS in the axial direction** at the contact points. As the WG rotates under input torque, the engagement regions travel around the splines, forcing the FS to rotate in the opposite direction at a reduced speed—delivering high torque density in a compact, single-stage architecture. By axially fixing the housing and CS, the WG maintains consistent deformation force, while the FS transfers the reduced-speed output torque. Because axial tooth pressure continuously loads the housing, **housing support stiffness becomes a critical design driver**, complemented by ball-and-cage elements to minimize friction.
 
-Dynamic performance was evaluated through load testing under a consistent 3 Nm torque, calculating efficiency via real-time power consumption analysis. Across speeds ranging from 10 to 500 rpm, the 3D-printed PHR prototype achieved a verified average efficiency of 55.72%. This data highlights the mechanism's functional viability and establishes a strong foundation for future optimizations to rival conventional steel reducers.
 
 {% include figure.liquid loading="eager" path="assets/img/PHD_01_01.png" title="PHD_01_01" class="img-fluid" %}
 
