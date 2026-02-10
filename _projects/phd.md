@@ -18,6 +18,8 @@ Conventional harmonic drives, while precise, suffer from bulky axial lengths and
 
 As robotics demand increasingly compact, lightweight, and high-precision components, traditional speed reducers are hitting their physical limits. Our research team presents a paradigm shift in strain wave gearing through a series of **three pivotal studies** on the **Plate Harmonic Reducer (PHR)**—a novel architecture that redefines the standards for robotic joint modules.
 
+{% include figure.liquid loading="eager" path="assets/img/PHD_01_02.png" title="PHD_01_02" class="img-fluid" %}
+
 ---
 
 ### Evolution of the Research (3 Key Publications)
@@ -43,19 +45,13 @@ In this study, a mechanism that realizes a novel structural form of the harmonic
 
 ---
 
-## Unveiling the Mechanics of Conventional Harmonic Reducers
+## Comprehensive Performance Validation: Precision & Efficiency
 
-Explore the fundamental kinematics of the conventional Harmonic Reducer, where the Wave Generator elliptically deforms the Flex Spline to engage the Circular Spline with high precision. By leveraging a specific tooth count difference, this mechanism transforms input rotation into high-torque output with a distinct reduction ratio. This study provides a clear, simplified model of the contact dynamics that define high-precision motion control.
+To validate positional fidelity, we measured transmission error across the full joint range, benchmarking the PHR against the industry-standard SHG-17-50-2SH. The results confirm the reliability of our experimental framework, with error profiles closely aligning with established precision metrics. This rigorous analysis demonstrates the PHR’s potential for high-accuracy applications where motion control is critical.
+
+Dynamic performance was evaluated through load testing under a consistent 3 Nm torque, calculating efficiency via real-time power consumption analysis. Across speeds ranging from 10 to 500 rpm, the 3D-printed PHR prototype achieved a verified average efficiency of 55.72%. This data highlights the mechanism's functional viability and establishes a strong foundation for future optimizations to rival conventional steel reducers.
 
 {% include figure.liquid loading="eager" path="assets/img/PHD_01_01.png" title="PHD_01_01" class="img-fluid" %}
-
----
-
-## Optimizing PHR Mechanics: Design and Stiffness Analysis
-
-This study presents the comprehensive mechanical design of the PHR, where axial deformation by the Wave Generator drives efficient torque transmission. We highlight the critical necessity for high-stiffness housing to withstand constant axial loads induced by tooth pressure angles between the Flex and Circular Splines. Integrated with a friction-reducing ball-and-cage system, this prototype demonstrates a robust architecture essential for stable, high-performance speed reduction.
-
-{% include figure.liquid loading="eager" path="assets/img/PHD_01_02.png" title="PHD_01_02" class="img-fluid" %}
 
 ---
 
