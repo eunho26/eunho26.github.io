@@ -28,7 +28,7 @@ Conventional harmonic drives, while precise, suffer from bulky axial lengths and
 ### 🔬 Evolution of the Research (3 Key Publications)
 
 #### **1. Structural Innovation: Realizing the Plate Form**
-The foundational study introduces the PHR’s unique topological structure. Unlike conventional strain gears that deform radially, the PHR utilizes **axial elastic deformation**. Through Finite Element Method (FEM)분석 and 3D-printed prototyping, this research proves that the PHR can maintain "backlash-free" precision while significantly reducing the motor's overall footprint.
+The foundational study introduces the PHR’s unique topological structure. Unlike conventional strain gears that deform radially, the PHR utilizes **axial elastic deformation**. Through Finite Element Method (FEM) and 3D-printed prototyping, this research proves that the PHR can maintain "backlash-free" precision while significantly reducing the motor's overall footprint.
 
 #### **2. Performance Gap Solution: The Tri-contact System (Tri-c PHR)**
 Robotic actuators often struggle in the "mid-range" reduction ratios (around 16:1). This second study presents the **Tri-contacted Plate Harmonic Reducer**, which employs a three-point tooth engagement system. This design achieves a **16:1 ratio**—a zone where traditional harmonic drives face design challenges—offering high torque transparency and backdrivability comparable to premium commercial units.
