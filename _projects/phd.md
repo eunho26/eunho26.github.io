@@ -22,13 +22,13 @@ As robotics demand increasingly compact, lightweight, and high-precision compone
 
 ### Evolution of the Research (3 Key Publications)
 
-##### **1. Structural Innovation: Realizing the Plate Form**
+##### 1. Structural Innovation: Realizing the Plate Form
 The foundational study introduces the PHR’s unique topological structure. Unlike conventional strain gears that deform radially, the PHR utilizes **axial elastic deformation**. Through Finite Element Method (FEM) and 3D-printed prototyping, this research proves that the PHR can maintain "backlash-free" precision while significantly reducing the motor's overall footprint.
 
-##### **2. Performance Gap Solution: The Tri-contact System (Tri-c PHR)**
+##### 2. Performance Gap Solution: The Tri-contact System (Tri-c PHR)
 Robotic actuators often struggle in the "mid-range" reduction ratios (around 16:1). This second study presents the **Tri-contacted Plate Harmonic Reducer**, which employs a three-point tooth engagement system. This design achieves a **16:1 ratio**—a zone where traditional harmonic drives face design challenges—offering high torque transparency and backdrivability comparable to premium commercial units.
 
-##### **3. Mechanical Optimization: Ultra-Thin Performance**
+##### 3. Mechanical Optimization: Ultra-Thin Performance
 The final study provides a comprehensive mechanical analysis of the PHR's thickness-to-performance relationship. By optimizing the plate to an ultra-thin **0.4mm** configuration, we achieved:
 * **40.3% Reduction** in axial thickness.
 * **27.2% Reduction** in total weight.
