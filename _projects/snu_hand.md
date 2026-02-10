@@ -123,7 +123,7 @@ Validated against Cutkosky’s grasp taxonomy, the SNU-Avatar hand successfully 
 **BibTeX**
 
 ```bibtex
-@inproceedings{Sung2025SNUAvatarGlove,
+@inproceedings{Sung2023Hand,
   author={Sung, Eunho and You, Seungbin and Kim, Seungyeon and Park, Jaeheung},
   booktitle={2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids)},
   title={SNU-Avatar Robot Hand: Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications},
