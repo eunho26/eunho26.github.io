@@ -38,6 +38,14 @@ This paper establishes validated design guidelines, balancing the trade-off betw
 
 ---
 
+# Plate Harmonic Reducer with a Profiled Groove Wave Generator
+
+In this study, a mechanism that realizes a novel structural form of the harmonic reducer is introduced. Conventional robots often use various mechanical reducers owing to low torque and high-speed characteristics of electric motors. Among them, harmonic reducers are frequently used because of their compact size and backlash-free precision. The plate harmonic reducer which uses the same topological geometry and reducing mechanism as the conventional harmonic reducer is a novel type of strain gear that changes its shape to a plate form for axial deformation. It has unique differences in terms of axial thickness, torsional stiffness, and efficiency due to its morphological characteristics. This study introduces and analyzes the reducing principle of the plate harmonic reducer and describes the methodological solutions for realization. Finally, the theoretical performance improvement and operating feasibility of the plate harmonic reducer are analyzed using finite element method and a 3D-printed prototype model.
+
+---
+
+
+
 <!-- Responsive 16:9 wrapper -->
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
   <iframe
@@ -52,6 +60,11 @@ This paper establishes validated design guidelines, balancing the trade-off betw
 
 ---
 
+# Semidirect Drive Based on Tri-Contacted Plate Harmonic Reducer
+
+Robotic actuators face a performance gap between low-ratio quasi-direct drive (QDD) systems and conventional harmonic drives, which are typically limited to ratios above 30:1. This article presents a tri-contacted plate harmonic reducer (Tri-c PHR) that addresses this challenge by combining axial elastic deformation with a three-point tooth engagement system. The proposed design achieves a 16:1 reduction ratio—a range where conventional harmonic gears face significant design challenges—while maintaining high efficiency and low backlash. An initial prototype validates the design’s feasibility, demonstrating competitive positioning accuracy and backdrivability comparable to commercial harmonic reducers, despite operating at a significantly lower reduction ratio. The Tri-c PHR offers a compelling solution for applications requiring both torque transparency and moderate reduction ratios.
+
+---
 
 
 **BibTeX**
@@ -64,5 +77,20 @@ This paper establishes validated design guidelines, balancing the trade-off betw
   year={2022},
   pages={1900-1907},
   doi={10.1109/IROS47612.2022.9981317}}
+}
+```
+
+---
+
+**Semidirect Drive Based on Tri-Contacted Plate Harmonic Reducer**
+
+```bibtex
+@inproceedings{You2025Plate,
+  author={You, Seungbin and Sung, Eunho and Kim, Dongjun and Kim, Juhyun and Park, Jaeheung},
+  journal={IEEE/ASME Transactions on Mechatronics}, 
+  title={Semidirect Drive Based on Tri-Contacted Plate Harmonic Reducer}, 
+  year={2025},
+  pages={1-11},
+  doi={10.1109/TMECH.2025.3628311}}
 }
 ```
