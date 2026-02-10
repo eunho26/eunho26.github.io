@@ -14,7 +14,7 @@ Conventional harmonic drives, while precise, suffer from bulky axial lengths and
 
 ---
 
-# Revolutionizing Robotic Actuation: The Next-Gen Plate Harmonic Reducer (PHR)
+### Revolutionizing Robotic Actuation: The Next-Gen Plate Harmonic Reducer (PHR)
 
 As robotics demand increasingly compact, lightweight, and high-precision components, traditional speed reducers are hitting their physical limits. Our research team presents a paradigm shift in strain wave gearing through a series of **three pivotal studies** on the **Plate Harmonic Reducer (PHR)**—a novel architecture that redefines the standards for robotic joint modules.
 
