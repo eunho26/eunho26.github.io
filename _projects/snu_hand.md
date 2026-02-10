@@ -18,7 +18,7 @@ This paper presents an innovative approach to designing a robot hand specificall
 
 ---
 
-# High-Rigidity Telepresence Robot Hand Optimized for the ANA Avatar XPRIZE
+# High-Rigidity Telepresence Robot Hand
 
 Designed with the rigorous demands of the **ANA Avatar XPRIZE** in mind, this **8-DoF robot hand** is optimized for immersive telepresence and high-load task execution. The structure prioritizes **rigidity and grip strength**, enabling it to withstand **40N** of force during lever pulls and secure **2kg** payloads without deformation. By integrating a robust **4-finger configuration** with easy-to-maintain smart actuators, this platform delivers the mechanical resilience and precision necessary for reliable, real-time remote interaction in extreme competition scenarios.
 
@@ -27,27 +27,25 @@ Designed with the rigorous demands of the **ANA Avatar XPRIZE** in mind, this **
 ---
 # Modular & High-DoF Design for Versatile Grasping
 
-<table>
-  <tr>
-    <td style="width: 55%; vertical-align: top; padding-right: 20px;">
-      <p>
-        The robot hand features a <strong>four-finger modular configuration</strong> (thumb, index, middle, and ring), providing <strong>8 degrees of freedom (8 DoF)</strong> through independent actuation. Each finger is driven by separate Flexion/Extension (FE) and Adduction/Abduction (AA) actuators, allowing for precise and complex manipulation.
-      </p>
-      <ul>
-        <li><strong>Dimensions:</strong> 211.5 mm (H) x 70 mm (W)</li>
-        <li><strong>Weight:</strong> 832 g (Aluminum, Iron, 3D-printed parts)</li>
-        <li><strong>Grasping Range:</strong> Max. width of <strong>165 mm</strong> at full extension</li>
-        <li><strong>Stability:</strong> Silicon pads on fingertips and knuckles for secure object contact</li>
-      </ul>
-    </td>
-    <td style="width: 45%; vertical-align: middle; text-align: center;">
-      <img src="assets/img/Hand_01_02.png" alt="Robot Hand Design" style="max-width: 100%; height: auto; border-radius: 4px;">
-      <br>
-      <em style="font-size: 0.9em; color: #666;">Fig. 2: Overall shape and dimensions of the robot hand.</em>
-    </td>
-  </tr>
-</table>
+<div class="row align-items-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <p>
+            The robot hand features a modular four-finger configuration—comprising the thumb, index, middle, and ring fingers—that provides 8 degrees of freedom (8 DoF) through independent actuation. Each finger is driven by separate Flexion/Extension (FE) and Adduction/Abduction (AA) actuators, allowing for the precise and complex manipulation required for versatile tasks.
+        </p>
+        <p>
+            Designed for both durability and performance, the hand measures 211.5 mm in height and 70 mm in width, weighing 832 g due to its composite structure of aluminum, iron, and 3D-printed parts. It supports a maximum grasping width of 165 mm at full extension, with silicon pads strategically integrated onto the fingertips and knuckles to ensure enhanced stability and secure contact with objects.
+        </p>
+    </div>
 
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_01_02.png" class="img-fluid" title="Modular Finger Design and Linkage Structure" %}
+    </div>
+</div>
+
+---
+# Anthropomorphic Finger Design and High-Precision Linkage Mechanism
+
+{% include figure.liquid loading="eager" path="assets/img/Hand_01_03.png" title="Hand_01_03" class="img-fluid" %}
 ---
 
 
