@@ -32,6 +32,7 @@ This paper presents an innovative approach to designing a robot hand specificall
 
 ---
 
+
 # Paper Info
 
 - **Title:** SNU-Avatar Robot Hand: Dexterous Robot Hand with Prismatic Four-Bar Linkage for Versatile Daily Applications
@@ -39,18 +40,41 @@ This paper presents an innovative approach to designing a robot hand specificall
 - **Keywords:** Robotic Hand, Four-Bar Linkage, Prismatic Joint, Teleoperation, Adaptive Grasping, Modular Design
 - **Conference:** IEEE-RAS International Conference on Humanoid Robots (Humanoids)
 
-# Motivation
+{% include figure.liquid loading="eager" path="assets/img/Hand_01_01.png" title="Hand_01_01" class="img-fluid" %}
 
+
+
+# Motivation
+{% include figure.liquid loading="eager" path="assets/img/Hand_01_03.png" title="Hand_01_03" class="img-fluid" %}
 - Robotic hands must balance **structural rigidity, sufficient grip force, and adaptability to object shapes** for real-world tasks and teleoperation.
 - Existing designs are often heavy, costly, or difficult to maintain, motivating the development of a **lightweight, modular, and affordable hand with robust performance**.
 
+
+
 # Key Contributions
+
+<div class="row align-items-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <p>
+            This research presents a novel robotic hand design featuring a <strong>prismatic four-bar linkage structure</strong>, which effectively facilitates MCP–PIP–DIP flexion using only a single linear actuator. To enhance grasping versatility, the design integrates <strong>adduction/abduction (AA) joints equipped with springs</strong>, enabling compliant and adaptive interactions with various objects. 
+        </p>
+        <p>
+            The system employs a <strong>modular finger architecture</strong> (comprising 4 fingers and 8 Degrees of Freedom) to ensure ease of maintenance and component replacement. The structural integrity of the design is validated through rigorous <strong>FEM analysis and experimental trials</strong>, proving its robustness against significant external loads. Ultimately, the proposed mechanism demonstrates superior performance across a broad spectrum of <strong>grasp taxonomy motions</strong> and highly expressive gestures.
+        </p>
+    </div>
+
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_01_02.png" class="img-fluid" title="Modular Finger Design and Linkage Structure" %}
+    </div>
+</div>
 
 - Introduces a **prismatic four-bar linkage structure** that enables MCP–PIP–DIP flexion with a single linear actuator.
 - Combines **adduction/abduction (AA) joints with springs** to achieve compliant and adaptive grasping.
 - Proposes a **modular finger design** (4 fingers, 8 DoF) for easy maintenance and replacement.
 - Validates design through **FEM analysis and experiments**, demonstrating robustness against external loads.
 - Shows capability to perform a wide range of **grasp taxonomy motions and expressive gestures**.
+
+
 
 # Hardware at a Glance
 
@@ -60,17 +84,52 @@ This paper presents an innovative approach to designing a robot hand specificall
 - **Materials:** Aluminum + S45C (reinforced at critical joints) + 3D-printed parts.
 - **Special Features:** Silicone fingertip pads and a curved palm for increased friction and contact stability.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_01.png" class="img-fluid" title="Hand_02_01" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_02.png" class="img-fluid" title="Hand_02_02" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_03.png" class="img-fluid" title="Hand_02_03" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_04.png" class="img-fluid" title="Hand_02_04" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_05.png" class="img-fluid" title="Hand_02_05" %}
+    </div>
+</div
+
+
+
 # Working Mechanism
+
 
 - **Flexion/Extension (FE):** Driven by a lead screw integrated with a prismatic four-bar linkage, enabling high stiffness and efficient force transmission.
 - **Adduction/Abduction (AA):** Independent motor actuation with preload springs, supporting adaptive grasping and gesture expression.
 - **Kinematics:** Closed-form equations derived from link lengths, angles, and screw displacement allow precise calculation of fingertip trajectories and joint angles.
 - **Structural Reliability:** FEM analysis confirmed improved safety factor (7.2) and reduced displacement when replacing aluminum with S45C at load-critical joints.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_03_01.png" class="img-fluid" title="Hand 01-01" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_03_02.png" class="img-fluid" title="Hand 03-02" %}
+    </div>
+</div
+
 # Takeaway:
 
 This work presents a **lightweight, modular, and cost-effective robotic hand** that combines high stiffness, grip strength, and compliance.  
 Validated through both simulation and experiments, the hand demonstrates reliable daily object manipulation and expressive gesture capabilities, offering strong potential for **teleoperation and service robotics applications**.
+
+{% include figure.liquid loading="eager" path="assets/img/Hand_03_03.png" title="Hand_03_03" class="img-fluid" %}
 
 **BibTeX**
 
