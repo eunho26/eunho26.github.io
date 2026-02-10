@@ -188,6 +188,17 @@ The right figure summarizes the frequency-domain analysis of the same torque dat
 
 
 ---
+<!--
+제목
+요약
+1
+2
+3
+4
+56
+78
+-->
+---
 
 
 **Plate Harmonic Reducer with a Profiled Groove Wave Generator**
