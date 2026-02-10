@@ -29,7 +29,7 @@ related_publications: false
 
 ## Background
 
-TEAM SNU advanced to both the semifinals and finals of the ANA Avatar XPRIZE. Out of 99 teams that entered the competition and attempted the qualifying round, the team advanced to the 2021 semifinals held in Miami, Florida, where it demonstrated full-body motion retargeting and remote operation capabilities, thereby securing a place in the finals. The finals took place over four days in November 2022 in Long Beach, California, where 17 finalist teams competed in completing 10 standardized missions.
+[TEAM SNU](http://dyros.snu.ac.kr/avatar-xprize/) advanced to both the semifinals and finals of the ANA Avatar XPRIZE. Out of 99 teams that entered the competition and attempted the qualifying round, the team advanced to the 2021 semifinals held in Miami, Florida, where it demonstrated full-body motion retargeting and remote operation capabilities, thereby securing a place in the finals. The finals took place over four days in November 2022 in Long Beach, California, where 17 finalist teams competed in completing 10 standardized missions.
 
 ## Competition Format
 
@@ -41,7 +41,7 @@ The team successfully completed 8 out of 10 missions and placed 8th among the 17
 
 ## Significance
 
-The project demonstrated the feasibility of an avatar system that can be intuitively operated in complex remote environments. This achievement highlights the potential for real-world applications in areas such as disaster response, healthcare and caregiving support, and remote industrial operations. In this project, our lab competed using in-house developed hardware platforms: [SNU-Avatar Haptic Glove](https://eunho26.github.io/projects/snu_glove/), [SNU-Avatar Haptic Arm](https://eunho26.github.io/projects/snu_haptic/), and [SNU-Avatar Robot Hand](https://eunho26.github.io/projects/snu_hand/).
+The project demonstrated the feasibility of an [avatar system](http://dyros.snu.ac.kr/avatar-xprize/tech/) that can be intuitively operated in complex remote environments. This achievement highlights the potential for real-world applications in areas such as disaster response, healthcare and caregiving support, and remote industrial operations. In this project, our lab competed using in-house developed hardware platforms: [SNU-Avatar Haptic Glove](https://eunho26.github.io/projects/snu_glove/), [SNU-Avatar Haptic Arm](https://eunho26.github.io/projects/snu_haptic/), and [SNU-Avatar Robot Hand](https://eunho26.github.io/projects/snu_hand/).
 
 ---
 
