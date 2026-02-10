@@ -43,13 +43,17 @@ In this study, a mechanism that realizes a novel structural form of the harmonic
 
 ---
 
-### Beyond the Cup: Redefining Precision with the Plate Harmonic Reducer (PHR)
+## Unveiling the Mechanics of Conventional Harmonic Reducers
 
-While conventional harmonic reducers rely on radial deformation of a cup-shaped flexspline, our research series led by **[Seungbin You](https://your-profile-link.com)** introduces a revolutionary "Plate" architecture that utilizes axial elastic deformation. This structural shift, detailed across **three pivotal papers**, overcomes traditional axial length limitations to achieve a 40.3% thinner profile while maintaining zero-backlash precision. By optimizing the tooth engagement and plate thickness, this novel PHR bridges the performance gap in low-reduction ratios, offering a high-efficiency, ultra-slim solution for the next generation of wearable robotics and compact precision instruments.
+Explore the fundamental kinematics of the conventional Harmonic Reducer, where the Wave Generator elliptically deforms the Flex Spline to engage the Circular Spline with high precision. By leveraging a specific tooth count difference, this mechanism transforms input rotation into high-torque output with a distinct reduction ratio. This study provides a clear, simplified model of the contact dynamics that define high-precision motion control.
 
 {% include figure.liquid loading="eager" path="assets/img/PHD_01_01.png" title="PHD_01_01" class="img-fluid" %}
 
 ---
+
+## Optimizing PHR Mechanics: Design and Stiffness Analysis
+
+This study presents the comprehensive mechanical design of the PHR, where axial deformation by the Wave Generator drives efficient torque transmission. We highlight the critical necessity for high-stiffness housing to withstand constant axial loads induced by tooth pressure angles between the Flex and Circular Splines. Integrated with a friction-reducing ball-and-cage system, this prototype demonstrates a robust architecture essential for stable, high-performance speed reduction.
 
 {% include figure.liquid loading="eager" path="assets/img/PHD_01_02.png" title="PHD_01_02" class="img-fluid" %}
 
