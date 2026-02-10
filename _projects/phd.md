@@ -107,6 +107,47 @@ Robotic actuators face a performance gap between low-ratio quasi-direct drive (Q
 
 ---
 
+<!-- 주석 내용 12 -->
+
+## Tri-Contact Plate Harmonic Reducer for the 10:1–30:1 “Missing Middle” in Robotic Actuation
+Robotic actuators face a gap between low-ratio QDD and compact high-reduction harmonic drives, especially in the 10:1–30:1 band that best balances torque density, backdrivability, bandwidth, and packaging. Yet commercial harmonic reducers rarely go below 30:1 because achieving low ratio with low backlash typically requires major tooth-count and geometry changes. Alternatives in this range trade off integration or performance: multistage planetaries grow in length and mass, cycloidals incur sliding losses or bulky bearings, and crown-gear/ball reducers can be torque-limited by low engagement or localized contact.
+
+To bridge this gap, we propose the Tri-Contact Plate Harmonic Reducer (Tri-c PHR), a new architecture that achieves low ratios without sacrificing harmonic-drive advantages. Tri-c PHR replaces two-point engagement with three-point tooth contact to reduce ratio while improving rigidity and stability via distributed load sharing. Using axial elastic deformation of a plate-shaped flexspline driven by an axial CAM-based wave generator, it preserves strain-wave benefits—compactness and low backlash—while extending practical reduction down to ~10:1.
+
+
+---
+
+<!-- 주석 내용 3 -->
+
+## Axial Plate Deformation for Higher-Efficiency Strain-Wave Transmission
+Conventional cup/hat strain-wave gears rely on repeated radial flexing of a cylindrical flexspline, which induces large restoring forces and demands high normal contact loads—ultimately increasing friction and lowering efficiency. We instead use thin plate-shaped flexsplines that deform axially, driven by a wave generator with axial CAM grooves rather than an elliptical profile. In forward drive, balls riding the CAM grooves generate axial forces that deform the plates to maintain tooth engagement with the fixed circular spline. In backdrive, torque applied to the flexspline pushes the balls axially and rotates the wave generator, enabling smooth backdrivability while reducing stress demands and friction losses associated with elastic restoration.
+
+
+---
+
+<!-- 주석 내용 4 -->
+
+---
+
+<!-- 주석 내용 5 -->
+
+---
+
+<!-- 주석 내용 6 -->
+
+---
+
+<!-- 주석 내용 9 11 12 -->
+
+---
+
+<!-- 주석 내용 14 -->
+
+---
+
+<!-- 주석 내용 15 16 -->
+
+---
 
 
 **Plate Harmonic Reducer with a Profiled Groove Wave Generator**
