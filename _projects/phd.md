@@ -110,9 +110,10 @@ Robotic actuators face a performance gap between low-ratio quasi-direct drive (Q
 <!-- 주석 내용 12 -->
 
 ## Tri-Contact Plate Harmonic Reducer for the 10:1–30:1 “Missing Middle” in Robotic Actuation
-Robotic actuators face a gap between low-ratio QDD and compact high-reduction harmonic drives, especially in the 10:1–30:1 band that best balances torque density, backdrivability, bandwidth, and packaging. Yet commercial harmonic reducers rarely go below 30:1 because achieving low ratio with low backlash typically requires major tooth-count and geometry changes. Alternatives in this range trade off integration or performance: multistage planetaries grow in length and mass, cycloidals incur sliding losses or bulky bearings, and crown-gear/ball reducers can be torque-limited by low engagement or localized contact.
+Robotic actuators sit between low-ratio QDD systems and compact high-reduction harmonic drives, with a practical need for the 10:1–30:1 range to balance torque density, backdrivability, bandwidth, and packaging. However, most commercial harmonic reducers start around 30:1 because lowering the ratio while keeping low backlash typically requires major changes in tooth count and geometry. Other options in this band involve tradeoffs: multistage planetaries increase axial length and mass, cycloidals add sliding losses or larger bearings, and crown-gear/ball reducers can be limited by low engagement or localized contact.
 
-To bridge this gap, we propose the Tri-Contact Plate Harmonic Reducer (Tri-c PHR), a new architecture that achieves low ratios without sacrificing harmonic-drive advantages. Tri-c PHR replaces two-point engagement with three-point tooth contact to reduce ratio while improving rigidity and stability via distributed load sharing. Using axial elastic deformation of a plate-shaped flexspline driven by an axial CAM-based wave generator, it preserves strain-wave benefits—compactness and low backlash—while extending practical reduction down to ~10:1.
+We propose the Tri-Contact Plate Harmonic Reducer (Tri-c PHR) to target this ratio range while maintaining strain-wave characteristics. Tri-c PHR uses three-point tooth engagement instead of the conventional two-point scheme to lower the reduction ratio while distributing load for stiffness and stability. An axial CAM-based wave generator produces axial deformation of a plate-shaped flexspline to achieve multi-tooth engagement, retaining compactness and low backlash. This approach extends the practical reduction range down to about 10:1.
+
 
 
 ---
@@ -120,7 +121,8 @@ To bridge this gap, we propose the Tri-Contact Plate Harmonic Reducer (Tri-c PHR
 <!-- 주석 내용 3 -->
 
 ## Axial Plate Deformation for Higher-Efficiency Strain-Wave Transmission
-Conventional cup/hat strain-wave gears rely on repeated radial flexing of a cylindrical flexspline, which induces large restoring forces and demands high normal contact loads—ultimately increasing friction and lowering efficiency. We instead use thin plate-shaped flexsplines that deform axially, driven by a wave generator with axial CAM grooves rather than an elliptical profile. In forward drive, balls riding the CAM grooves generate axial forces that deform the plates to maintain tooth engagement with the fixed circular spline. In backdrive, torque applied to the flexspline pushes the balls axially and rotates the wave generator, enabling smooth backdrivability while reducing stress demands and friction losses associated with elastic restoration.
+Conventional cup/hat strain-wave gears repeatedly bend a cylindrical flexspline radially, which generates large restoring forces and requires high normal contact loads, increasing friction and reducing efficiency. We use a thin plate-shaped flexspline that deforms axially, driven by a wave generator with axial CAM grooves instead of an elliptical profile. In forward drive, balls in the grooves create axial forces that deform the plate to sustain tooth engagement with the fixed circular spline. In backdrive, torque on the flexspline pushes the balls axially and rotates the wave generator, reducing stress requirements and losses linked to elastic restoration.
+
 
 
 ---
@@ -128,7 +130,8 @@ Conventional cup/hat strain-wave gears rely on repeated radial flexing of a cyli
 <!-- 주석 내용 4 -->
 
 ## Operating Principle: Ball-Induced Axial Engagement in Plate Harmonics
-Figure visualizes the mechanism via cross-sectional photographs, where green arrows track a single flexspline tooth through the motion cycle. As the wave generator rotates, balls riding the CAM grooves induce axial plate deformation that creates localized, stable tooth engagement with the circular spline. Across each sequence, the tracked flexspline tooth advances by one pitch, producing the net speed reduction. This plate-type strain-wave architecture unlocks lower reduction ratios that are difficult to realize with conventional cup/hat harmonic designs.
+The figure shows the operating cycle using cross-sectional photographs, where green arrows track a single flexspline tooth. As the wave generator rotates, balls in the CAM grooves induce axial plate deformation and create localized tooth engagement with the circular spline. Over each sequence, the tracked tooth advances by one pitch, generating the reduction motion. This plate-type strain-wave mechanism supports lower reduction ratios than conventional cup/hat designs.
+
 
 
 ---
@@ -136,7 +139,8 @@ Figure visualizes the mechanism via cross-sectional photographs, where green arr
 <!-- 주석 내용 5 -->
 
 ## Why Plate-Type Flexsplines Deform Easier than Hat-Type Harmonics
-We model the conventional hat-type flexspline as a thin-walled cylindrical shell whose top rim must radially deform under 2-point (180°) or 3-point (120°) wave-generator loading, capturing both membrane and bending effects via Donnell–Mushtari–Vlasov thin-shell theory and a Rayleigh–Ritz formulation. Finite-element validation then compares a catalog-equivalent size-17 geometry under matched diameter, tooth count (100), and tooth height (0.7 mm), with stricter thickness for the plate design (0.3 mm vs. 0.15 mm). Because plate-type engagement uses axial deformation, it avoids the large radial restoring forces inherent to cylindrical shells—especially under 3-point loading where bending stiffness dominates. The results show a dramatic reduction in required force: ~10 N to achieve 0.7 mm deformation for the plate-type flexspline, versus ~75 N to achieve 0.35 mm for the hat-type under 3-point loading, confirming the plate architecture’s lower stress demand and friction-driving normal loads.
+We model a conventional hat-type flexspline as a thin-walled cylindrical shell that must deform radially at the top rim under 2-point (180°) or 3-point (120°) wave-generator loading, using Donnell–Mushtari–Vlasov thin-shell theory with a Rayleigh–Ritz approach to include membrane and bending effects. Finite-element analysis compares a catalog-equivalent size-17 geometry with matched diameter, 100 teeth, and 0.7 mm tooth height, while using 0.3 mm thickness for the plate design versus 0.15 mm for the hat-type. With axial deformation, the plate-type flexspline reduces radial restoring-force demands, which become pronounced in 3-point loading due to bending stiffness. In FEA, the plate-type requires ~10 N for 0.7 mm deformation, while the hat-type requires ~75 N for 0.35 mm deformation under 3-point loading.
+
 
 
 ---
@@ -144,7 +148,8 @@ We model the conventional hat-type flexspline as a thin-walled cylindrical shell
 <!-- 주석 내용 6 -->
 
 ## Three-Point Axial Engagement: The Key to Low-Ratio Plate Harmonics
-The reducer integrates a housing, a ball-driven wave generator, a lower ring, a plate flexspline, and a circular spline, where the wave generator’s axial CAM grooves are phased at 120° to enforce tri-contact engagement. As it rotates, steel balls riding the grooves generate axial forces that elastically deform the plate flexspline into simultaneous tooth engagement at three evenly spaced zones. This three-point layout is the “sweet spot” for low ratios: two-point contact cannot go sufficiently low without compromising tooth geometry, while four-point contact reduces per-zone engagement below practical torque limits. By distributing load over 120° segments and sustaining ~25% total tooth engagement, the design maintains reliable torque transmission while leveraging the low-force axial deformation advantage over radial alternatives.
+The reducer consists of a housing, a ball-driven wave generator, a lower ring, a plate flexspline, and a circular spline, with axial CAM grooves phased at 120° to realize tri-contact engagement. During rotation, steel balls in the grooves apply axial forces that deform the plate flexspline and engage the circular spline at three evenly spaced zones. Two-point contact cannot reach low ratios without challenging tooth geometry, while four-point contact lowers per-zone engagement and limits torque capacity. The three-point design shares load over 120° segments and keeps about 25% total tooth engagement, supporting torque transmission with lower deformation force than radial approaches.
+
 
 
 ---
@@ -164,9 +169,22 @@ The right figure presents the backlash measurement obtained by applying constant
 
 <!-- 주석 내용 14 -->
 
+## Benchmarking Efficiency Against Commercial Harmonic Drives
+As a reference baseline, we measured the efficiency of conventional SHF-series harmonic reducers (30:1) in sizes 14, 17, and 20—each with comparable rated torque—and obtained 63.61%, 60.78%, and 56.15%, respectively. The SHF-17 result slightly exceeds its predicted efficiency (60.78% vs. 58.8%), which is consistent with realistic test-condition effects such as load-point differences and small environmental variations. The same factors explain the smaller deviations in SHF-14 and the larger discrepancy in SHF-20, reinforcing that our setup is robust for relative, apples-to-apples comparisons even if minor offsets from catalog values occur.
+
+
 ---
 
 <!-- 주석 내용 15 16 -->
+
+## Torque Transparency and Dynamic Stability in the Tri-c PHR Prototype
+
+The left figure presents the starting-torque tests that quantify static friction in both directions. In the left figure, forward starting torque (with 0 N·m output command) begins motion at 8.5 Ncm, which is comparable to SHF 30:1 size 14 and 17 measured under the same setup (6.1 and 8.41 Ncm). In the left figure, backward starting torque (with 0 N·m input command) reaches 1.91 N·m, showing a brief peak near 0.75 s consistent with elastic snap during tri-contact load redistribution.
+
+The middle figure shows time-domain torque signals under four operating conditions (200/1000 r/min and 1/3 N·m loads). In the middle figure, torque transmission remains steady with small peak-to-peak variations of 0.086–0.171 N·m, corresponding to roughly 3.2–10.6% of the mean torque level. This indicates smooth, repeatable torque delivery even as speed and load increase.
+
+The right figure summarizes the frequency-domain analysis of the same torque data. In the right figure, 200 r/min cases are dominated by a main component around 0.77 Hz with secondary low-frequency content, while 1000 r/min cases spread across multiple components (0.23–3.74 Hz). In the right figure, all vibration amplitudes stay below 0.025 N·m, confirming stable operation across all tested conditions.
+
 
 ---
 
