@@ -109,7 +109,7 @@ Robotic actuators face a performance gap between low-ratio quasi-direct drive (Q
 ---
 
 
-**BibTeX**
+**Plate Harmonic Reducer with a Profiled Groove Wave Generator**
 
 ```bibtex
 @inproceedings{You2025Plate,
