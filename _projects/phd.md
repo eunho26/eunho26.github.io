@@ -170,7 +170,8 @@ The right figure presents the backlash measurement obtained by applying constant
 <!-- 주석 내용 14 -->
 
 ## Benchmarking Efficiency Against Commercial Harmonic Drives
-As a reference baseline, we measured the efficiency of conventional SHF-series harmonic reducers (30:1) in sizes 14, 17, and 20—each with comparable rated torque—and obtained 63.61%, 60.78%, and 56.15%, respectively. The SHF-17 result slightly exceeds its predicted efficiency (60.78% vs. 58.8%), which is consistent with realistic test-condition effects such as load-point differences and small environmental variations. The same factors explain the smaller deviations in SHF-14 and the larger discrepancy in SHF-20, reinforcing that our setup is robust for relative, apples-to-apples comparisons even if minor offsets from catalog values occur.
+As a baseline, we measured the efficiency of SHF-series harmonic reducers (30:1) in sizes 14, 17, and 20 under comparable rated-torque conditions, obtaining 63.61%, 60.78%, and 56.15%. The measured SHF-17 efficiency (60.78%) was slightly higher than the predicted value (58.8%), which can be explained by test-condition differences such as load-point selection and minor environmental variation. Similar factors account for the smaller deviation in SHF-14 and the larger difference in SHF-20. These results indicate the setup is suitable for relative comparison, while small offsets from catalog data are expected.
+
 
 
 ---
