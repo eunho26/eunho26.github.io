@@ -47,6 +47,12 @@ The designed haptic glove serves as a sophisticated interface that estimates com
 
 ---
 
+# Performance Validation of the SNU-Avatar Haptic Glove System
+
+The performance of the proposed Trigonometric SEA was rigorously evaluated using a 6-axis force-torque sensor to verify its haptic feedback capabilities across various joint angles and target forces. Experimental results demonstrated high precision, with errors as low as 0.0016N and the ability to reach forces up to 1.25N by utilizing springs with higher elastic moduli. This confirms that the system can deliver stable and accurate force feedback, effectively mimicking physical resistance during remote manipulation tasks.
+
+Furthermore, the fingertip position estimation algorithm was tested to ensure reliable tracking despite the glove being coupled to the user's middle phalanx. While the system exhibited excellent repeatability precision, the evaluation highlighted areas for future optimization, such as refining the human hand model and enhancing the coupling mechanism to reduce absolute error. These validation steps successfully demonstrate the haptic glove's readiness to manipulate the SNU-avatar robot hand across diverse grasp taxonomies in real-world avatar systems.
+
 
 <div class="row">
     <div class="col-sm-3 mt-3 mt-md-0">
@@ -60,6 +66,18 @@ The designed haptic glove serves as a sophisticated interface that estimates com
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Glove_03_04.png" title="Glove_03_04" class="img-fluid" %}
+    </div>
+</div>
+
+---
+
+# Grasping with the Tele-Operating Robot Hand
+
+To verify the seamless compatibility between our haptic glove and the SNU-Avatar robot hand, we conducted extensive grasp taxonomy evaluations focusing on diverse mission-critical movements. The results demonstrated that the glove successfully translates complex human hand gestures into robotic actions across nearly all categories, ensuring intuitive and reliable control. This proven integration was a cornerstone of our performance at the ANA Avatar XPRIZE finals, where the system successfully executed high-stakes tasks in a real-world competitive environment.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Glove_03_05.png" title="Glove_03_05" class="img-fluid" %}
     </div>
 </div>
 
@@ -80,16 +98,6 @@ The designed haptic glove serves as a sophisticated interface that estimates com
 </div>
 
 ---
-
-
-
-### Grasping with the Tele-Operating Robot Hand
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_03_05.png" title="Glove_03_05" class="img-fluid" %}
-    </div>
-</div>
 
 
 **BibTeX**
