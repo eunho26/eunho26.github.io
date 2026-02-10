@@ -10,19 +10,14 @@ related_publications: true
 
 https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&hl=ko
 This project, led by **[Seungbin You](https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&hl=ko)**, focuses on the design and development of a Plate Harmonic Reducer.  
-In addition, we have completed a follow-up study that further advances this concept by emphasizing the unique advantages demonstrated in the original results, and we are currently preparing for its presentation.
+
+Conventional harmonic drives, while precise, suffer from bulky axial lengths and efficiency drops at lower reduction ratios. This research series introduces a breakthrough **Axial Deformation mechanism**, transforming the traditional cup-shaped gear into a flat, plate-like form. By leveraging Kirchhoff-Love plate theory and innovative contact geometries, these studies provide a complete roadmap from theoretical invention to industrial optimization.
 
 ---
 
 # Revolutionizing Robotic Actuation: The Next-Gen Plate Harmonic Reducer (PHR)
 
 As robotics demand increasingly compact, lightweight, and high-precision components, traditional speed reducers are hitting their physical limits. Our research team presents a paradigm shift in strain wave gearing through a series of **three pivotal studies** on the **Plate Harmonic Reducer (PHR)**—a novel architecture that redefines the standards for robotic joint modules.
-
----
-
-### 📍 Integrated Research Synopsis: Overcoming the "Axial Barrier"
-
-Conventional harmonic drives, while precise, suffer from bulky axial lengths and efficiency drops at lower reduction ratios. This research series introduces a breakthrough **Axial Deformation mechanism**, transforming the traditional cup-shaped gear into a flat, plate-like form. By leveraging Kirchhoff-Love plate theory and innovative contact geometries, these studies provide a complete roadmap from theoretical invention to industrial optimization.
 
 ---
 
