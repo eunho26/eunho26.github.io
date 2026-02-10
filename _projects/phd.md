@@ -8,7 +8,8 @@ category: project
 related_publications: true
 ---
 
-This project, led by **Seungbin You**, focuses on the design and development of a Plate Harmonic Reducer.  
+https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&hl=ko
+This project, led by **[Seungbin You](https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&hl=ko)**, focuses on the design and development of a Plate Harmonic Reducer.  
 In addition, we have completed a follow-up study that further advances this concept by emphasizing the unique advantages demonstrated in the original results, and we are currently preparing for its presentation.
 
 ---
