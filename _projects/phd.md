@@ -59,20 +59,32 @@ This study presents the comprehensive mechanical design of the PHR, where axial 
 
 ---
 
+## Advanced WG Profiling & Contact Mechanics
+
+This study optimizes torque transmission through advanced Wave Generator (WG) profiling, demonstrating how cubic spline functions outperform linear designs by maximizing tooth contact ratios. By modeling the engagement mechanism as a modified rack-and-pinion system, we provide a detailed free-body analysis that accurately derives axial loads and friction dynamics. This framework ensures precise control over harmonic elastic deformation, utilizing optimized trapezoidal and involute tooth geometries for superior mechanical efficiency.
+
 {% include figure.liquid loading="eager" path="assets/img/PHD_01_03.png" title="PHD_01_03" class="img-fluid" %}
 
 ---
 
+## FEM Validation: Superior Stiffness & Structural Efficiency
+
+Validated through rigorous FEM analysis, the PHR architecture demonstrates superior structural efficiency compared to conventional Harmonic Reducers. Our simulation reveals a radical improvement in elastic mechanics, requiring eight times less force to achieve the necessary deformation. Furthermore, the PHR exhibits exceptional torsional rigidity, maintaining minimal displacement under high-torque conditions to ensure precision and stability in demanding applications.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_01_04.png" title="Glove 01-04" class="img-fluid" %}
+        {% include figure.liquid loading="eager" path="assets/img/PHD_01_04.png" title="PHD_01_04" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_01_05.png" title="Glove 01-05" class="img-fluid" %}
+        {% include figure.liquid loading="eager" path="assets/img/PHD_01_05.png" title="PHD_01_05" class="img-fluid" %}
     </div>
 </div>
 
 ---
+
+## Rigorous Experimental Validation: Precision & Efficiency
+
+To validate the PHR's real-world performance, we conducted comprehensive comparative testing against industry-standard Harmonic Reducers (SHG-17-50-2SH). Our transmission error analysis confirmed high positional fidelity, while dynamic load testing demonstrated that the 3D-printed prototype achieves a promising 55.72% efficiency across varying speeds. These results not only verify the reliability of our experimental setup against established benchmarks but also prove the practical viability of the PHR architecture for precision motion applications.
 
 {% include figure.liquid loading="eager" path="assets/img/PHD_01_06.png" title="PHD_01_06" class="img-fluid" %}
 
