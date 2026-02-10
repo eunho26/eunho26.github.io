@@ -18,6 +18,34 @@ The avatar robot is a robot capable of realistic remote operation. In remote ope
 
 ---
 
+# Advanced Modular Haptic Glove for Precision Teleoperation
+
+Our innovative modular haptic glove features a high-precision 5-link, 4-joint structure designed to capture intricate finger postures while providing realistic force feedback via position control actuators. Engineered for seamless integration with the SNU-Avatar Robot Hand, the 500g lightweight frame utilizes an Arduino Mega and high-precision potentiometers to track complex movements like abduction and flexion with clinical accuracy. For maximum user comfort, the system incorporates the adjustable Boa Fit System and soft synthetic leather, offering an ergonomic, high-fidelity interface that bridges the gap between human intent and robotic execution.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Glove_01_01.png" title="Glove 01-01" class="img-fluid" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Glove_01_02.png" title="Glove 01-02" class="img-fluid" %}
+    </div>
+</div>
+
+---
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Glove_02_01.png" title="Glove 02-01" class="img-fluid" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Glove_02_02.png" title="Glove 02-02" class="img-fluid" %}
+    </div>
+</div>
+
+
+---
+
 <!-- Responsive 16:9 wrapper -->
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
   <iframe
@@ -53,14 +81,7 @@ Reliable finger posture capture and safe, informative force feedback are critica
 
 # Hardware at a Glance
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_01_01.png" title="Glove 01-01" class="img-fluid" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_01_02.png" title="Glove 01-02" class="img-fluid" %}
-    </div>
-</div>
+
 
 - Modules: thumb/index/middle/ring = 4 modules on the dorsal frame.
 - Per module: 5 links / 4 joints; measures MCP-AA (1) and FE (2); final joint is passive for comfort; Velcro middle-phalanx mount.
@@ -71,14 +92,6 @@ Reliable finger posture capture and safe, informative force feedback are critica
 
 # Working Mechanism
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_02_01.png" title="Glove 02-01" class="img-fluid" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Glove_02_02.png" title="Glove 02-02" class="img-fluid" %}
-    </div>
-</div>
 
 Trigonometric SEA (Force Feedback)
 
