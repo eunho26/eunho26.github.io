@@ -47,10 +47,10 @@ The project demonstrated the feasibility of an avatar system that can be intuiti
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/snu003.jpg" class="img-fluid" title="and_02_03" %}
+        {% include figure.liquid loading="eager" path="assets/img/snu001.jpg" class="img-fluid" title="and_02_03" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/snu003.jpg" class="img-fluid" title="and_02_04" %}
+        {% include figure.liquid loading="eager" path="assets/img/snu002.jpg" class="img-fluid" title="and_02_04" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/snu003.jpg" class="img-fluid" title="and_02_05" %}
