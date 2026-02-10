@@ -5,7 +5,7 @@ description: Profiled Groove Wave Generator
 img: assets/img/PHRth.jpg
 importance: 3
 category: project
-related_publications: true
+related_publications: false
 ---
 
 This project, led by **[Seungbin You](https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&hl=ko)**, focuses on the design and development of a Plate Harmonic Reducer.  
@@ -107,6 +107,7 @@ To validate the PHR's real-world performance, we conducted comprehensive compara
 Robotic actuators face a performance gap between low-ratio quasi-direct drive (QDD) systems and conventional harmonic drives, which are typically limited to ratios above 30:1. This article presents a tri-contacted plate harmonic reducer (Tri-c PHR) that addresses this challenge by combining axial elastic deformation with a three-point tooth engagement system. The proposed design achieves a 16:1 reduction ratio—a range where conventional harmonic gears face significant design challenges—while maintaining high efficiency and low backlash. An initial prototype validates the design’s feasibility, demonstrating competitive positioning accuracy and backdrivability comparable to commercial harmonic reducers, despite operating at a significantly lower reduction ratio. The Tri-c PHR offers a compelling solution for applications requiring both torque transparency and moderate reduction ratios.
 
 ---
+
 
 
 **Plate Harmonic Reducer with a Profiled Groove Wave Generator**
