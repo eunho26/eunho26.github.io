@@ -43,11 +43,63 @@ Designed with the rigorous demands of the **ANA Avatar XPRIZE** in mind, this **
 </div>
 
 ---
-# Anthropomorphic Finger Design and High-Precision Linkage Mechanism
+# Modular Architecture for Adaptive and High-Fidelity Grasping
 
-{% include figure.liquid loading="eager" path="assets/img/Hand_01_03.png" title="Hand_01_03" class="img-fluid" %}
+The robot hand features a modular four-finger architecture powered by compact smart actuators, ensuring exceptional ease of maintenance and seamless individual finger replacement. Its performance is optimized through integrated mechanical springs that enable compliant and adaptive motion, allowing the hand to securely conform to objects of diverse shapes. Enhanced by high-friction silicone fingertips and a strategically curved palm, the design maximizes contact area and grip stability for reliable interaction in complex teleoperation environments.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_01.png" class="img-fluid" title="Hand_02_01" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_02.png" class="img-fluid" title="Hand_02_02" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_03.png" class="img-fluid" title="Hand_02_03" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_04.png" class="img-fluid" title="Hand_02_04" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_02_05.png" class="img-fluid" title="Hand_02_05" %}
+    </div>
+</div>
+
 ---
 
+# Anthropomorphic Finger Design and High-Precision Linkage Mechanism
+
+The robot finger is meticulously designed with a five-link, four-joint structure that closely mirrors human anthropometry, featuring proximal, middle, and distal phalanx segments of 40 mm, 28 mm, and 27.5 mm respectively to replicate natural grasping motions. Each 180g module integrates an Adduction/Abduction (AA) actuator in the base and a Flexion/Extension (FE) actuator within a middle link, where a specialized crank-slide configuration converts linear lead screw motion into precise joint rotation across the MCP, PIP, and DIP joints. This biomimetic approach, combined with a compact 171 mm module length, ensures that the robot hand can achieve the dexterity and structural resilience necessary for complex teleoperation tasks while maintaining a form factor familiar to human users.
+
+{% include figure.liquid loading="eager" path="assets/img/Hand_01_03.png" title="Hand_01_03" class="img-fluid" %}
+
+---
+
+# Optimized Structural Durability and Validated Grasping Performance
+
+To withstand the 40 N force required for high-load tasks like the ANA Avatar XPRIZE lever pull, we optimized the MCP-FE joint using Finite Element Method (FEM) analysis. Replacing the original aluminum frame with high-strength S45C (AISI 1045) steel significantly increased the safety factor from 1.307 to 7.201. This modification reduced maximum displacement to just 0.0735 mm, ensuring the hand remains resilient against plastic deformation under extreme operational loads.
+
+The practical grasping capability was validated through pinch grasping experiments, representing the most stringent conditions where force distribution is absent. In cyclic tests approximating real-world contact, the finger consistently demonstrated an output force averaging 4.92 N at an actual current of approximately 650 mA. These results confirm the robot hand's ability to maintain a secure grip, proving the design is fully capable of executing complex manipulation tasks with high fidelity.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_03_01.png" class="img-fluid" title="Hand 01-01" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hand_03_02.png" class="img-fluid" title="Hand 03-02" %}
+    </div>
+</div>
+
+---
+
+# Versatile Grasping Capabilities and Expressive Non-Verbal Communication
+
+{% include figure.liquid loading="eager" path="assets/img/Hand_03_03.png" title="Hand_03_03" class="img-fluid" %}
+
+---
 
 <!-- Responsive 16:9 wrapper -->
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
@@ -115,26 +167,7 @@ Designed with the rigorous demands of the **ANA Avatar XPRIZE** in mind, this **
 - **Materials:** Aluminum + S45C (reinforced at critical joints) + 3D-printed parts.
 - **Special Features:** Silicone fingertip pads and a curved palm for increased friction and contact stability.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Hand_02_01.png" class="img-fluid" title="Hand_02_01" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Hand_02_02.png" class="img-fluid" title="Hand_02_02" %}
-    </div>
-</div>
 
-<div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Hand_02_03.png" class="img-fluid" title="Hand_02_03" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Hand_02_04.png" class="img-fluid" title="Hand_02_04" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Hand_02_05.png" class="img-fluid" title="Hand_02_05" %}
-    </div>
-</div>
 
 
 
