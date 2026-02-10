@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ANA Avatar Xprize
-description: with background image
+description: "TEAM SNU’s full-body teleoperation avatar system for the ANA Avatar XPRIZE (Semifinals 2021, Finals 2022)."
 img: assets/img/Avatarxprize.jpg
 importance: 3
 category: project
