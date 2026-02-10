@@ -510,7 +510,7 @@ ninja.data = [{
               window.location.href = "/projects/snu_haptic/";
             },},{id: "projects-ana-avatar-xprize",
           title: 'ANA Avatar Xprize',
-          description: "TEAM SNU’s full-body teleoperation avatar system for the ANA Avatar XPRIZE (Semifinals 2021, Finals 2022).",
+          description: "TEAM SNU’s teleoperation avatar system for the ANA Avatar XPRIZE.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/xprize/";
             },},{
