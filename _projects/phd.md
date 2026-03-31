@@ -230,3 +230,18 @@ The right figure summarizes the frequency-domain analysis of the same torque dat
   doi={10.1109/TMECH.2025.3628311}}
 }
 ```
+
+---
+
+**Mechanical Analysis of Plate Harmonic Reducer Considering Deformation of Thin-Plate Flex Spline**
+
+```bibtex
+@inproceedings{You2026Plate,
+  author={You, Seungbin and Sung, Eunho and Kim, Dongjun and Kim, Jaehun and Park, Jaeheung},
+  journal={International Journal of Precision Engineering and Manufacturing}, 
+  title={Mechanical Analysis of Plate Harmonic Reducer Considering Deformation of Thin-Plate Flex Spline}, 
+  year={2026},
+  pages={0-0},
+  doi={}}
+}
+```
