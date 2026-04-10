@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SNU-Avatar Haptic Arm
-description: A Highly Transparent Operator Interface with Hybrid QDD/DD Actuation for Teleoperation
+description: A Hybrid QDD/DD Operator Interface for Teleoperation
 img: assets/img/Controlroom.jpg
 importance: 3
 category: paper
