@@ -190,6 +190,9 @@ The right figure summarizes the frequency-domain analysis of the same torque dat
 
 ---
 
+# Mechanical Analysis of Plate Harmonic Reducer Considering Deformation of Thin-Plate Flex Spline
+
+
 <!--
 제목
 요약
@@ -241,7 +244,8 @@ The right figure summarizes the frequency-domain analysis of the same torque dat
   journal={International Journal of Precision Engineering and Manufacturing}, 
   title={Mechanical Analysis of Plate Harmonic Reducer Considering Deformation of Thin-Plate Flex Spline}, 
   year={2026},
-  pages={0-0},
-  doi={}}
+  pages={1--22},
+  publisher={Springer}
+  doi={10.1007/s12541-026-01505-9}}
 }
 ```
