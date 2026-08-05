@@ -14,6 +14,7 @@ math: true
 ---
 
 # Abstract
+
 The avatar robot is a robot capable of realistic remote operation. In remote operation, the controllability of the glove is crucial. This glove can manipulate the hand interacting directly with the environment at the remote site. The glove must be able to accurately estimate the hand posture and provide haptic feedback to convey information about the remote environment and enhance operability. Throughout the process, user discomfort should be minimized. To achieve this goal, the research proposes providing force feedback to the fingers using Trigonometric Series Elastic Actuators. Haptic gloves are attached to the Middle Phalanx to facilitate the easy installation of additional add-ons, ensuring users feel securely fixed when attached. Additionally, by proposing an algorithm to estimate the fingertip position without directly attaching it to the fingertip, the haptic glove estimates hand posture and delivers appropriate force as needed. Finally, the system, including the haptic glove, participated in the ANA Avatar XPRIZE competition. The avatar system performed eight missions, which included not only remote manipulation of objects but also social interactions, demonstrating its effectiveness.
 
 ---
@@ -32,6 +33,7 @@ Our innovative modular haptic glove features a high-precision 5-link, 4-joint st
 </div>
 
 ---
+
 # Advanced Force Feedback and Fingertip Estimation for Remote Manipulation
 
 The designed haptic glove serves as a sophisticated interface that estimates complex finger postures to precisely control remote robotic hands while delivering realistic haptic feedback through a single-actuator system. Utilizing a mechanism similar to Series Elastic Actuators (SEAs), the device measures the deformation of an elastic element via a potentiometer at the second joint, effectively reducing the need for multiple encoders through advanced computational modeling. To provide space for custom fingertip add-ons, the glove securely couples with the user's middle phalanxes, employing a specialized algorithm to accurately estimate fingertip positioning. This integrated approach ensures a high-fidelity telepresence experience, combining hardware efficiency with the flexibility to incorporate additional functional modules at the fingertips.
@@ -52,7 +54,6 @@ The designed haptic glove serves as a sophisticated interface that estimates com
 The performance of the proposed Trigonometric SEA was rigorously evaluated using a 6-axis force-torque sensor to verify its haptic feedback capabilities across various joint angles and target forces. Experimental results demonstrated high precision, with errors as low as 0.0016N and the ability to reach forces up to 1.25N by utilizing springs with higher elastic moduli. This confirms that the system can deliver stable and accurate force feedback, effectively mimicking physical resistance during remote manipulation tasks.
 
 Furthermore, the fingertip position estimation algorithm was tested to ensure reliable tracking despite the glove being coupled to the user's middle phalanx. While the system exhibited excellent repeatability precision, the evaluation highlighted areas for future optimization, such as refining the human hand model and enhancing the coupling mechanism to reduce absolute error. These validation steps successfully demonstrate the haptic glove's readiness to manipulate the SNU-avatar robot hand across diverse grasp taxonomies in real-world avatar systems.
-
 
 <div class="row">
     <div class="col-sm-3 mt-3 mt-md-0">
@@ -83,8 +84,6 @@ To verify the seamless compatibility between our haptic glove and the SNU-Avatar
 
 ---
 
-
-
 <!-- Responsive 16:9 wrapper -->
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
   <iframe
@@ -98,7 +97,6 @@ To verify the seamless compatibility between our haptic glove and the SNU-Avatar
 </div>
 
 ---
-
 
 **BibTeX**
 

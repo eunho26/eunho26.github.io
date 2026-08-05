@@ -14,6 +14,7 @@ related_publications: False
 ---
 
 # Abstract
+
 Despite rapid advancements in robotics, teleoperation remains indispensable for precise tasks that have not yet been fully automated. To this end,
 this paper presents the design, analysis, and experimental validation of the SNU-Avatar Haptic Arm, a high-performance haptic interface developed for immersive teleoperation. To address the trade-off between transparency and payload capacity, the system employs a hybrid actuation architecture combining quasi-direct drive and direct drive mechanisms. This configuration reduces mechanical impedance and friction while ensuring sufficient force output for high-fidelity interaction. The 6-DoF kinematic structure is designed to encompass the natural workspace of the human upper limb, and finite element analysis confirms that the structural natural frequency is sufficiently high to secure a stable control bandwidth. A comprehensive evaluation validates the system's performance, focusing on force rendering accuracy. The practical utility of the proposed interface was demonstrated in the ANA Avatar XPRIZE Finals through integration with a humanoid robot. The system successfully performed complex missions, such as heavy object manipulation, under constraints including communication latency. The results confirm that the proposed design methodology effectively bridges the gap between remote presence and physical reality, ensuring robust manipulation in extreme environments.
 
@@ -40,10 +41,12 @@ This configuration significantly reduces mechanical impedance, enabling precise 
 </div>
 
 ### **Hybrid Actuation for High Transparency**
+
 To achieve high-fidelity force rendering, the arm employs a specialized hybrid actuation architecture:
-* **Shoulder & Elbow (Joints 2–3):** Utilize a 3:1 Quasi-Direct Drive (QDD) pulley transmission to balance torque and backdrivability.
-* **Wrist (Joints 4–6):** Implement Direct-Drive (DD) modules to minimize friction and maximize dynamic transparency.
-* **Safety & Precision:** Includes a linear prismatic joint with an integrated brake system for stable and secure control.
+
+- **Shoulder & Elbow (Joints 2–3):** Utilize a 3:1 Quasi-Direct Drive (QDD) pulley transmission to balance torque and backdrivability.
+- **Wrist (Joints 4–6):** Implement Direct-Drive (DD) modules to minimize friction and maximize dynamic transparency.
+- **Safety & Precision:** Includes a linear prismatic joint with an integrated brake system for stable and secure control.
 
 ---
 
@@ -52,6 +55,7 @@ To achieve high-fidelity force rendering, the arm employs a specialized hybrid a
 To validate the feasibility of the SNU-Avatar Haptic Arm for practical teleoperation, we conducted a comprehensive analysis across kinematic, dynamic, and structural perspectives. This ensures unrestricted natural motion while maintaining high transparency for physical interaction.
 
 ### 1. Workspace Analysis
+
 The device is engineered to encompass the biomechanical range of the human upper limb. Our evaluation confirms that the operational range effectively covers the extensive reachable region of a human operator in both positional and orientation spaces, as illustrated below.
 
 <div class="row">
@@ -77,6 +81,7 @@ The device is engineered to encompass the biomechanical range of the human upper
 </div>
 
 ### 2. Force Output Performance
+
 We evaluated the isotropic force distribution and generation capacity, ensuring **sufficient and uniform force output** throughout the nominal workspace. By incorporating advanced gravitational compensation, the system delivers consistent, high-quality haptic feedback with minimal parasitic friction.
 
 <div class="row">
@@ -94,6 +99,7 @@ We evaluated the isotropic force distribution and generation capacity, ensuring 
 </div>
 
 ### 3. Structural Modal Analysis
+
 Using Finite Element Method (FEM) simulations, we optimized link lengths to balance workspace requirements with high structural stiffness. This design secures a **wide control bandwidth**, enabling high-fidelity interaction and stable performance without structural resonance.
 
 <div class="row">
@@ -105,7 +111,6 @@ Using Finite Element Method (FEM) simulations, we optimized link lengths to bala
     <strong>Figure 3. Structural modal analysis results:</strong> Definition of optimized link-length variables ($L_2$, $L_3$) and their corresponding first mode shapes obtained from FEM analysis. The results visualize (a) Link 2 exhibiting a primary bending mode, and (b) Link 3 exhibiting a coupled bending-torsion mode. These modes inform the stiffening strategy to mitigate structural resonance.
 </div>
 
-
 ---
 
 # Experimental Validation & Field Testing
@@ -113,6 +118,7 @@ Using Finite Element Method (FEM) simulations, we optimized link lengths to bala
 To demonstrate the effectiveness of the proposed 6-DoF haptic interface, we conducted a phased verification process ranging from fundamental hardware benchmarking to field validation in the ANA Avatar XPRIZE Finals.
 
 ### 1. Fundamental Hardware Performance
+
 First, we evaluated the open-loop force rendering capability to ensure the haptic device could generate precise and repeatable forces. The evaluation across 40 trials at four force levels (2.5–10.0 N) demonstrated high repeatability with low standard deviations (0.093–0.367 N), confirming consistent force generation. While a slight steady-state bias was observed at higher magnitudes, the concentrated force distributions verify the system's reliability for stable haptic rendering in open-loop operations.
 
 <div class="row">
@@ -132,15 +138,19 @@ First, we evaluated the open-loop force rendering capability to ensure the hapti
 </div>
 
 ### 2. Teleoperation System Integration
+
 We integrated the haptic arm with the humanoid robot TOCABI to verify basic teleoperation performance. The system was tested under a realistic network architecture to assess stability.
 
 #### Remote Pick-and-Place Demonstration
+
 The practical utility of the system was verified through a remote pick-and-place sorting task. The operator successfully grasped and placed eight objects into two containers using the haptic feedback.
 
 #### Field Validation: ANA Avatar XPRIZE
+
 Finally, to assess applicability in unpredictable real-world environments, we analyzed the performance during the **ANA Avatar XPRIZE Finals**. The system was tested under extreme conditions characterized by restricted fields of view and communication delays.
 
 The haptic feedback played a crucial role in completing complex missions, such as:
-* **Mission 4:** Activating a switch with precise force control.
-* **Mission 6 & 7:** Distinguishing and manipulating heavy canisters (weight perception).
-* **Mission 9:** Utilizing a power drill (vibration feedback).
+
+- **Mission 4:** Activating a switch with precise force control.
+- **Mission 6 & 7:** Distinguishing and manipulating heavy canisters (weight perception).
+- **Mission 9:** Utilizing a power drill (vibration feedback).

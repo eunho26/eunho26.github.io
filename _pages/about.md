@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='[#](http://dyros.snu.ac.kr/)'>DYROS Lab</a>. 1, Gwanak-ro, Gwanak-gu, Seoul, Republic of Korea.
+subtitle: <a href='http://dyros.snu.ac.kr/'>DYROS Lab</a>. 1, Gwanak-ro, Gwanak-gu, Seoul, Republic of Korea.
 
 # profile:
 #  align: right
