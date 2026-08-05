@@ -154,3 +154,20 @@ The haptic feedback played a crucial role in completing complex missions, such a
 - **Mission 4:** Activating a switch with precise force control.
 - **Mission 6 & 7:** Distinguishing and manipulating heavy canisters (weight perception).
 - **Mission 9:** Utilizing a power drill (vibration feedback).
+
+---
+
+**SNU-Avatar Haptic Arm: A Hybrid QDD/DD Operator Interface for Teleoperation**
+
+```bibtex
+@article{arm2026sung,
+  author={Sung, Eunho and You, Seungbin and Shin, Jaeyong and Park, Suhan and Hur, Sungmoon and Kim, Jaehun and Byun, Seunghwan and Mun, Chaiyong and Lee, Haeseong and Kim, Dongjun and Park, Jaeheung},
+  journal={IEEE Access},
+  title={SNU-Avatar Haptic Arm: A Hybrid QDD/DD Operator Interface for Teleoperation},
+  year={2026},
+  volume={14},
+  number={},
+  pages={57409--57426},
+  doi={10.1109/ACCESS.2026.3683430}
+}
+```

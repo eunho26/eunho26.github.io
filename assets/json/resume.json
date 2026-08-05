@@ -102,6 +102,32 @@
       "summary": "This research presents a robot hand designed for the ANA Avatar XPRIZE, enabling realistic teleoperation through the replication of human actions, gestures, and everyday object manipulation. Using multi–4-bar linkages for single-actuator flexion–extension and compliant AA joints for adaptive grasping, a lightweight four-finger, eight-DoF hand with strong fingertip grip was achieved."
     }
   ],
+  "patents": [
+    {
+      "title": "Gait Assistance Mechanism",
+      "inventors": "Jaeheung Park, Seungbin You, <strong>Eunho Sung</strong>, Keewon Kim, and Sun Gun Chung",
+      "status": "Published",
+      "scope": "Domestic and International"
+    },
+    {
+      "title": "Rolling Contact Joint and Robot Comprising the Same",
+      "inventors": "Jaeheung Park, Seungyeon Kim, and <strong>Eunho Sung</strong>",
+      "status": "Granted",
+      "scope": "Domestic and International"
+    },
+    {
+      "title": "Harmonic Reducing System, and Power Transmission System and Robot System Including the Same",
+      "inventors": "Jaeheung Park, Seungbin You, Seungyeon Kim, Jaehoon Sim, and <strong>Eunho Sung</strong>",
+      "status": "Granted",
+      "scope": "Domestic and International"
+    },
+    {
+      "title": "Harmonic Reducer and Power Transmission System Including the Same",
+      "inventors": "Jaeheung Park, Seungbin You, Seungyeon Kim, Jaehoon Sim, and <strong>Eunho Sung</strong>",
+      "status": "Granted",
+      "scope": "Domestic and International"
+    }
+  ],
   "skills": [
     {
       "name": "Physics",

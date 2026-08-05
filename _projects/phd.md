@@ -219,7 +219,7 @@ The right figure summarizes the frequency-domain analysis of the same torque dat
   author={You, Seungbin and Sung, Eunho and Kim, Dongjun and Kim, Juhyun and Park, Jaeheung},
   journal={IEEE/ASME Transactions on Mechatronics},
   title={Semidirect Drive Based on Tri-Contacted Plate Harmonic Reducer},
-  year={2026},
+  year={2025},
   volume={31},
   number={3},
   pages={2610--2620},
