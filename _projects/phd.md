@@ -184,16 +184,9 @@ The right figure summarizes the frequency-domain analysis of the same torque dat
 
 # Mechanical Analysis of Plate Harmonic Reducer Considering Deformation of Thin-Plate Flex Spline
 
-<!--
-제목
-요약
-1
-2
-3
-4
-56
-78
--->
+## Abstract
+
+Strain wave gears are essential for precision systems requiring high reduction ratios in compact forms, yet conventional cup-type designs face axial length limitations. This study presents a comprehensive mechanical analysis of the Plate Harmonic Reducer (PHR) to address these constraints. We investigated the thickness-performance relationship through analytical modeling based on Kirchhoff-Love plate theory, nonlinear finite element simulations, and experimental validation. The analysis confirmed a cubic dependence of deformation force on thickness, while sensitivity analysis of the contact conditions validated the robustness of the proposed model. Experimental results demonstrated that the ultra-thin configuration (0.4 mm) achieves a transmission efficiency of 68.88 %—comparable to commercial units—while reducing axial thickness by 40.3 % and weight by 27.2 %. Crucially, this improvement presents a quantifiable design trade-off: while thinner plates maximize efficiency, they compromise torsional stiffness (decreasing from 141.03 Nm/rad at 1.2 mm to 62.25 Nm/rad at 0.4 mm). These findings provide validated guidelines for optimizing PHR specifications for space-constrained applications in robotics and portable instrumentation.
 
 ---
 
