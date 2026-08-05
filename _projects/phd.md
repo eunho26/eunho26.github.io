@@ -200,13 +200,13 @@ The right figure summarizes the frequency-domain analysis of the same torque dat
 **Plate Harmonic Reducer with a Profiled Groove Wave Generator**
 
 ```bibtex
-@inproceedings{You2025Plate,
+@inproceedings{You2022Plate,
   author={You, Seungbin and Jung, Jaesug and Sung, Eunho and Park, Jaeheung},
   booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   title={Plate Harmonic Reducer with a Profiled Groove Wave Generator},
   year={2022},
   pages={1900-1907},
-  doi={10.1109/IROS47612.2022.9981317}}
+  doi={10.1109/IROS47612.2022.9981317}
 }
 ```
 
@@ -215,13 +215,15 @@ The right figure summarizes the frequency-domain analysis of the same torque dat
 **Semidirect Drive Based on Tri-Contacted Plate Harmonic Reducer**
 
 ```bibtex
-@inproceedings{You2025Plate,
+@article{Semi2025you,
   author={You, Seungbin and Sung, Eunho and Kim, Dongjun and Kim, Juhyun and Park, Jaeheung},
   journal={IEEE/ASME Transactions on Mechatronics},
   title={Semidirect Drive Based on Tri-Contacted Plate Harmonic Reducer},
-  year={2025},
-  pages={1-11},
-  doi={10.1109/TMECH.2025.3628311}}
+  year={2026},
+  volume={31},
+  number={3},
+  pages={2610--2620},
+  doi={10.1109/TMECH.2025.3628311}
 }
 ```
 
@@ -230,13 +232,15 @@ The right figure summarizes the frequency-domain analysis of the same torque dat
 **Mechanical Analysis of Plate Harmonic Reducer Considering Deformation of Thin-Plate Flex Spline**
 
 ```bibtex
-@inproceedings{You2026Plate,
+@article{You2026Plate,
   author={You, Seungbin and Sung, Eunho and Kim, Dongjun and Kim, Jaehun and Park, Jaeheung},
   journal={International Journal of Precision Engineering and Manufacturing},
   title={Mechanical Analysis of Plate Harmonic Reducer Considering Deformation of Thin-Plate Flex Spline},
   year={2026},
   pages={1--22},
-  publisher={Springer}
-  doi={10.1007/s12541-026-01505-9}}
+  publisher={Springer},
+  issn={2005-4602},
+  url={https://doi.org/10.1007/s12541-026-01505-9},
+  doi={10.1007/s12541-026-01505-9}
 }
 ```
