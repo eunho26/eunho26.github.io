@@ -62,6 +62,13 @@
   ],
   "publications": [
     {
+      "name": "SNU-Avatar Haptic Arm: A Hybrid QDD/DD Operator Interface for Teleoperation",
+      "publisher": "IEEE Access, Volume 14",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1109/ACCESS.2026.3683430",
+      "summary": "This research presents a 6-DoF haptic arm for immersive teleoperation. Its hybrid quasi-direct-drive and direct-drive architecture balances backdrivability, payload capacity, and force-rendering performance, and was validated through integration with the TOCABI humanoid robot at the ANA Avatar XPRIZE Finals."
+    },
+    {
       "name": "SNU-Avatar Haptic Glove: Novel Modularized Haptic Glove via Trigonometric Series Elastic Actuators",
       "publisher": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "releaseDate": "2024-10-14",
