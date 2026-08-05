@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Eunho Sung",
-    "label": "Ph.D candidate",
+    "label": "Ph.D.",
     "image": "",
     "email": "eunho526 at snu.ac.kr",
     "phone": "(912) 123-4567",
@@ -40,7 +40,7 @@
       "url": "https://www.snu.ac.kr/",
       "studyType": "PhD",
       "startDate": "2019-09-01",
-      "endDate": "9999-12-31"
+      "endDate": "2026-08-28"
     },
     {
       "institution": "Korea University, Seoul, Korea",
