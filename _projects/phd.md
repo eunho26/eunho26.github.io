@@ -160,8 +160,6 @@ As a baseline, we measured the efficiency of SHF-series harmonic reducers (30:1)
 
 ---
 
-
-
 # Mechanical Analysis of Plate Harmonic Reducer Considering Deformation of Thin-Plate Flex Spline
 
 ## Abstract
@@ -174,9 +172,7 @@ Strain wave gears are essential for precision systems requiring high reduction r
 
 This study investigates how flex-spline thickness affects deformation force, transmission efficiency, and torsional stiffness in the Plate Harmonic Reducer (PHR). The results establish a clear efficiency–stiffness trade-off and provide practical guidelines for selecting the plate thickness according to application requirements.
 
-
 <!-- IMAGE 01: PHD_03_01_hero.png / Fig. 9 -->
-
 
 <div class="row row-cols-1 row-cols-md-3 g-3 my-4 text-center">
 
@@ -203,7 +199,6 @@ This study investigates how flex-spline thickness affects deformation force, tra
 
 </div>
 
-
 ---
 
 ### Axial Deformation Instead of Radial Deformation
@@ -212,11 +207,9 @@ The PHR replaces the conventional cup-shaped flex spline with a thin, plate-shap
 
 As the wave generator rotates, the balls move axially and locally deform the flex spline. This deformation shifts the fully engaged, partially engaged, and disengaged tooth regions around the circumference while preserving the fundamental operating principle of a strain wave gear.
 
-
 <!-- IMAGE 02: PHD_03_02_exploded.png / Fig. 1 -->
 
 <!-- IMAGE 03: PHD_03_03_engagement.png / Fig. 2 -->
-
 
 ---
 
@@ -226,9 +219,7 @@ The deformation analysis evaluates the force required to produce the approximate
 
 The required force therefore increases much faster than the plate thickness itself. A thicker flex spline generates a substantially larger elastic restoring force, which increases the internal contact force acting between the flex spline, steel balls, and CAM groove.
 
-
 <!-- IMAGE 04: PHD_03_04_fem.png / Fig. 4 -->
-
 
 ---
 
@@ -238,9 +229,7 @@ Four Al 7075-T6 flex splines with thicknesses of 0.4, 0.7, 1.0, and 1.2 mm were 
 
 The prototypes were tested using a dual-motor dynamometer. Torque sensors positioned before and after the reducer were used to measure transmission efficiency and torsional stiffness under different speed and load conditions.
 
-
 <!-- IMAGE 05: PHD_03_05_testbed.png / Fig. 6 -->
-
 
 ---
 
@@ -249,7 +238,6 @@ The prototypes were tested using a dual-motor dynamometer. Torque sensors positi
 Reducing the flex-spline thickness lowers the deformation force and the associated internal friction. The 0.4 mm configuration therefore achieved the highest mean efficiency, reaching 68.88%.
 
 However, the thinner flex spline also produced greater elastic deformation under load. Its measured torsional stiffness was 62.25 N·m/rad, compared with 141.03 N·m/rad for the 1.2 mm configuration.
-
 
 <div class="row g-3 my-4">
 
@@ -275,7 +263,6 @@ However, the thinner flex spline also produced greater elastic deformation under
 
   </div>
 
-
   <div class="col-md-6">
 
     <div class="card h-100 p-4">
@@ -300,14 +287,11 @@ However, the thinner flex spline also produced greater elastic deformation under
 
 </div>
 
-
 Thinner plates favor transmission efficiency and mechanical compliance, while thicker plates provide greater torsional stiffness. The flex-spline thickness should therefore be selected according to the mechanical requirements of the intended application.
-
 
 <!-- IMAGE 06: PHD_03_06_efficiency.png / Fig. 7 -->
 
 <!-- IMAGE 07: PHD_03_07_stiffness.png / Fig. 8 -->
-
 
 ---
 
@@ -318,7 +302,6 @@ Thin configurations favor low friction, high efficiency, backdrivability, and me
 Intermediate configurations provide a balance between efficiency and structural stiffness, making them suitable for compact instrumentation and light-duty actuators.
 
 Thicker configurations provide greater torsional stiffness and smaller elastic angular deformation. They are therefore preferable for stiffness-critical positioning tasks in which rigidity is prioritized over transmission efficiency.
-
 
 ---
 
