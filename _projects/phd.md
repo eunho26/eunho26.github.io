@@ -160,19 +160,7 @@ As a baseline, we measured the efficiency of SHF-series harmonic reducers (30:1)
 
 ---
 
-<!-- Responsive 16:9 wrapper -->
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/HZcu0jZvc9o?autoplay=1&mute=1&playsinline=1&loop=1&playlist=HZcu0jZvc9o&rel=0&modestbranding=1"
-    title="YouTube video"
-    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-    allow="autoplay; encrypted-media; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-  ></iframe>
-</div>
 
----
 
 # Mechanical Analysis of Plate Harmonic Reducer Considering Deformation of Thin-Plate Flex Spline
 
@@ -331,6 +319,20 @@ Intermediate configurations provide a balance between efficiency and structural 
 
 Thicker configurations provide greater torsional stiffness and smaller elastic angular deformation. They are therefore preferable for stiffness-critical positioning tasks in which rigidity is prioritized over transmission efficiency.
 
+
+---
+
+<!-- Responsive 16:9 wrapper -->
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/HZcu0jZvc9o?autoplay=1&mute=1&playsinline=1&loop=1&playlist=HZcu0jZvc9o&rel=0&modestbranding=1"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="autoplay; encrypted-media; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
 
 ---
 
