@@ -94,10 +94,6 @@ Robotic actuators face a performance gap between low-ratio quasi-direct drive (Q
 
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/PHD_02_01.png" title="PHD_02_01" class="img-fluid" %}
-
-{% include figure.liquid loading="eager" path="assets/img/PHD_02_02.png" title="PHD_02_02" class="img-fluid" %}
-
 <!-- 주석 내용 12 -->
 
 ### Tri-Contact Plate Harmonic Reducer for the 10:1–30:1 “Missing Middle” in Robotic Actuation
@@ -106,9 +102,11 @@ Robotic actuators sit between low-ratio QDD systems and compact high-reduction h
 
 We propose the Tri-Contact Plate Harmonic Reducer (Tri-c PHR) to target this ratio range while maintaining strain-wave characteristics. Tri-c PHR uses three-point tooth engagement instead of the conventional two-point scheme to lower the reduction ratio while distributing load for stiffness and stability. An axial CAM-based wave generator produces axial deformation of a plate-shaped flexspline to achieve multi-tooth engagement, retaining compactness and low backlash. This approach extends the practical reduction range down to about 10:1.
 
----
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_01.png" title="PHD_02_01" class="img-fluid" %}
 
-{% include figure.liquid loading="eager" path="assets/img/PHD_02_03.png" title="PHD_02_03" class="img-fluid" %}
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_02.png" title="PHD_02_02" class="img-fluid" %}
+
+---
 
 <!-- 주석 내용 3 -->
 
@@ -116,9 +114,9 @@ We propose the Tri-Contact Plate Harmonic Reducer (Tri-c PHR) to target this rat
 
 Conventional cup/hat strain-wave gears repeatedly bend a cylindrical flexspline radially, which generates large restoring forces and requires high normal contact loads, increasing friction and reducing efficiency. We use a thin plate-shaped flexspline that deforms axially, driven by a wave generator with axial CAM grooves instead of an elliptical profile. In forward drive, balls in the grooves create axial forces that deform the plate to sustain tooth engagement with the fixed circular spline. In backdrive, torque on the flexspline pushes the balls axially and rotates the wave generator, reducing stress requirements and losses linked to elastic restoration.
 
----
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_03.png" title="PHD_02_03" class="img-fluid" %}
 
-{% include figure.liquid loading="eager" path="assets/img/PHD_02_04.png" title="PHD_02_04" class="img-fluid" %}
+---
 
 <!-- 주석 내용 4 -->
 
@@ -126,9 +124,9 @@ Conventional cup/hat strain-wave gears repeatedly bend a cylindrical flexspline 
 
 The figure shows the operating cycle using cross-sectional photographs, where green arrows track a single flexspline tooth. As the wave generator rotates, balls in the CAM grooves induce axial plate deformation and create localized tooth engagement with the circular spline. Over each sequence, the tracked tooth advances by one pitch, generating the reduction motion. This plate-type strain-wave mechanism supports lower reduction ratios than conventional cup/hat designs.
 
----
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_04.png" title="PHD_02_04" class="img-fluid" %}
 
-{% include figure.liquid loading="eager" path="assets/img/PHD_02_05.png" title="PHD_02_05" class="img-fluid" %}
+---
 
 <!-- 주석 내용 5 -->
 
@@ -136,9 +134,9 @@ The figure shows the operating cycle using cross-sectional photographs, where gr
 
 We model a conventional hat-type flexspline as a thin-walled cylindrical shell that must deform radially at the top rim under 2-point (180°) or 3-point (120°) wave-generator loading, using Donnell–Mushtari–Vlasov thin-shell theory with a Rayleigh–Ritz approach to include membrane and bending effects. Finite-element analysis compares a catalog-equivalent size-17 geometry with matched diameter, 100 teeth, and 0.7 mm tooth height, while using 0.3 mm thickness for the plate design versus 0.15 mm for the hat-type. With axial deformation, the plate-type flexspline reduces radial restoring-force demands, which become pronounced in 3-point loading due to bending stiffness. In FEA, the plate-type requires ~10 N for 0.7 mm deformation, while the hat-type requires ~75 N for 0.35 mm deformation under 3-point loading.
 
----
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_05.png" title="PHD_02_05" class="img-fluid" %}
 
-{% include figure.liquid loading="eager" path="assets/img/PHD_02_06.png" title="PHD_02_06" class="img-fluid" %}
+---
 
 <!-- 주석 내용 6 -->
 
@@ -146,9 +144,9 @@ We model a conventional hat-type flexspline as a thin-walled cylindrical shell t
 
 The reducer consists of a housing, a ball-driven wave generator, a lower ring, a plate flexspline, and a circular spline, with axial CAM grooves phased at 120° to realize tri-contact engagement. During rotation, steel balls in the grooves apply axial forces that deform the plate flexspline and engage the circular spline at three evenly spaced zones. Two-point contact cannot reach low ratios without challenging tooth geometry, while four-point contact lowers per-zone engagement and limits torque capacity. The three-point design shares load over 120° segments and keeps about 25% total tooth engagement, supporting torque transmission with lower deformation force than radial approaches.
 
----
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_06.png" title="PHD_02_06" class="img-fluid" %}
 
-{% include figure.liquid loading="eager" path="assets/img/PHD_02_07.png" title="PHD_02_07" class="img-fluid" %}
+---
 
 <!-- 주석 내용 9 11 12 -->
 
@@ -160,15 +158,17 @@ The middle figure reports static positioning performance from 3,733 random targe
 
 The right figure presents the backlash measurement obtained by applying constant torque to the driven motor while fixing the driving motor. The measured backlash is 78.99 arcsec, showing that the tri-contact plate architecture can retain low-backlash behavior even at a substantially lower reduction ratio than conventional harmonic reducers.
 
----
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_07.png" title="PHD_02_07" class="img-fluid" %}
 
-{% include figure.liquid loading="eager" path="assets/img/PHD_02_08.png" title="PHD_02_08" class="img-fluid" %}
+---
 
 <!-- 주석 내용 14 -->
 
 ### Benchmarking Efficiency Against Commercial Harmonic Drives
 
 As a baseline, we measured the efficiency of SHF-series harmonic reducers (30:1) in sizes 14, 17, and 20 under comparable rated-torque conditions, obtaining 63.61%, 60.78%, and 56.15%. The measured SHF-17 efficiency (60.78%) was slightly higher than the predicted value (58.8%), which can be explained by test-condition differences such as load-point selection and minor environmental variation. Similar factors account for the smaller deviation in SHF-14 and the larger difference in SHF-20. These results indicate the setup is suitable for relative comparison, while small offsets from catalog data are expected.
+
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_08.png" title="PHD_02_08" class="img-fluid" %}
 
 {% include figure.liquid loading="eager" path="assets/img/PHD_02_09.png" title="PHD_02_09" class="img-fluid" %}
 
@@ -189,6 +189,8 @@ Strain wave gears are essential for precision systems requiring high reduction r
 This study investigates how flex-spline thickness affects deformation force, transmission efficiency, and torsional stiffness in the Plate Harmonic Reducer (PHR). The results establish a clear efficiency–stiffness trade-off and provide practical guidelines for selecting the plate thickness according to application requirements.
 
 <!-- IMAGE 01: PHD_03_01_hero.png / Fig. 9 -->
+
+{% include figure.liquid loading="eager" path="assets/img/PHD_03_01.png" title="PHD_03_01" class="img-fluid" %}
 
 <div class="row row-cols-1 row-cols-md-3 g-3 my-4 text-center">
 
@@ -225,6 +227,8 @@ As the wave generator rotates, the balls move axially and locally deform the fle
 
 <!-- IMAGE 02: PHD_03_02_exploded.png / Fig. 1 -->
 
+{% include figure.liquid loading="eager" path="assets/img/PHD_03_02.png" title="PHD_03_02" class="img-fluid" %}
+
 <!-- IMAGE 03: PHD_03_03_engagement.png / Fig. 2 -->
 
 ---
@@ -237,6 +241,8 @@ The required force therefore increases much faster than the plate thickness itse
 
 <!-- IMAGE 04: PHD_03_04_fem.png / Fig. 4 -->
 
+{% include figure.liquid loading="eager" path="assets/img/PHD_03_03.png" title="PHD_03_03" class="img-fluid" %}
+
 ---
 
 ### Built and Tested
@@ -246,6 +252,8 @@ Four Al 7075-T6 flex splines with thicknesses of 0.4, 0.7, 1.0, and 1.2 mm were 
 The prototypes were tested using a dual-motor dynamometer. Torque sensors positioned before and after the reducer were used to measure transmission efficiency and torsional stiffness under different speed and load conditions.
 
 <!-- IMAGE 05: PHD_03_05_testbed.png / Fig. 6 -->
+
+{% include figure.liquid loading="eager" path="assets/img/PHD_03_04.png" title="PHD_03_04" class="img-fluid" %}
 
 ---
 
@@ -306,6 +314,8 @@ However, the thinner flex spline also produced greater elastic deformation under
 Thinner plates favor transmission efficiency and mechanical compliance, while thicker plates provide greater torsional stiffness. The flex-spline thickness should therefore be selected according to the mechanical requirements of the intended application.
 
 <!-- IMAGE 06: PHD_03_06_efficiency.png / Fig. 7 -->
+
+{% include figure.liquid loading="eager" path="assets/img/PHD_03_05.png" title="PHD_03_05" class="img-fluid" %}
 
 <!-- IMAGE 07: PHD_03_07_stiffness.png / Fig. 8 -->
 
