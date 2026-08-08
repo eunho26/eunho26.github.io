@@ -688,7 +688,9 @@ body {
   }
 
   .roadmap-step:nth-child(3)::after {
-    display: none;
+    top: calc(100% + 0.15rem);
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
   }
 }
 
@@ -719,6 +721,19 @@ body {
     flex-basis: 230px;
   }
 
+  .future-roadmap {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .roadmap-step:nth-child(2)::after,
+  .roadmap-step:nth-child(4)::after {
+    top: calc(100% + 0.15rem);
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
   .future-roadmap {
     grid-template-columns: 1fr;
   }
