@@ -94,6 +94,10 @@ Robotic actuators face a performance gap between low-ratio quasi-direct drive (Q
 
 ---
 
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_01.png" title="PHD_02_01" class="img-fluid" %}
+
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_02.png" title="PHD_02_02" class="img-fluid" %}
+
 <!-- 주석 내용 12 -->
 
 ### Tri-Contact Plate Harmonic Reducer for the 10:1–30:1 “Missing Middle” in Robotic Actuation
@@ -104,6 +108,8 @@ We propose the Tri-Contact Plate Harmonic Reducer (Tri-c PHR) to target this rat
 
 ---
 
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_03.png" title="PHD_02_03" class="img-fluid" %}
+
 <!-- 주석 내용 3 -->
 
 ### Axial Plate Deformation for Higher-Efficiency Strain-Wave Transmission
@@ -111,6 +117,8 @@ We propose the Tri-Contact Plate Harmonic Reducer (Tri-c PHR) to target this rat
 Conventional cup/hat strain-wave gears repeatedly bend a cylindrical flexspline radially, which generates large restoring forces and requires high normal contact loads, increasing friction and reducing efficiency. We use a thin plate-shaped flexspline that deforms axially, driven by a wave generator with axial CAM grooves instead of an elliptical profile. In forward drive, balls in the grooves create axial forces that deform the plate to sustain tooth engagement with the fixed circular spline. In backdrive, torque on the flexspline pushes the balls axially and rotates the wave generator, reducing stress requirements and losses linked to elastic restoration.
 
 ---
+
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_04.png" title="PHD_02_04" class="img-fluid" %}
 
 <!-- 주석 내용 4 -->
 
@@ -120,6 +128,8 @@ The figure shows the operating cycle using cross-sectional photographs, where gr
 
 ---
 
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_05.png" title="PHD_02_05" class="img-fluid" %}
+
 <!-- 주석 내용 5 -->
 
 ### Why Plate-Type Flexsplines Deform Easier than Hat-Type Harmonics
@@ -128,6 +138,8 @@ We model a conventional hat-type flexspline as a thin-walled cylindrical shell t
 
 ---
 
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_06.png" title="PHD_02_06" class="img-fluid" %}
+
 <!-- 주석 내용 6 -->
 
 ### Three-Point Axial Engagement: The Key to Low-Ratio Plate Harmonics
@@ -135,6 +147,8 @@ We model a conventional hat-type flexspline as a thin-walled cylindrical shell t
 The reducer consists of a housing, a ball-driven wave generator, a lower ring, a plate flexspline, and a circular spline, with axial CAM grooves phased at 120° to realize tri-contact engagement. During rotation, steel balls in the grooves apply axial forces that deform the plate flexspline and engage the circular spline at three evenly spaced zones. Two-point contact cannot reach low ratios without challenging tooth geometry, while four-point contact lowers per-zone engagement and limits torque capacity. The three-point design shares load over 120° segments and keeps about 25% total tooth engagement, supporting torque transmission with lower deformation force than radial approaches.
 
 ---
+
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_07.png" title="PHD_02_07" class="img-fluid" %}
 
 <!-- 주석 내용 9 11 12 -->
 
@@ -148,11 +162,15 @@ The right figure presents the backlash measurement obtained by applying constant
 
 ---
 
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_08.png" title="PHD_02_08" class="img-fluid" %}
+
 <!-- 주석 내용 14 -->
 
 ### Benchmarking Efficiency Against Commercial Harmonic Drives
 
 As a baseline, we measured the efficiency of SHF-series harmonic reducers (30:1) in sizes 14, 17, and 20 under comparable rated-torque conditions, obtaining 63.61%, 60.78%, and 56.15%. The measured SHF-17 efficiency (60.78%) was slightly higher than the predicted value (58.8%), which can be explained by test-condition differences such as load-point selection and minor environmental variation. Similar factors account for the smaller deviation in SHF-14 and the larger difference in SHF-20. These results indicate the setup is suitable for relative comparison, while small offsets from catalog data are expected.
+
+{% include figure.liquid loading="eager" path="assets/img/PHD_02_09.png" title="PHD_02_09" class="img-fluid" %}
 
 <!-- 주석 내용 15 16 -->
 
