@@ -493,7 +493,7 @@ ninja.data = [{
               window.location.href = "/projects/grc/";
             },},{id: "projects-development-of-humanoid-p-73",
           title: 'Development of Humanoid P-73',
-          description: "A Next-Generation Humanoid Robotic Platform",
+          description: "Design of a High-Payload Humanoid Platform for Precision Tool Manipulation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p73/";
             },},{id: "projects-plate-harmonic-reducer",
