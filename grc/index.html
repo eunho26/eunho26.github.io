@@ -284,6 +284,122 @@
         </div>
       </section>
 
+      <section class="section kinematics-section">
+        <div class="container is-max-widescreen">
+          <div class="columns is-centered">
+            <div class="column is-10 has-text-centered">
+              <h2 class="title is-2">Kinematics &amp; Workspace</h2>
+              <p class="subtitle is-5 section-intro">
+                Closed-form kinematic models map desired joint configurations to tendon displacements and fingertip positions.
+              </p>
+            </div>
+          </div>
+
+          <div class="kinematic-flow" aria-label="Kinematic mapping from desired joint configuration to fingertip position">
+            <div class="kinematic-inputs">
+              <article><strong>MCP FE</strong><span>Flexion–Extension</span></article>
+              <article><strong>MCP AA</strong><span>Abduction–Adduction</span></article>
+              <article><strong>PIP–DIP FE</strong><span>Coupled Flexion</span></article>
+            </div>
+            <span class="flow-arrow" aria-hidden="true">↓</span>
+            <article class="kinematic-stage tendon-stage">
+              <span class="stage-label">Tendon Actuation</span>
+              <strong>Left · Right · Top</strong>
+            </article>
+            <span class="flow-arrow" aria-hidden="true">↓</span>
+            <article class="kinematic-stage"><strong>Finger Motion</strong></article>
+            <span class="flow-arrow" aria-hidden="true">↓</span>
+            <article class="kinematic-stage is-output"><strong>Fingertip Position</strong></article>
+          </div>
+
+          <div class="columns is-variable is-5 finger-model-comparison">
+            <div class="column is-half">
+              <article class="finger-model-card">
+                <p class="model-kicker">1-DoF Finger</p>
+                <h3 class="title is-4">One tendon drives coupled MCP, PIP, and DIP flexion.</h3>
+                <p class="model-equation">MCP FE = PIP FE = DIP FE</p>
+              </article>
+            </div>
+            <div class="column is-half">
+              <article class="finger-model-card">
+                <p class="model-kicker">3-DoF Finger</p>
+                <h3 class="title is-4">Three tendons generate independent motion components.</h3>
+                <p class="model-equation">Left + Right → MCP FE / AA<br />Top → PIP–DIP FE</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="columns is-variable is-5 workspace-grid">
+            <div class="column is-half">
+              <article class="workspace-card">
+                <figure class="workspace-media">
+                  <img src="static/images/cv_grc_6_1dof.png" alt="Calculated fingertip trajectory of the 1-DoF GRC finger" />
+                </figure>
+                <h3 class="title is-4">1-DoF Fingertip Trajectory</h3>
+                <p>Fully coupled joint motion generates a single fingertip trajectory.</p>
+              </article>
+            </div>
+            <div class="column is-half">
+              <article class="workspace-card">
+                <figure class="workspace-media">
+                  <img src="static/images/cv_grc_6_3dof.png" alt="Calculated reachable workspace of the 3-DoF GRC finger" />
+                </figure>
+                <h3 class="title is-4">3-DoF Reachable Workspace</h3>
+                <p>Independent MCP and PIP–DIP motions combined with MCP abduction–adduction generate a spatial reachable workspace.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section quantitative-section">
+        <div class="container is-max-widescreen">
+          <div class="columns is-centered">
+            <div class="column is-10 has-text-centered">
+              <h2 class="title is-2">Quantitative Performance</h2>
+              <p class="subtitle is-5 section-intro">
+                The fabricated GRC finger modules were quantitatively evaluated in terms of static output force and position repeatability under
+                controlled actuation conditions.
+              </p>
+            </div>
+          </div>
+
+          <div class="columns is-variable is-5 performance-grid">
+            <div class="column is-half">
+              <article class="performance-card">
+                <p class="performance-label">Static Output Force</p>
+                <p class="performance-value">9.90 N <span>/</span> 13.70 N</p>
+                <p class="performance-context">1-DoF / 3-DoF</p>
+                <figure class="performance-media">
+                  <img src="static/images/cv_grc_7_static_force.png" alt="Static output force results for the 1-DoF and 3-DoF GRC fingers" />
+                </figure>
+                <p class="performance-description">
+                  Mean static output forces of 9.90 N and 13.70 N were measured for the 1-DoF and 3-DoF fingers, respectively, under a 250 mA current
+                  command.
+                </p>
+                <p class="performance-note">
+                  These values characterize static output force under the tested conditions rather than maximum force or payload capacity.
+                </p>
+              </article>
+            </div>
+            <div class="column is-half">
+              <article class="performance-card">
+                <p class="performance-label">Mean Position Error</p>
+                <p class="performance-value">≤ 0.063 mm</p>
+                <p class="performance-context">Across six tested motion scenarios</p>
+                <figure class="performance-media">
+                  <img src="static/images/cv_grc_7_repeatability.png" alt="Position error distributions across six tested motion scenarios" />
+                </figure>
+                <p class="performance-description">The mean position error remained at or below 0.063 mm across all six tested motion scenarios.</p>
+                <p class="performance-note">
+                  The results demonstrate repeatable motion of the implemented GRC fingers without surface-aligned ligament constraints.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section impact-recovery-section">
         <div class="container is-max-widescreen">
           <h2 class="title is-2 has-text-centered">Impact &amp; Condition-Dependent Recovery</h2>
