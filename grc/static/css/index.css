@@ -71,6 +71,17 @@ body {
   pointer-events: none;
 }
 
+.button-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-right: 0.45rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
 .hero-teaser-section {
   padding-top: 1rem;
   background: #fff;
@@ -345,7 +356,6 @@ body {
 
 .architecture-media {
   width: 100%;
-  aspect-ratio: 4 / 5;
   overflow: hidden;
   margin-bottom: 1.15rem;
   padding: 0.65rem;
@@ -357,9 +367,20 @@ body {
 .architecture-media img {
   display: block;
   width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.architecture-card.is-hand .architecture-media {
+  display: flex;
+  aspect-ratio: 9 / 13;
+  align-items: center;
+  justify-content: center;
+}
+
+.architecture-card.is-hand .architecture-media img {
   height: 100%;
   object-fit: contain;
-  background: #fff;
 }
 
 .architecture-card .title {
