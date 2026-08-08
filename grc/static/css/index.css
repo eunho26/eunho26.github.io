@@ -323,8 +323,8 @@ body {
 
 .architecture-card {
   position: relative;
-  min-width: 320px;
-  flex: 0 0 320px;
+  min-width: 420px;
+  flex: 0 0 420px;
   padding-bottom: 1.25rem;
   background: #fff;
   border: 1px solid #e3e5e8;
@@ -402,8 +402,8 @@ body {
   }
 
   .architecture-card {
-    min-width: 275px;
-    flex-basis: 275px;
+    min-width: 330px;
+    flex-basis: 330px;
   }
 }
 
