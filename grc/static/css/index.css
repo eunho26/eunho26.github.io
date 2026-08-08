@@ -514,6 +514,7 @@ body {
 .grasp-figure {
   overflow: hidden;
   margin: 3rem auto 0;
+  padding: 1rem;
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(10, 10, 10, 0.12);
@@ -746,6 +747,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .grasp-figure {
+    padding: 0.6rem;
+  }
+
   .disturbance-grid {
     margin-right: -0.4rem;
     margin-left: -0.4rem;
