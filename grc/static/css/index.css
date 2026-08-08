@@ -300,19 +300,25 @@ body {
 }
 
 .architecture-flow {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
   gap: 1.5rem;
   margin-top: 2.5rem;
+  padding: 0.25rem 0 0.9rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
 }
 
 .architecture-card {
   position: relative;
+  min-width: 320px;
+  flex: 0 0 320px;
   padding-bottom: 1.25rem;
   background: #fff;
   border: 1px solid #e3e5e8;
   border-radius: 10px;
   box-shadow: 0 7px 20px rgba(10, 10, 10, 0.07);
+  scroll-snap-align: start;
   text-align: center;
 }
 
@@ -320,14 +326,17 @@ body {
   position: absolute;
   z-index: 2;
   top: 30%;
-  left: calc(100% + 0.45rem);
+  left: calc(100% + 0.75rem);
   color: #777;
   content: "→";
   font-size: 1.3rem;
+  transform: translateX(-50%);
 }
 
 .architecture-placeholder {
-  min-height: 230px;
+  width: 100%;
+  min-height: 0;
+  aspect-ratio: 4 / 5;
   margin-bottom: 1.15rem;
   background: #fff;
   border-width: 0 0 2px;
@@ -378,14 +387,6 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  .architecture-flow {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .architecture-card::after {
-    display: none;
-  }
-
   .specification-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -396,8 +397,9 @@ body {
     min-height: 320px;
   }
 
-  .architecture-flow {
-    grid-template-columns: 1fr;
+  .architecture-card {
+    min-width: 275px;
+    flex-basis: 275px;
   }
 
   .specification-grid {
