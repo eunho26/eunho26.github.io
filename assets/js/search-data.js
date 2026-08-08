@@ -491,9 +491,9 @@ ninja.data = [{
           description: "A Surface-Aligned-Ligament-Free Design for Anthropomorphic Robotic Hands",
           section: "Projects",handler: () => {
               window.location.href = "/projects/grc/";
-            },},{id: "projects-development-of-humanoid-p73",
-          title: 'Development of Humanoid P73',
-          description: "with background image",
+            },},{id: "projects-development-of-humanoid-p-73",
+          title: 'Development of Humanoid P-73',
+          description: "A Next-Generation Humanoid Robotic Platform",
           section: "Projects",handler: () => {
               window.location.href = "/projects/p73/";
             },},{id: "projects-plate-harmonic-reducer",
