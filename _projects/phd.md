@@ -154,7 +154,6 @@ The right figure presents the backlash measurement obtained by applying constant
 
 As a baseline, we measured the efficiency of SHF-series harmonic reducers (30:1) in sizes 14, 17, and 20 under comparable rated-torque conditions, obtaining 63.61%, 60.78%, and 56.15%. The measured SHF-17 efficiency (60.78%) was slightly higher than the predicted value (58.8%), which can be explained by test-condition differences such as load-point selection and minor environmental variation. Similar factors account for the smaller deviation in SHF-14 and the larger difference in SHF-20. These results indicate the setup is suitable for relative comparison, while small offsets from catalog data are expected.
 
-
 <!-- 주석 내용 15 16 -->
 
 ---
