@@ -47,6 +47,88 @@ body {
   font-family: "Google Sans", sans-serif;
 }
 
+.publication-title-subline {
+  display: inline-block;
+  margin-top: 0.35rem;
+  font-size: 0.72em;
+  line-height: 1.25;
+}
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.placeholder-link {
+  min-width: 100px;
+  color: #777 !important;
+  background: #f2f3f5 !important;
+  border-color: #d7d9dd !important;
+  cursor: default;
+  pointer-events: none;
+}
+
+.hero-teaser-section {
+  padding-top: 1rem;
+}
+
+.teaser-grid > .column {
+  display: flex;
+}
+
+.teaser-card {
+  width: 100%;
+}
+
+.teaser-placeholder {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  color: #777;
+  background: #f5f6f8;
+  border: 2px dashed #c7cbd1;
+  border-radius: 12px;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 600;
+}
+
+.teaser-card .title {
+  margin-bottom: 0.4rem;
+}
+
+.teaser-card > p {
+  color: #666;
+  font-style: italic;
+}
+
+.hero-main-message {
+  max-width: 1050px;
+  margin: 3.5rem auto 0;
+  padding-top: 2.5rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.primary-message {
+  font-family: "Google Sans", sans-serif;
+  font-size: clamp(1.3rem, 2.4vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.technical-message {
+  max-width: 900px;
+  margin: 1.5rem auto 0;
+  color: #555;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
 .publication-authors {
   font-family: "Google Sans", sans-serif;
 }
@@ -196,13 +278,14 @@ body {
   width: 100%;
   aspect-ratio: 9 / 16;
   overflow: hidden;
-  background: #050505;
+  background: #fff;
 }
 
 .disturbance-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background: #fff;
 }
 
 .disturbance-content {
@@ -281,8 +364,8 @@ body {
   height: 100%;
   overflow: hidden;
   padding: 0.5rem;
-  background: #050505;
-  border: 1px solid #222;
+  background: #fff;
+  border: 1px solid #e6e6e6;
   border-radius: 10px;
   box-shadow: 0 8px 24px rgba(10, 10, 10, 0.1);
 }
@@ -291,6 +374,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
+  background: #fff;
 }
 
 .impact-highlight {
@@ -344,7 +428,7 @@ body {
 .grasp-figure {
   overflow: hidden;
   margin: 3rem auto 0;
-  background: #050505;
+  background: #fff;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(10, 10, 10, 0.12);
 }
@@ -353,6 +437,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
+  background: #fff;
 }
 
 .grasp-result {
@@ -418,6 +503,118 @@ body {
   background: #f7f8fa;
   border-radius: 8px;
   line-height: 1.65;
+}
+
+.conclusion-section {
+  padding-top: 5rem;
+  border-top: 1px solid #ededed;
+}
+
+.conclusion-lead {
+  max-width: 900px;
+  margin: 1.5rem auto 0;
+  font-family: "Google Sans", sans-serif;
+  font-size: clamp(1.7rem, 4vw, 2.8rem);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.conclusion-cards {
+  margin-top: 3rem;
+}
+
+.conclusion-cards > .column,
+.research-limitations-grid > .column {
+  display: flex;
+}
+
+.conclusion-card,
+.research-limitation-card {
+  width: 100%;
+  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(10, 10, 10, 0.07);
+}
+
+.conclusion-card {
+  border-top: 5px solid #1d746d;
+}
+
+.conclusion-card .title,
+.research-limitation-card .title {
+  margin-bottom: 0.8rem;
+}
+
+.conclusion-card p,
+.research-limitation-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.research-limitations-title {
+  margin-top: 5rem;
+}
+
+.research-limitation-card {
+  border-top: 5px solid #777;
+}
+
+.future-work {
+  margin-top: 5rem;
+}
+
+.future-roadmap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  margin: 2rem auto 0;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 600;
+}
+
+.future-roadmap span:not(.roadmap-arrow) {
+  padding: 0.65rem 0.8rem;
+  background: #f3f5f6;
+  border-radius: 7px;
+}
+
+.roadmap-arrow {
+  color: #777;
+}
+
+.future-work-copy {
+  max-width: 1000px;
+  margin: 2rem auto 0;
+  color: #555;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.final-takeaway {
+  max-width: 1050px;
+  margin: 4rem auto 0;
+  padding: 1.75rem;
+  color: #fff;
+  background: #1d746d;
+  border-radius: 10px;
+  font-family: "Google Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .future-roadmap {
+    flex-direction: column;
+  }
+
+  .roadmap-arrow {
+    transform: rotate(90deg);
+  }
 }
 
 @media screen and (max-width: 768px) {
