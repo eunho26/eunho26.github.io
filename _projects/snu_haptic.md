@@ -8,8 +8,22 @@ category: paper
 related_publications: False
 ---
 
+<style>
+  .project-publication-meta p { text-align: center !important; }
+  .project-publication-authors { font-size: 1.4rem !important; line-height: 1.7; }
+</style>
+
+<div class="project-publication-meta" style="text-align: center" markdown="1">
+<span class="project-publication-authors"><strong><a href="https://scholar.google.com/citations?user=vRn95rwAAAAJ">Eunho Sung</a></strong><sup>1</sup>, <a href="https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&amp;hl=ko&amp;oi=ao">Seungbin You</a><sup>1</sup>, Jaeyong Shin<sup>1</sup>, Suhan Park<sup>2</sup>, Sungmoon Hur<sup>3</sup>, <a href="https://scholar.google.com/citations?user=icIIkUEAAAAJ&amp;hl=ko&amp;oi=sra">Jaehun Kim</a><sup>1</sup>, <a href="https://scholar.google.com/citations?user=8TF2K6gAAAAJ&amp;hl=ko&amp;oi=sra">Seunghwan Byun</a><sup>1</sup>, Chaiyong Mun<sup>1</sup>, <a href="https://scholar.google.com/citations?user=rFwTlzAAAAAJ&amp;hl=ko&amp;oi=ao">Haeseong Lee</a><sup>1</sup>, <a href="https://scholar.google.com/citations?user=YJ7XGcEAAAAJ&amp;hl=ko&amp;oi=sra">Dongjun Kim</a><sup>1</sup>, and <a href="https://scholar.google.co.kr/citations?user=XtKmE78AAAAJ&amp;hl=ko">Jaeheung Park</a><sup>1</sup></span><br>
+<sup>1</sup> Seoul National University<br>
+<sup>2</sup> Kwangwoon University<br>
+<sup>3</sup> Bluerobin<br>
+</div>
+
 > The SNU-Avatar Haptic Arm is a high-performance interface featuring a human-scale workspace that encompasses the full natural range of motion of the upper limb.
 > Its hybrid QDD/DD actuation architecture effectively minimizes mechanical resistance to ensure high-fidelity force feedback and precise control.
+
+**DOI:** [10.1109/ACCESS.2026.3683430](https://doi.org/10.1109/ACCESS.2026.3683430)
 
 ---
 

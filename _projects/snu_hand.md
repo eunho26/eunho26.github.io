@@ -8,8 +8,21 @@ category: paper
 related_publications: false
 ---
 
+<style>
+  .project-publication-meta p { text-align: center !important; }
+  .project-publication-authors { font-size: 1.4rem !important; line-height: 1.7; }
+</style>
+
+<div class="project-publication-meta" style="text-align: center" markdown="1">
+<span class="project-publication-authors"><strong><a href="https://scholar.google.com/citations?user=vRn95rwAAAAJ">Eunho Sung</a></strong><sup>1</sup>, <a href="https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&amp;hl=ko&amp;oi=ao">Seungbin You</a><sup>1</sup>, <a href="https://roro07ksy.github.io/seungyeon_kim/">Seungyeon Kim</a><sup>2</sup>, and <a href="https://scholar.google.co.kr/citations?user=XtKmE78AAAAJ&amp;hl=ko">Jaeheung Park</a><sup>1</sup></span><br>
+<sup>1</sup> Seoul National University<br>
+<sup>2</sup> Samsung Advanced Institute of Technology, Samsung Electronics<br>
+</div>
+
 > In this work, we introduce a modular robotic hand built on a prismatic four-bar linkage design.
 > By combining lightweight actuators with a high-stiffness linkage, the hand achieves reliable object grasping and expressive gestures, making it versatile for daily tasks.
+
+**DOI:** [10.1109/Humanoids57100.2023.10375222](https://doi.org/10.1109/Humanoids57100.2023.10375222)
 
 ---
 

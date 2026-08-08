@@ -9,7 +9,19 @@ related_publications: false
 math: true
 ---
 
+<style>
+  .project-publication-meta p { text-align: center !important; }
+  .project-publication-authors { font-size: 1.4rem !important; line-height: 1.7; }
+</style>
+
+<div class="project-publication-meta" style="text-align: center" markdown="1">
+<span class="project-publication-authors"><strong><a href="https://scholar.google.com/citations?user=vRn95rwAAAAJ">Eunho Sung</a></strong><sup>1</sup>, <a href="https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&amp;hl=ko&amp;oi=ao">Seungbin You</a><sup>1</sup>, Seongkyeong Moon<sup>1</sup>, <a href="https://scholar.google.com/citations?user=YVa0sFQAAAAJ&amp;hl=ko&amp;oi=sra">Juhyun Kim</a><sup>1</sup>, and <a href="https://scholar.google.co.kr/citations?user=XtKmE78AAAAJ&amp;hl=ko">Jaeheung Park</a><sup>1</sup></span><br>
+<sup>1</sup> Seoul National University<br>
+</div>
+
 > We present a **modular haptic glove** for teleoperation. Each finger module (3 potentiometers + 1 servo) provides force feedback via a **Trigonometric Series Elastic Actuator (SEA)**. Although mounted on the **middle phalanx**, we estimate fingertip position using a simple kinematic coupling model. The system was validated during the **ANA Avatar XPRIZE** finals.
+
+**DOI:** [10.1109/IROS58592.2024.10802590](https://doi.org/10.1109/IROS58592.2024.10802590)
 
 ---
 
