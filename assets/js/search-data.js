@@ -486,6 +486,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Steam/";
+            },},{id: "projects-analysis-of-the-grc-joint",
+          title: 'Analysis of the GRC Joint',
+          description: "A Surface-Aligned-Ligament-Free Design for Anthropomorphic Robotic Hands",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/grc/";
             },},{id: "projects-development-of-humanoid-p73",
           title: 'Development of Humanoid P73',
           description: "with background image",
