@@ -10,6 +10,31 @@ body {
   margin-top: 1rem;
 }
 
+.publication-authors {
+  margin-top: 2rem;
+}
+
+.publication-authors .authors {
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.publication-authors .affiliations {
+  margin: 1.25rem auto 0;
+  max-width: 900px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.publication-authors .affiliations p {
+  margin-bottom: 0.4rem;
+}
+
+.publication-authors .keywords {
+  margin-top: 1.25rem;
+  font-size: 1rem;
+}
+
 .video-container {
   position: relative;
   height: 0;
