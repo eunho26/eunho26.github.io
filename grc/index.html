@@ -43,8 +43,11 @@
           <div class="columns is-variable is-5 teaser-grid">
             <div class="column is-half">
               <article class="teaser-card">
-                <div class="teaser-placeholder">
-                  <span>Piano Playing Video</span>
+                <div class="teaser-video">
+                  <video autoplay muted loop playsinline controls preload="metadata">
+                    <source src="static/videos/cv_grc_1_Piano.mp4" type="video/mp4" />
+                    Your browser does not support the video element.
+                  </video>
                 </div>
                 <h2 class="title is-4 has-text-centered">Piano Playing</h2>
                 <p class="has-text-centered">Coordinated finger motions on piano keys</p>
@@ -52,8 +55,11 @@
             </div>
             <div class="column is-half">
               <article class="teaser-card">
-                <div class="teaser-placeholder">
-                  <span>Object Transfer Video</span>
+                <div class="teaser-video">
+                  <video autoplay muted loop playsinline controls preload="metadata">
+                    <source src="static/videos/cv_grc_1_Grasp.mp4" type="video/mp4" />
+                    Your browser does not support the video element.
+                  </video>
                 </div>
                 <h2 class="title is-4 has-text-centered">Object Transfer</h2>
                 <p class="has-text-centered">Grasping and transferring an everyday object</p>
@@ -71,6 +77,67 @@
               compact anthropomorphic robotic fingers and hands.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section class="section finger-motion-section">
+        <div class="container is-max-widescreen">
+          <div class="columns is-centered">
+            <div class="column is-10 has-text-centered">
+              <h2 class="title is-2">Finger Motion Demonstration</h2>
+              <p class="subtitle is-5 finger-motion-intro">
+                Five representative motions demonstrate the actuation capabilities of the 3-DoF GRC finger.
+              </p>
+            </div>
+          </div>
+
+          <div class="finger-motion-scroll" aria-label="Five representative 3-DoF GRC finger motions">
+            <article class="finger-motion-card">
+              <div class="finger-motion-media">
+                <img src="static/images/cv_grc_5_FE1.gif" alt="MCP flexion and extension of the 3-DoF GRC finger" />
+              </div>
+              <p class="motion-number">01</p>
+              <h3 class="title is-5">MCP FE</h3>
+              <p class="motion-component">MCP Flexion–Extension</p>
+            </article>
+            <article class="finger-motion-card">
+              <div class="finger-motion-media">
+                <img src="static/images/cv_grc_5_FE2.gif" alt="PIP–DIP flexion of the 3-DoF GRC finger" />
+              </div>
+              <p class="motion-number">02</p>
+              <h3 class="title is-5">PIP–DIP FE</h3>
+              <p class="motion-component">Coupled PIP–DIP Flexion–Extension</p>
+            </article>
+            <article class="finger-motion-card">
+              <div class="finger-motion-media">
+                <img src="static/images/cv_grc_5_AA.gif" alt="MCP abduction and adduction of the 3-DoF GRC finger" />
+              </div>
+              <p class="motion-number">03</p>
+              <h3 class="title is-5">MCP AA</h3>
+              <p class="motion-component">MCP Abduction–Adduction</p>
+            </article>
+            <article class="finger-motion-card">
+              <div class="finger-motion-media">
+                <img src="static/images/cv_grc_5_FE3.gif" alt="Combined flexion of the 3-DoF GRC finger" />
+              </div>
+              <p class="motion-number">04</p>
+              <h3 class="title is-5">Combined FE</h3>
+              <p class="motion-component">MCP and Coupled PIP–DIP Flexion–Extension</p>
+            </article>
+            <article class="finger-motion-card">
+              <div class="finger-motion-media">
+                <img src="static/images/cv_grc_5_AAFE.gif" alt="Full three-degree-of-freedom motion of the GRC finger" />
+              </div>
+              <p class="motion-number">05</p>
+              <h3 class="title is-5">MCP FE + AA + PIP–DIP FE</h3>
+              <p class="motion-component">Full 3-DoF Flexion–Extension and Abduction–Adduction</p>
+            </article>
+          </div>
+
+          <p class="finger-motion-summary has-text-centered">
+            The 3-DoF GRC finger combines MCP flexion–extension, MCP abduction–adduction, and coupled PIP–DIP flexion to
+            generate a range of finger configurations through three-tendon actuation.
+          </p>
         </div>
       </section>
 
@@ -423,19 +490,20 @@
       최종 hand는 두 개의 3-DoF finger와 세 개의 1-DoF finger로 구성된 9-actuator hand이며,
       크기는 약 206 × 99 × 39.5 mm, 무게는 520 g이다.
 
-      5. Finger Motion Demonstration — 6가지 실제 움직임
+      5. Finger Motion Demonstration — 3-DoF finger의 5가지 실제 움직임
+      Hero의 task demo와 겹치지 않게 손가락 자체의 motion capability에 집중한다.
       Design 바로 뒤, Kinematics 바로 앞에 별도 섹션으로 배치한다.
-      6개 영상을 2×3 grid 또는 carousel로 배치하고 다음과 같이 짧은 제목을 붙인다.
+      Desktop에서는 5개 영상을 한 줄에, mobile에서는 가로 스크롤로 구성한다.
 
-      01 Coupled Flexion — 1-DoF · MCP + PIP + DIP
-      02 PIP–DIP Flexion — 3-DoF
-      03 MCP Flexion–Extension — 3-DoF
-      04 MCP Abduction–Adduction — 3-DoF
-      05 Combined Flexion — 3-DoF
-      06 Full 3-DoF Motion — All DoFs
+      01 MCP FE — MCP Flexion–Extension
+      02 PIP–DIP FE — Coupled PIP–DIP Flexion–Extension
+      03 MCP AA — MCP Abduction–Adduction
+      04 Combined FE — MCP and Coupled PIP–DIP Flexion–Extension
+      05 MCP FE + AA + PIP–DIP FE — Full 3-DoF Flexion–Extension and Abduction–Adduction
 
-      이 여섯 움직임은 논문의 repeatability experiment에서 사용한 여섯 actuation scenario와 대응된다.
-      이 섹션은 설계가 실제로 어떻게 움직이는지 직관적으로 보여주는 역할을 한다.
+      각 영상은 neutral pose → motion → maximum posture → neutral pose 흐름으로 편집하고
+      autoplay + muted + loop 방식으로 동일 크기와 비율로 표시한다.
+      영상 아래에는 three-tendon actuation이 MCP FE, MCP AA, coupled PIP–DIP flexion을 결합한다는 한 문장만 둔다.
 
       6. Kinematics — 이 움직임이 어떻게 만들어지는가
       방문자가 실제 동작을 본 뒤 움직임의 원리를 이해하도록 영상 다음에 배치한다.

@@ -73,6 +73,7 @@ body {
 
 .hero-teaser-section {
   padding-top: 1rem;
+  background: #fff;
 }
 
 .teaser-grid > .column {
@@ -83,19 +84,21 @@ body {
   width: 100%;
 }
 
-.teaser-placeholder {
-  display: flex;
+.teaser-video {
   width: 100%;
   aspect-ratio: 16 / 9;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
   margin-bottom: 1.25rem;
-  color: #777;
-  background: #f5f6f8;
-  border: 2px dashed #c7cbd1;
+  background: #050505;
   border-radius: 12px;
-  font-family: "Google Sans", sans-serif;
-  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(10, 10, 10, 0.1);
+}
+
+.teaser-video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .teaser-card .title {
@@ -126,6 +129,87 @@ body {
   margin: 1.5rem auto 0;
   color: #555;
   font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+.finger-motion-section {
+  background: #f7f8fa;
+}
+
+.finger-motion-intro {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.finger-motion-scroll {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.75rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+}
+
+.finger-motion-card {
+  min-width: 0;
+  flex: 1 1 0;
+  overflow: hidden;
+  padding-bottom: 1.2rem;
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  box-shadow: 0 7px 20px rgba(10, 10, 10, 0.07);
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.finger-motion-media {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  background: #050505;
+  border-bottom: 1px solid #dedede;
+}
+
+.finger-motion-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.motion-number {
+  margin-bottom: 0.35rem;
+  color: #1d746d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.finger-motion-card .title {
+  min-height: 2.5em;
+  margin: 0;
+  padding: 0 0.6rem;
+  line-height: 1.25;
+}
+
+.motion-component {
+  min-height: 2.8em;
+  margin-top: 0.65rem;
+  padding: 0 0.65rem;
+  color: #666;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.finger-motion-summary {
+  max-width: 1000px;
+  margin: 2.5rem auto 0;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  border-radius: 8px;
   line-height: 1.65;
 }
 
@@ -213,6 +297,7 @@ body {
 
 .impact-recovery-section {
   padding-top: 2rem;
+  background: #fff;
 }
 
 .impact-intro {
@@ -396,6 +481,7 @@ body {
 
 .grasp-taxonomy-section {
   padding-top: 5rem;
+  background: #f7f8fa;
   border-top: 1px solid #ededed;
 }
 
@@ -507,6 +593,7 @@ body {
 
 .conclusion-section {
   padding-top: 5rem;
+  background: #fff;
   border-top: 1px solid #ededed;
 }
 
@@ -608,6 +695,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .finger-motion-card {
+    min-width: 230px;
+    flex-basis: 230px;
+  }
+
   .future-roadmap {
     flex-direction: column;
   }
