@@ -11,10 +11,18 @@ related_publications: False
 <style>
   .project-publication-meta p { text-align: center !important; }
   .project-publication-authors { font-size: 1.4rem !important; line-height: 1.7; }
+  .haptic-demo-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 1rem; align-items: start; margin-top: 1.5rem; }
+  .haptic-demo-video { overflow: hidden; border-radius: 0.5rem; }
+  .haptic-demo-video video { display: block; width: 100%; height: auto; }
+  .haptic-demo-image { aspect-ratio: 1 / 1; margin: 0; overflow: hidden; border-radius: 0.5rem; background: #fff; }
+  .haptic-demo-image img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  .haptic-field-image { max-width: 900px; margin: 1.5rem auto 1rem; }
+  .haptic-field-image img { display: block; width: 100%; height: auto; }
+  @media (max-width: 767px) { .haptic-demo-grid { grid-template-columns: 1fr; } }
 </style>
 
 <div class="project-publication-meta" style="text-align: center" markdown="1">
-<span class="project-publication-authors"><strong><a href="https://scholar.google.com/citations?user=vRn95rwAAAAJ">Eunho Sung</a></strong><sup>1</sup>, <a href="https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&amp;hl=ko&amp;oi=ao">Seungbin You</a><sup>1</sup>, Jaeyong Shin<sup>1</sup>, Suhan Park<sup>2</sup>, Sungmoon Hur<sup>3</sup>, <a href="https://scholar.google.com/citations?user=icIIkUEAAAAJ&amp;hl=ko&amp;oi=sra">Jaehun Kim</a><sup>1</sup>, <a href="https://scholar.google.com/citations?user=8TF2K6gAAAAJ&amp;hl=ko&amp;oi=sra">Seunghwan Byun</a><sup>1</sup>, Chaiyong Mun<sup>1</sup>, <a href="https://scholar.google.com/citations?user=rFwTlzAAAAAJ&amp;hl=ko&amp;oi=ao">Haeseong Lee</a><sup>1</sup>, <a href="https://scholar.google.com/citations?user=YJ7XGcEAAAAJ&amp;hl=ko&amp;oi=sra">Dongjun Kim</a><sup>1</sup>, and <a href="https://scholar.google.co.kr/citations?user=XtKmE78AAAAJ&amp;hl=ko">Jaeheung Park</a><sup>1</sup></span><br>
+<span class="project-publication-authors"><strong><a href="https://scholar.google.com/citations?user=vRn95rwAAAAJ">Eunho Sung</a></strong><sup>1</sup>, <a href="https://scholar.google.co.kr/citations?user=14WuFEkAAAAJ&amp;hl=ko&amp;oi=ao">Seungbin You</a><sup>1</sup>, Jaeyong Shin<sup>1</sup>, <a href="https://sites.google.com/view/suhan-park/">Suhan Park</a><sup>2</sup>, <a href="https://www.bluerobin.co.kr/EN/include/pages/about.php">Sungmoon Hur</a><sup>3</sup>, <a href="https://scholar.google.com/citations?user=icIIkUEAAAAJ&amp;hl=ko&amp;oi=sra">Jaehun Kim</a><sup>1</sup>, <a href="https://scholar.google.com/citations?user=8TF2K6gAAAAJ&amp;hl=ko&amp;oi=sra">Seunghwan Byun</a><sup>1</sup>, Chaiyong Mun<sup>1</sup>, <a href="https://scholar.google.com/citations?user=rFwTlzAAAAAJ&amp;hl=ko&amp;oi=ao">Haeseong Lee</a><sup>1</sup>, <a href="https://scholar.google.com/citations?user=YJ7XGcEAAAAJ&amp;hl=ko&amp;oi=sra">Dongjun Kim</a><sup>1</sup>, and <a href="https://scholar.google.co.kr/citations?user=XtKmE78AAAAJ&amp;hl=ko">Jaeheung Park</a><sup>1</sup></span><br>
 <sup>1</sup> Seoul National University<br>
 <sup>2</sup> Kwangwoon University<br>
 <sup>3</sup> Bluerobin<br>
@@ -159,6 +167,19 @@ We integrated the haptic arm with the humanoid robot TOCABI to verify basic tele
 
 The practical utility of the system was verified through a remote pick-and-place sorting task. The operator successfully grasped and placed eight objects into two containers using the haptic feedback.
 
+<div class="haptic-demo-grid">
+  <div class="haptic-demo-video">
+    <video autoplay muted loop playsinline controls preload="metadata">
+      <source src="{{ '/assets/video/haptic_arm_pick_and_place.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+  </div>
+  <figure class="haptic-demo-image">
+    <img src="{{ '/assets/img/cv_haptic_02.png' | relative_url }}" alt="Remote pick-and-place sequence using the SNU-Avatar Haptic Arm">
+  </figure>
+</div>
+<div class="caption text-center">Remote pick-and-place sorting demonstration and representative task sequence using the SNU-Avatar Haptic Arm.</div>
+
 #### Field Validation: ANA Avatar XPRIZE
 
 Finally, to assess applicability in unpredictable real-world environments, we analyzed the performance during the **ANA Avatar XPRIZE Finals**. The system was tested under extreme conditions characterized by restricted fields of view and communication delays.
@@ -168,6 +189,11 @@ The haptic feedback played a crucial role in completing complex missions, such a
 - **Mission 4:** Activating a switch with precise force control.
 - **Mission 6 & 7:** Distinguishing and manipulating heavy canisters (weight perception).
 - **Mission 9:** Utilizing a power drill (vibration feedback).
+
+<figure class="haptic-field-image">
+  <img src="{{ '/assets/img/cv_haptic_01.png' | relative_url }}" alt="ANA Avatar XPRIZE field validation using the SNU-Avatar Haptic Arm">
+</figure>
+<div class="caption text-center">Representative ANA Avatar XPRIZE missions performed through the haptic teleoperation system.</div>
 
 ---
 
